@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 337f6cff434fc354e86ae26b46a382d4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178415
+  packageName: MK Toon - Stylized Shader
+  packageVersion: 3.1.4E
+  assetPath: Assets/_MK/MKToon/Shader/Lib/Lighting.hlsl
+  uploadId: 739330
