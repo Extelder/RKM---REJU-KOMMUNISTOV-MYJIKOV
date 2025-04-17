@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="" />
+    <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/CityArasaka/ArasakaCutScene.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/CityArasaka/ArasakaCutScene.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/CityArasaka/Guide/Guide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/CityArasaka/Guide/Guide.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/CityArasaka/Guide/GuideEnd.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/CityArasaka/Guide/GuideEnd.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Facebook Login.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Facebook Login.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Inventory Panel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Inventory Panel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Lose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Lose.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Missions.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Missions.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/My Info Panel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/My Info Panel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Ranking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Ranking.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Settings.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Win.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark UI/Prefabs Panel/Win.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesBuiltin.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesInc.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersBuiltIn.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/ArasakaCutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/ArasakaCutScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/CutSceneCursorOff.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/CutSceneCursorOff.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +56,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/PlayerCursor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/ShowCursorOnEnableGameobject.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/CutSceneCursorOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cursor/GameCursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/ArasakaCutScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" />
       </list>
     </option>
@@ -56,12 +111,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744896192608</updated>
-      <workItem from="1744896198545" duration="239000" />
+      <workItem from="1744896198545" duration="5027000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

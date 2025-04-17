@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using EvolveGames;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -13,6 +14,7 @@ public class Settings : MonoBehaviour
 {
     [SerializeField] private GameObject _settingsCanvas;
     [SerializeField] private AudioMixer _mixer;
+    [SerializeField] private PlayerController _controller;
 
     [SerializeField] private Slider _sensetivitySlider;
     [SerializeField] private Slider MasterVolumeSlider;
@@ -64,9 +66,7 @@ public class Settings : MonoBehaviour
     {
         _monitorCount = Display.displays.Length;
 
-        _sensetivitySlider.value = PlayerPrefs.GetFloat("Sensetivity", 1f) / 2;
-        // if (_cameraModule != null) _cameraModule.m_VerticalAxis.m_MaxSpeed = PlayerPrefs.GetFloat("Sensetivity", 1f);
-        // if (_cameraModule != null) _cameraModule.m_HorizontalAxis.m_MaxSpeed = PlayerPrefs.GetFloat("Sensetivity", 1f);
+        _sensetivitySlider.value = PlayerPrefs.GetFloat("Sensetivity", 2f);
 
         MasterVolumeSlider.value = PlayerPrefs.GetFloat("MasterVolume", 1);
         _musicVolumeSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1);
@@ -114,9 +114,9 @@ public class Settings : MonoBehaviour
 
     public void OnSensetivitySliderValueChanged(float value)
     {
-        // if (_cameraModule != null) _cameraModule.m_VerticalAxis.m_MaxSpeed = value * 2;
-        // if (_cameraModule != null) _cameraModule.m_HorizontalAxis.m_MaxSpeed = value * 2;
-         PlayerPrefs.SetFloat("Sensetivity", value * 2);
+         PlayerPrefs.SetFloat("Sensetivity", value);
+         _controller.lookSpeed = value;
+         
         _sensetivityValueText.text = value.ToString("0.00");
     }
 
