@@ -7,7 +7,6 @@ using UnityEngine.Animations.Rigging;
 public class HandDoorOpenChecker : MonoBehaviour
 {
     [SerializeField] private TwoBoneIKConstraint _ik;
-    [SerializeField] private Transform _handTarget;
     [SerializeField] private float _weightChangeSpeed;
 
     private float _tagetWeight;
