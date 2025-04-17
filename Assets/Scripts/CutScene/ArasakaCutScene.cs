@@ -25,7 +25,10 @@ public class ArasakaCutScene : MonoBehaviour
 
             _guideCuteScene.SetActive(false);
         }
+    }
 
+    public void GetDefaultCameraLookSpeed()
+    {
         _lookSpeed = _playerController.lookSpeed;
         _playerController.lookSpeed = 0;
     }

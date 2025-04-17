@@ -23,6 +23,12 @@
             </e>
           </e>
         </e>
+        <e p="Dark UI" t="Include">
+          <e p="Free" t="Include" />
+          <e p="New Icons" t="Include" />
+          <e p="Prefabs Buttons" t="Include" />
+          <e p="Prefabs Panel" t="Include" />
+        </e>
         <e p="Font" t="Include" />
         <e p="Materials" t="Include" />
         <e p="MK" t="Include">
@@ -1086,6 +1092,10 @@
               <e p="ChangeSceneTrigger.cs" t="Include" />
             </e>
           </e>
+          <e p="Cursor" t="Include">
+            <e p="GameCursor.cs" t="Include" />
+            <e p="ShowCursorOnEnableGameobject.cs" t="Include" />
+          </e>
           <e p="CutScene" t="Include">
             <e p="ArasakaCutScene.cs" t="Include" />
           </e>
@@ -1107,13 +1117,20 @@
           </e>
           <e p="Settings" t="Include">
             <e p="Settings.cs" t="Include" />
+            <e p="SettingsPanelChoose.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Disclaimer" t="Include">
               <e p="Disclaimer.cs" t="Include" />
             </e>
+            <e p="Player" t="Include">
+              <e p="Watch" t="Include">
+                <e p="Watch.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
+        <e p="Sounds" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
           <e p="Examples &amp; Extras" t="Include">
