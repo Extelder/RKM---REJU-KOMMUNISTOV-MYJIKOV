@@ -46,6 +46,7 @@ public class PlayerGuideChanged : MonoBehaviour
         yield return new WaitForSeconds(1);
         _hintText.text = _hints[i];
         yield return new WaitUntil(() => _pressed == true);
+        PlayerPrefs.SetInt("GuideCompleate", 1);
         _hintText.text = "Пройдите в красную дверь чтобы закончить!";
     }
 }
