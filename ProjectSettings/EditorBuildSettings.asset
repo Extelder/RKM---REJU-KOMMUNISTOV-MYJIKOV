@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RKM OFFICE.unity
     guid: a172e5f531d90634dbc317e891be40bc
+  - enabled: 1
+    path: Assets/Scenes/Guide.unity
+    guid: 98457bf3aa2b021408ef1129c0baa708
   m_configObjects: {}
