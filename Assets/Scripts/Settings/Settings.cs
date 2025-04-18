@@ -144,7 +144,6 @@ public class Settings : MonoBehaviour
     public void OnMusicVolumeSliderValueChanged(float value)
     {
         PlayerPrefs.SetFloat("MusicVolume", value);
-
         if (value == 0)
         {
             _mixer.SetFloat("MusicVolume", -80);

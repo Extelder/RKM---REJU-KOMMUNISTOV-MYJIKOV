@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesBuiltin.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesInc.unitypackage.meta" beforeDir="false" />
@@ -29,9 +27,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersBuiltIn.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersURP.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Main.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Main.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744896192608</updated>
       <workItem from="1744896198545" duration="5027000" />
-      <workItem from="1744981322544" duration="2869000" />
+      <workItem from="1744981322544" duration="4101000" />
     </task>
     <servers />
   </component>

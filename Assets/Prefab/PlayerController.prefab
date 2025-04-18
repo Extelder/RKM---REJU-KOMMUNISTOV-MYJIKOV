@@ -8068,7 +8068,7 @@ MonoBehaviour:
   _controller: {fileID: 8102424094918124269}
   _sensetivitySlider: {fileID: 7603147811420796781}
   MasterVolumeSlider: {fileID: 5387027220666770032}
-  _musicVolumeSlider: {fileID: 5387027220666770032}
+  _musicVolumeSlider: {fileID: 1499344272644687267}
   _effectsVolumeSlider: {fileID: 685777878471877583}
   _resolutionDropdown: {fileID: 7502827428051815790}
   _displayDropdown: {fileID: 3856312871701753682}

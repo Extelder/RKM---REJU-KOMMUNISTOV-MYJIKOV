@@ -543,6 +543,15 @@
             </e>
             <e p="Textures" t="Include" />
           </e>
+          <e p="Monitor" t="Include">
+            <e p="source" t="Include">
+              <e p="read.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Office" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Watch" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -1380,6 +1389,8 @@
         <e p="Resources" t="Include" />
         <e p="Scenes" t="Include">
           <e p="CityArasaka" t="Include" />
+          <e p="RKM OFFICE" t="Include" />
+          <e p="RKM OFFICE_Profiles" t="Include" />
         </e>
         <e p="ScifiOfficeLite" t="Include">
           <e p="meshes" t="Include">
