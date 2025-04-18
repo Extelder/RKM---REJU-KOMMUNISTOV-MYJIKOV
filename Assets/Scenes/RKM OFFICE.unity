@@ -16707,6 +16707,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3c54ada17e1db4ab6c0f6b68c0c7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _grabCursor: {fileID: 6778831284786772486, guid: 3e61a5e590314b740a6903669ccfb401,
+    type: 3}
+  _tryGrabCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
+    type: 3}
+  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
+    type: 3}
   _camera: {fileID: 1221038652}
   _mask:
     serializedVersion: 2

@@ -6,6 +6,10 @@ using UnityEngine;
 
 public class PlayerDragAndDrop : MonoBehaviour
 {
+    [SerializeField] private Texture2D _grabCursor;
+    [SerializeField] private Texture2D _tryGrabCursor;
+    [SerializeField] private Texture2D _defaultCursor;
+
     [SerializeField] private Camera _camera;
     [SerializeField] private LayerMask _mask;
     [SerializeField] private float _range;
@@ -23,8 +27,21 @@ public class PlayerDragAndDrop : MonoBehaviour
         Gizmos.DrawRay(_camera.ScreenPointToRay(Input.mousePosition));
     }
 
+    public void ObjectEntered(DragAndDropObject dragAndDropObject)
+    {
+        if (dragAndDropObject != _currentDragAndDropObject)
+            Cursor.SetCursor(_tryGrabCursor, Vector2.zero, CursorMode.Auto);
+    }
+
+    public void ObjectExited(DragAndDropObject dragAndDropObject)
+    {
+        if (dragAndDropObject != _currentDragAndDropObject)
+            Cursor.SetCursor(_defaultCursor, Vector2.zero, CursorMode.Auto);
+    }
+
     public void ObjectStartDragged(DragAndDropObject dragAndDropObject)
     {
+        Cursor.SetCursor(_grabCursor, Vector2.zero, CursorMode.Auto);
         _currentDragAndDropObject = dragAndDropObject;
         Observable.EveryUpdate().Subscribe(_ =>
         {
@@ -34,14 +51,17 @@ public class PlayerDragAndDrop : MonoBehaviour
 
             if (Input.GetKeyUp(KeyCode.Mouse0))
             {
-                _disposable.Clear();
+                Cursor.SetCursor(_defaultCursor, Vector2.zero, CursorMode.Auto);
                 _currentDragAndDropObject.DragEnded();
+                _currentDragAndDropObject = null;
+                _disposable.Clear();
             }
         }).AddTo(_disposable);
     }
 
     private void OnDisable()
     {
+        Cursor.SetCursor(_defaultCursor, Vector2.zero, CursorMode.Auto);
         _disposable.Clear();
     }
 

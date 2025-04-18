@@ -22,6 +22,16 @@ public class DragAndDropObject : MonoBehaviour
         _defaultRotation = transform.localRotation;
     }
 
+    private void OnMouseExit()
+    {
+        _playerDragAndDrop.ObjectExited(this);
+    }
+
+    private void OnMouseOver()
+    {
+        _playerDragAndDrop.ObjectEntered(this);
+    }
+
     private void OnMouseDown()
     {
         _rigidBody.constraints = RigidbodyConstraints.FreezeAll;
