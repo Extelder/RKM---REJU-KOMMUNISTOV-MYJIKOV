@@ -120,7 +120,8 @@ public class Settings : MonoBehaviour
     public void OnSensetivitySliderValueChanged(float value)
     {
         PlayerPrefs.SetFloat("Sensetivity", value);
-        _controller.lookSpeed = value;
+        if (_controller != null)
+            _controller.lookSpeed = value;
 
         _sensetivityValueText.text = value.ToString("0.00");
     }
@@ -282,11 +283,11 @@ public class Settings : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void Play()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

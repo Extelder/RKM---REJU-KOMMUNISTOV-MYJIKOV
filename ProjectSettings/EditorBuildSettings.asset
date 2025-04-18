@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Disclaimer.unity
     guid: 1937a7f348b113f43923651873c5f26e
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: cdb1b8a3cf249df4f9f5b20a3366883b
+  - enabled: 1
     path: Assets/Scenes/CityArasaka.unity
     guid: f6f62f0fc439b6b45bcebbf69f5b992e
   - enabled: 1
