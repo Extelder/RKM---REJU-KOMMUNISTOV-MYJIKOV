@@ -14,7 +14,8 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: RKM - REJU KOMMUNISTOV&MYJIKOV
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
+    type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -278,7 +279,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 545417806cac07f459207e473a5b45df, type: 3}
+      m_Icon: {fileID: 2800000, guid: 8e374c52d9df57744a45e800386ae58b, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -863,8 +864,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: RKM - REJU KOMMUNISTOV&MYJIKOV
-  metroPackageVersion: 
+  metroPackageName: RKM-REJUKOMMUNISTOVMYJIKOV
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -872,7 +873,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: RKM - REJU KOMMUNISTOV&MYJIKOV
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: RKM - REJU KOMMUNISTOV&MYJIKOV
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
