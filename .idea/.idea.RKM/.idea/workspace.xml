@@ -20,15 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesBuiltin.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesInc.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesURP.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersBuiltIn.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Guide.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Guide.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/Arasaka/ArasakaCutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/Arasaka/ArasakaCutScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Character/Animator/CharacterAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Character/Animator/CharacterAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/PlayerCursor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerDoorSoundEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/ShowCursorOnEnableGameobject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -49,8 +57,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/CutSceneCursorOff.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cursor/GameCursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/ArasakaCutScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Arasaka/ArasakaCutScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Animator/CharacterAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1744896192608</updated>
       <workItem from="1744896198545" duration="5027000" />
-      <workItem from="1744981322544" duration="4101000" />
+      <workItem from="1744981322544" duration="4703000" />
+      <workItem from="1745156734189" duration="3735000" />
     </task>
     <servers />
   </component>

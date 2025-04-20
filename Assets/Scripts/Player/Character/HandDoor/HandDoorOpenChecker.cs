@@ -8,6 +8,7 @@ public class HandDoorOpenChecker : MonoBehaviour
 {
     [SerializeField] private TwoBoneIKConstraint _ik;
     [SerializeField] private float _weightChangeSpeed;
+    [SerializeField] private AudioSource _doorSound;
 
     private float _tagetWeight;
 
@@ -21,6 +22,7 @@ public class HandDoorOpenChecker : MonoBehaviour
         if (other.gameObject.layer == 8)
         {
             _tagetWeight = 1;
+            _doorSound.Play();
         }
     }
 

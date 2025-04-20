@@ -1529,6 +1529,10 @@
               <e p="PlayerInteract.cs" t="Include" />
             </e>
             <e p="PlayerCharacter.cs" t="Include" />
+            <e p="Sounds" t="Include">
+              <e p="PlayerDoorSoundEffect.cs" t="Include" />
+              <e p="PlayerStepSound.cs" t="Include" />
+            </e>
           </e>
           <e p="Raycaster" t="Include">
             <e p="RaycastBehaviour.cs" t="Include" />
@@ -1548,7 +1552,75 @@
             </e>
           </e>
         </e>
-        <e p="Sounds" t="Include" />
+        <e p="Sounds" t="Include">
+          <e p="Ambience" t="Include" />
+          <e p="Enviroment" t="Include" />
+          <e p="Player" t="Include">
+            <e p="Footsteps - Essentials" t="Include">
+              <e p="Footsteps_DirtyGround" t="Include">
+                <e p="Footsteps_DirtyGround_Land" t="Include" />
+                <e p="Footsteps_DirtyGround_Run" t="Include" />
+                <e p="Footsteps_DirtyGround_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Grass" t="Include">
+                <e p="Foley_Grass" t="Include" />
+                <e p="Footsteps_Grass_Jump" t="Include" />
+                <e p="Footsteps_Grass_Run" t="Include" />
+                <e p="Footsteps_Grass_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Gravel" t="Include">
+                <e p="Footsteps_Gravel_Jump" t="Include" />
+                <e p="Footsteps_Gravel_Run" t="Include" />
+                <e p="Footsteps_Gravel_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Leaves" t="Include">
+                <e p="Footsteps_Leaves_Jump" t="Include" />
+                <e p="Footsteps_Leaves_Run" t="Include" />
+                <e p="Footsteps_Leaves_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Metal" t="Include">
+                <e p="Footsteps_Metal_Jump" t="Include" />
+                <e p="Footsteps_Metal_Run" t="Include" />
+                <e p="Footsteps_Metal_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Mud" t="Include">
+                <e p="Footsteps_Mud_Jump" t="Include" />
+                <e p="Footsteps_Mud_Run" t="Include" />
+                <e p="Footsteps_Mud_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Rock" t="Include">
+                <e p="Footsteps_Rock_Jump" t="Include" />
+                <e p="Footsteps_Rock_Run" t="Include" />
+                <e p="Footsteps_Rock_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Sand" t="Include">
+                <e p="Footsteps_Sand_Jump" t="Include" />
+                <e p="Footsteps_Sand_Run" t="Include" />
+                <e p="Footsteps_Sand_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Snow" t="Include">
+                <e p="Footsteps_Snow_Jump" t="Include" />
+                <e p="Footsteps_Snow_Run" t="Include" />
+                <e p="Footsteps_Snow_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Tile" t="Include">
+                <e p="Footsteps_Tile_Jump" t="Include" />
+                <e p="Footsteps_Tile_Run" t="Include" />
+                <e p="Footsteps_Tile_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Water" t="Include">
+                <e p="Footsteps_Water_Jump" t="Include" />
+                <e p="Footsteps_Water_Run" t="Include" />
+                <e p="Footsteps_Water_Walk" t="Include" />
+              </e>
+              <e p="Footsteps_Wood" t="Include">
+                <e p="Footsteps_Wood_Jump" t="Include" />
+                <e p="Footsteps_Wood_Run" t="Include" />
+                <e p="Footsteps_Wood_Walk" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Sprite" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
