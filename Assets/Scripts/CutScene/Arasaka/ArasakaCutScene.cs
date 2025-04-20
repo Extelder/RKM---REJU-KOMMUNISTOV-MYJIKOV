@@ -9,9 +9,8 @@ public class ArasakaCutScene : MonoBehaviour
     [SerializeField] private GameObject _guideCuteScene;
     [SerializeField] private GameObject _cuteScene;
 
-    [SerializeField] private CharacterController _player;
-    [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject _cutScene;
+    [SerializeField] private PlayerCharacter _playerCharacter;
 
     private float _lookSpeed;
 
@@ -29,8 +28,7 @@ public class ArasakaCutScene : MonoBehaviour
 
     public void GetDefaultCameraLookSpeed()
     {
-        _lookSpeed = _playerController.lookSpeed;
-        _playerController.lookSpeed = 0;
+        _playerCharacter.DisablePlayer();
     }
     
     public void EndGuide()
@@ -40,8 +38,8 @@ public class ArasakaCutScene : MonoBehaviour
     
     public void CutSceneEnd()
     {
-        _player.enabled = true;
-        _playerController.lookSpeed = _lookSpeed;
-        _cutScene.SetActive(false);
+        _playerCharacter.EnablePlayer();
+        _guideCuteScene.SetActive(false);
+        _cuteScene.SetActive(false);
     }
 }

@@ -1,7 +1,10 @@
 ﻿//by EvolveGames
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniRx;
 
 namespace EvolveGames
 {
@@ -53,7 +56,7 @@ namespace EvolveGames
         Vector3 InstallCameraMovement;
         float InstallFOV;
         Camera cam;
-        [HideInInspector] public bool Moving;
+        [HideInInspector] public ReactiveProperty<bool> Moving = new ReactiveProperty<bool>();
         [HideInInspector] public float vertical;
         [HideInInspector] public float horizontal;
         [HideInInspector] public float Lookvertical;
@@ -62,6 +65,7 @@ namespace EvolveGames
         float installGravity;
         bool WallDistance;
         [HideInInspector] public float WalkingValue;
+
         void Start()
         {
             characterController = GetComponent<CharacterController>();
@@ -103,7 +107,7 @@ namespace EvolveGames
                 moveDirection.y = movementDirectionY;
             }
             characterController.Move(moveDirection * Time.deltaTime);
-            Moving = horizontal < 0 || vertical < 0 || horizontal > 0 || vertical > 0 ? true : false;
+            Moving.Value = horizontal < 0 || vertical < 0 || horizontal > 0 || vertical > 0 ? true : false;
 
             if (Cursor.lockState == CursorLockMode.Locked && canMove)
             {
@@ -115,7 +119,7 @@ namespace EvolveGames
                 Camera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
                 transform.rotation *= Quaternion.Euler(0, Lookhorizontal * lookSpeed, 0);
 
-                if (isRunning && Moving) cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, RunningFOV, SpeedToFOV * Time.deltaTime);
+                if (isRunning && Moving.Value) cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, RunningFOV, SpeedToFOV * Time.deltaTime);
                 else cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, InstallFOV, SpeedToFOV * Time.deltaTime);
             }
 

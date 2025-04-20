@@ -11,7 +11,7 @@ public class CharacterAnimator : MonoBehaviour
 
     private void Update()
     {
-        _animator.SetBool("IsWalking", _player.Moving);
+        _animator.SetBool("IsWalking", _player.Moving.Value);
         if (_player.horizontal == 0)
         {
             _animator.SetBool("IsWalkingLeft", false);
@@ -21,12 +21,12 @@ public class CharacterAnimator : MonoBehaviour
 
         if (_player.horizontal < 0)
         {
-            _animator.SetBool("IsWalkingLeft", _player.Moving);
+            _animator.SetBool("IsWalkingLeft", _player.Moving.Value);
         }
         
         if (_player.horizontal > 0)
         {
-            _animator.SetBool("IsWalkingRight", _player.Moving);
+            _animator.SetBool("IsWalkingRight", _player.Moving.Value);
         }
     }
 }
