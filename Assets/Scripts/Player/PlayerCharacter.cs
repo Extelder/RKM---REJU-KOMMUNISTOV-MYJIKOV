@@ -8,7 +8,7 @@ public class PlayerCharacter : MonoBehaviour
 {
     [field: SerializeField] public Transform Camera { get; private set; }
 
-    [SerializeField] private PlayerController _controller;
+    [SerializeField] public PlayerController _controller;
     [SerializeField] private CharacterController _characterController;
     [SerializeField] private GameObject[] _model;
 

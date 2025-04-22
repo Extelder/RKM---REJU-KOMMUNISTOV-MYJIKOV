@@ -9,7 +9,8 @@ public class PlayerStepSound : MonoBehaviour
 {
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private AudioSource _stepSound;
-    private CompositeDisposable _compositeDisposable;
+    private CompositeDisposable _compositeDisposable = new CompositeDisposable();
+
     private void OnEnable()
     {
         _playerController.Moving.Subscribe(_ =>
