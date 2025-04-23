@@ -12,6 +12,8 @@ public class PlayerCharacter : MonoBehaviour
     [SerializeField] private CharacterController _characterController;
     [SerializeField] private GameObject[] _model;
 
+    [SerializeField] private GameObject _sounds;
+
     public static PlayerCharacter Instance { get; private set; }
 
     private void Awake()
@@ -28,6 +30,7 @@ public class PlayerCharacter : MonoBehaviour
 
     public void DisablePlayer()
     {
+        _sounds.SetActive(false);
         _controller.enabled = false;
         _characterController.enabled = false;
         for (int i = 0; i < _model.Length; i++)
@@ -38,6 +41,7 @@ public class PlayerCharacter : MonoBehaviour
 
     public void EnablePlayer()
     {
+        _sounds.SetActive(true);
         _controller.enabled = true;
         _characterController.enabled = true;
         for (int i = 0; i < _model.Length; i++)

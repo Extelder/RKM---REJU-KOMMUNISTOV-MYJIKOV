@@ -25,15 +25,21 @@ public class PlayerStepSound : MonoBehaviour
         {
             _stepSound.clip = _defaultStepSound;
         }
+
         _playerController.Moving.Subscribe(_ =>
         {
             if (_)
             {
+                _stepSound.loop = true;
                 _stepSound.Play();
             }
             else
             {
-                _stepSound.Stop();
+                _stepSound.loop = false;
+                if (!_stepSound.isPlaying)
+                {
+                    _stepSound.Stop();
+                }
             }
         }).AddTo(_compositeDisposable);
     }
