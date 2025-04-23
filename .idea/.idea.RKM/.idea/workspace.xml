@@ -23,14 +23,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/Seat.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/Seat.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesBuiltin.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesInc.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesURP.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersBuiltIn.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/StandUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/StandUp.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Player/Гофман хэхэхэ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Player/Гофман хэхэхэ/гофмааан.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Player/Гофман хэхэхэ/гофмааан.mp3.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +58,9 @@
         <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Animator/CharacterAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +107,7 @@
       <workItem from="1744981322544" duration="4703000" />
       <workItem from="1745156734189" duration="3735000" />
       <workItem from="1745335640509" duration="920000" />
-      <workItem from="1745407725221" duration="1341000" />
+      <workItem from="1745407725221" duration="4525000" />
     </task>
     <servers />
   </component>

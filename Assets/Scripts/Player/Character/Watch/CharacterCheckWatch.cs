@@ -9,6 +9,7 @@ public class CharacterCheckWatch : MonoBehaviour
     [SerializeField] private TwoBoneIKConstraint _ik;
     [SerializeField] private float _upWeightChangeSpeed;
     [SerializeField] private float _downWeightChangeSpeed;
+    [SerializeField] private AudioSource _swooshSound;
 
     private float _targetWeight = 0;
     private float _currentChangeSpeed = 0;
@@ -21,6 +22,7 @@ public class CharacterCheckWatch : MonoBehaviour
         {
             _currentChangeSpeed = _upWeightChangeSpeed;
             _targetWeight = 1;
+            _swooshSound.Play();
         }
 
         if (Input.GetKeyUp(KeyCode.T))
