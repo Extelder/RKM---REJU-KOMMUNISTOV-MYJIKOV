@@ -541,6 +541,10 @@
           <e p="Frame" t="Include">
             <e p="source" t="Include" />
           </e>
+          <e p="GRECHNIK" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Judges" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -903,6 +907,35 @@
             <e p="license_unity.txt" t="Include" />
           </e>
           <e p="_TerrainAutoUpgrade" t="Include" />
+          <e p="Blink" t="Include">
+            <e p="Art" t="Include">
+              <e p="Animations" t="Include">
+                <e p="Animations_Starter_Pack" t="Include">
+                  <e p="Combat" t="Include" />
+                  <e p="Gathering" t="Include" />
+                  <e p="Movement" t="Include" />
+                </e>
+              </e>
+              <e p="Characters" t="Include">
+                <e p="LowPoly" t="Include">
+                  <e p="Demo_FREE_LowPolyCharacter" t="Include">
+                    <e p="DEMO_FREE_LowPolyHumans" t="Include" />
+                  </e>
+                  <e p="Editor" t="Include">
+                    <e p="MaterialTilingOffset.cs" t="Include" />
+                  </e>
+                  <e p="FREE_HumanLowPoly" t="Include">
+                    <e p="Materials_Humans" t="Include" />
+                    <e p="Meshes_Humans" t="Include">
+                      <e p="ArmorMeshes_Humans" t="Include" />
+                    </e>
+                    <e p="Prefabs_Humans" t="Include" />
+                    <e p="Textures_Humans" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Enviroment" t="Include">
             <e p="Enviroment" t="Include">
               <e p="Office building" t="Include">
@@ -1403,6 +1436,7 @@
         <e p="Resources" t="Include" />
         <e p="Scenes" t="Include">
           <e p="CityArasaka" t="Include" />
+          <e p="CityArasaka_Profiles" t="Include" />
           <e p="RKM OFFICE" t="Include" />
           <e p="RKM OFFICE_Profiles" t="Include" />
         </e>

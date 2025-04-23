@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayStopSound : MonoBehaviour
 {
     [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _defaultClip;
+    [SerializeField] private AudioClip _secondClip;
 
     public void PlaySound()
     {
@@ -13,5 +15,15 @@ public class PlayStopSound : MonoBehaviour
     public void StopSound()
     {
         _audioSource.Stop();
+    }
+
+    public void SwitchClipToDefault()
+    {
+        _audioSource.clip = _defaultClip;
+    }
+
+    public void SwitchClip()
+    {
+        _audioSource.clip = _secondClip;
     }
 }
