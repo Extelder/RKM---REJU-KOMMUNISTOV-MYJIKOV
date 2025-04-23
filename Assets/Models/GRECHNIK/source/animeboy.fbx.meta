@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e91d3759ace73354a8836b4fe0cd016c
+guid: 7f3159674d09eff488eaa388a2568081
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,58 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 932d7ee20b6e24e4a9917222c1a492cf, type: 2}
+      name: BodyMat
+    second: {fileID: 2100000, guid: bff9284349f203a4ebd15780877c7634, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: f6bfcccda21122d4ab2fac35da7133a1, type: 2}
+      name: arm_Material
+    second: {fileID: 2100000, guid: 307052e450033d845aac2e2bb9761e7d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.006
-    second: {fileID: 2100000, guid: 9db844781cecde44e9270fed1488e4c8, type: 2}
+      name: hand_mat
+    second: {fileID: 2100000, guid: 9775948ffdcd7a646a886fd56834e3c1, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001_Base_color
-    second: {fileID: 2800000, guid: 7dc3cee3ac951c6499670e0fb8e19733, type: 3}
+      name: headMat
+    second: {fileID: 2100000, guid: fd1289dcb2ef98546b2decb8b5e94aa9, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001_Metallic
-    second: {fileID: 2800000, guid: 68e0d93c14aa016419362d4dc56097bc, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material.001_Normal_DirectX
-    second: {fileID: 2800000, guid: 343c2d80973c28b47bf31481fea369a8, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material.001_Roughness
-    second: {fileID: 2800000, guid: a8ba02978a99df745bf2619de9c432b4, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material.002_Base_color
-    second: {fileID: 2800000, guid: 4d7e75026d77034499121bb916cbdb8d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material.002_Metallic
-    second: {fileID: 2800000, guid: e65d34116a9e6474184065b8d7dcd19d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material.002_Normal_DirectX
-    second: {fileID: 2800000, guid: b7bd193e075c39c4fb27555982deb8ee, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material.002_Roughness
-    second: {fileID: 2800000, guid: 64291e5d0bf8b92479c634d422d8d39d, type: 3}
+      name: sneakers_mats
+    second: {fileID: 2100000, guid: 45e13b5818e814b4e97162a31397879d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
