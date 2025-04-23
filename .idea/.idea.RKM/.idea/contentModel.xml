@@ -21,6 +21,7 @@
           </e>
           <e p="Player" t="Include">
             <e p="Drag&amp;Drop" t="Include" />
+            <e p="Judge" t="Include" />
             <e p="Watches" t="Include">
               <e p="Time" t="Include" />
             </e>
@@ -537,6 +538,13 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="Frame" t="Include">
+            <e p="source" t="Include" />
+          </e>
+          <e p="Judges" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="MainCharacter" t="Include">
             <e p="source" t="Include">
               <e p="untitled3.fbm" t="Include" />
@@ -546,6 +554,11 @@
           <e p="Monitor" t="Include">
             <e p="source" t="Include">
               <e p="read.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Mouse" t="Include">
+            <e p="Mouse" t="Include">
+              <e p="Textures" t="Include" />
             </e>
           </e>
           <e p="Office" t="Include">
@@ -559,6 +572,7 @@
           <e p="Watches" t="Include">
             <e p="source" t="Include" />
           </e>
+          <e p="ZOffice" t="Include" />
         </e>
         <e p="NativeCursor" t="Include">
           <e p="Cursors" t="Include">
@@ -1503,6 +1517,9 @@
               <e p="DragAndDropSeat.cs" t="Include" />
             </e>
           </e>
+          <e p="KPP" t="Include">
+            <e p="Character.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="Character" t="Include">
               <e p="Animator" t="Include">
@@ -1511,9 +1528,15 @@
               <e p="HandDoor" t="Include">
                 <e p="HandDoorOpenChecker.cs" t="Include" />
               </e>
+              <e p="Mouse" t="Include">
+                <e p="CharacterMouse.cs" t="Include" />
+              </e>
               <e p="Watch" t="Include">
                 <e p="CharacterCheckWatch.cs" t="Include" />
               </e>
+            </e>
+            <e p="Cursor" t="Include">
+              <e p="JudgeChangeCursorMouseEnterExit.cs" t="Include" />
             </e>
             <e p="Drag&amp;Drop" t="Include">
               <e p="DragAndDropBarrier.cs" t="Include" />
@@ -1528,9 +1551,11 @@
               <e p="Iinteractable.cs" t="Include" />
               <e p="PlayerInteract.cs" t="Include" />
             </e>
+            <e p="Judge" t="Include">
+              <e p="PlayerJudge.cs" t="Include" />
+            </e>
             <e p="PlayerCharacter.cs" t="Include" />
             <e p="Sounds" t="Include">
-              <e p="PlayerDoorSoundEffect.cs" t="Include" />
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
           </e>
@@ -1540,6 +1565,9 @@
           <e p="Settings" t="Include">
             <e p="Settings.cs" t="Include" />
             <e p="SettingsPanelChoose.cs" t="Include" />
+          </e>
+          <e p="Sounds" t="Include">
+            <e p="PlayStopSound.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Disclaimer" t="Include">
@@ -1619,6 +1647,7 @@
                 <e p="Footsteps_Wood_Walk" t="Include" />
               </e>
             </e>
+            <e p="Гофман хэхэхэ" t="Include" />
           </e>
         </e>
         <e p="Sprite" t="Include" />

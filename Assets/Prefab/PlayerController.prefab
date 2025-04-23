@@ -818,7 +818,7 @@ Transform:
   - {fileID: 4557654799717196550}
   - {fileID: 6143940431829092141}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -273.883, z: 0}
 --- !u!143 &87933496191064824
 CharacterController:
@@ -5549,6 +5549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerController: {fileID: 8102424094918124269}
   _stepSound: {fileID: 4957527191029531621}
+  _officeStepSound: {fileID: 8300000, guid: 6ad0cf00f050bee41a2dee098475dc78, type: 3}
+  _defaultStepSound: {fileID: 8300000, guid: 846819fd62ca22b478d33e537cd61c8c, type: 3}
+  _officeSceneIndex: 3
 --- !u!1 &3858382355225817106
 GameObject:
   m_ObjectHideFlags: 0
