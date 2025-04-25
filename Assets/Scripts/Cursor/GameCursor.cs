@@ -46,8 +46,8 @@ public class GameCursor : MonoBehaviour
 
     public void Show()
     {
-        PrevCursorState.CursorLockMode = CursorLockMode.Locked;
-        PrevCursorState.Visible = false;
+        PrevCursorState.CursorLockMode = Cursor.lockState;
+        PrevCursorState.Visible = Cursor.visible;
 
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
@@ -55,8 +55,8 @@ public class GameCursor : MonoBehaviour
 
     public void Hide()
     {
-        PrevCursorState.CursorLockMode = CursorLockMode.None;
-        PrevCursorState.Visible = true;
+        PrevCursorState.CursorLockMode = Cursor.lockState;
+        PrevCursorState.Visible = Cursor.visible;
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

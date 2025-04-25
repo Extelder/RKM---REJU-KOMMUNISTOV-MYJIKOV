@@ -818,7 +818,7 @@ Transform:
   - {fileID: 4557654799717196550}
   - {fileID: 6143940431829092141}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -273.883, z: 0}
 --- !u!143 &87933496191064824
 CharacterController:
@@ -837,7 +837,7 @@ CharacterController:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Height: 3.02191
   m_Radius: 0.5
@@ -983,6 +983,7 @@ MonoBehaviour:
   - {fileID: 3109939448585920999}
   - {fileID: 8545583040566390814}
   - {fileID: 778458650338395335}
+  _sounds: {fileID: 3854183514601721618}
 --- !u!1 &869930667267105954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,8 +1392,8 @@ RectTransform:
   m_Father: {fileID: 268060827988928783}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.11111111, y: 0}
-  m_AnchorMax: {x: 0.11111111, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -1.6199951, y: 0.76399994}
   m_SizeDelta: {x: 49.528, y: 23.537}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3040,7 +3041,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 5546635019061963578}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -8315,7 +8316,7 @@ GameObject:
   - component: {fileID: 663144570163228978}
   - component: {fileID: 8511832982790429408}
   - component: {fileID: 7447004370464759289}
-  - component: {fileID: 959884809250461557}
+  - component: {fileID: 7715290539645882984}
   m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
@@ -8462,7 +8463,7 @@ MonoBehaviour:
   EnabledRoationMovement: 0
   RoationMovementSmooth: 6.7
   RoationMovementAmount: 4
---- !u!114 &959884809250461557
+--- !u!114 &7715290539645882984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11999,7 +12000,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.11111111, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

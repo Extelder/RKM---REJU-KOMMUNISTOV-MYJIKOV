@@ -41,6 +41,7 @@ public class PlayerCharacter : MonoBehaviour
 
     public void EnablePlayer()
     {
+        GameCursor.Instance.Hide();
         _sounds.SetActive(true);
         _controller.enabled = true;
         _characterController.enabled = true;

@@ -5,12 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Watch : MonoBehaviour
 {
-    [SerializeField] private int _guideLevelIndex = 4;
+    [SerializeField] private GameObject _timeCanvas;
+    [SerializeField] private GameObject _yesNoCanvas;
+    [SerializeField] private GameObject _guideCanvas;
+
     [SerializeField] private ArasakaCutScene _arasakaCutScene;
 
     public void Yes()
     {
-        SceneManager.LoadScene(_guideLevelIndex);
+        _timeCanvas.SetActive(true);
+        _guideCanvas.SetActive(true);
+        _yesNoCanvas.SetActive(false);
+        PlayerPrefs.SetInt("GuideCompleate", 1);
+        _arasakaCutScene.EndGuide();
     }
 
     public void No()

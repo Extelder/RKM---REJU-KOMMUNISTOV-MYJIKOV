@@ -30,16 +30,16 @@ public class ArasakaCutScene : MonoBehaviour
     {
         _playerCharacter.DisablePlayer();
     }
-    
+
     public void EndGuide()
     {
         _animator.SetTrigger("End");
     }
-    
+
     public void CutSceneEnd()
     {
-        _playerCharacter.EnablePlayer();
         _guideCuteScene.SetActive(false);
         _cuteScene.SetActive(false);
+        _playerCharacter.EnablePlayer();
     }
 }
