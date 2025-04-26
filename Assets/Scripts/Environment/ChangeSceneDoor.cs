@@ -9,6 +9,7 @@ public class ChangeSceneDoor : MonoBehaviour
 
     public void Open()
     {
-        SceneManager.LoadScene(_id);
+        PlayerPrefs.SetInt("CurrentScene", _id);
+        SceneManager.LoadScene("Loading");
     }
 }

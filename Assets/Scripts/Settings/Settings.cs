@@ -287,6 +287,7 @@ public class Settings : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        PlayerPrefs.SetInt("CurrentScene", SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Loading");
     }
 }
