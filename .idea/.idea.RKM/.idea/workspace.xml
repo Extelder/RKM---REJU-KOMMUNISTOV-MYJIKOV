@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1745335640509" duration="920000" />
       <workItem from="1745407725221" duration="4525000" />
       <workItem from="1745584236665" duration="3288000" />
-      <workItem from="1745654143746" duration="2293000" />
+      <workItem from="1745654143746" duration="2895000" />
     </task>
     <servers />
   </component>
