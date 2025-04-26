@@ -22,16 +22,13 @@
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/Seat.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/Seat.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/StandUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CutScene/Sit/StandUp.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesBuiltin.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesInc.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/Examples/ExamplesURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersBuiltIn.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MK/MKToon/ShadersURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Office/source/glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Office/source/glass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Player/Гофман хэхэхэ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Player/Гофман хэхэхэ/гофмааан.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Player/Гофман хэхэхэ/гофмааан.mp3.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/PlayerCursor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/ShowCursorOnEnableGameobject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -61,6 +61,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Drag&amp;Drop/DragAndDropObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +113,7 @@
       <workItem from="1745156734189" duration="3735000" />
       <workItem from="1745335640509" duration="920000" />
       <workItem from="1745407725221" duration="4525000" />
+      <workItem from="1745584236665" duration="3288000" />
     </task>
     <servers />
   </component>
@@ -127,5 +133,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1745589522509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1745589522509" />
   </component>
 </project>

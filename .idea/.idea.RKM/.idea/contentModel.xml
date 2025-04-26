@@ -538,6 +538,9 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="Elevator" t="Include">
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Frame" t="Include">
             <e p="source" t="Include" />
           </e>
@@ -565,7 +568,14 @@
               <e p="Textures" t="Include" />
             </e>
           </e>
+          <e p="Off" t="Include" />
           <e p="Office" t="Include">
+            <e p="Door" t="Include" />
+            <e p="Elevator" t="Include" />
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Radio" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -1391,7 +1401,11 @@
             </e>
           </e>
         </e>
-        <e p="Prefab" t="Include" />
+        <e p="Prefab" t="Include">
+          <e p="Environmennt" t="Include">
+            <e p="Door" t="Include" />
+          </e>
+        </e>
         <e p="PSXShaderKit" t="Include">
           <e p="Demo" t="Include">
             <e p="Assets" t="Include">
@@ -1589,8 +1603,15 @@
               <e p="PlayerJudge.cs" t="Include" />
             </e>
             <e p="PlayerCharacter.cs" t="Include" />
+            <e p="Radio" t="Include">
+              <e p="RadioMusicSwitcher.cs" t="Include" />
+              <e p="RadioObject.cs" t="Include" />
+            </e>
             <e p="Sounds" t="Include">
               <e p="PlayerStepSound.cs" t="Include" />
+            </e>
+            <e p="Trigger" t="Include">
+              <e p="AnimatorTrigger.cs" t="Include" />
             </e>
           </e>
           <e p="Raycaster" t="Include">
@@ -1617,6 +1638,7 @@
         <e p="Sounds" t="Include">
           <e p="Ambience" t="Include" />
           <e p="Enviroment" t="Include" />
+          <e p="Music" t="Include" />
           <e p="Player" t="Include">
             <e p="Footsteps - Essentials" t="Include">
               <e p="Footsteps_DirtyGround" t="Include">
@@ -1681,7 +1703,8 @@
                 <e p="Footsteps_Wood_Walk" t="Include" />
               </e>
             </e>
-            <e p="Гофман хэхэхэ" t="Include" />
+            <e p="Judge" t="Include" />
+            <e p="Swooshes" t="Include" />
           </e>
         </e>
         <e p="Sprite" t="Include" />
