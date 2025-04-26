@@ -7,18 +7,22 @@ public class RadioMusicSwitcher : MonoBehaviour
 {
     [SerializeField] private AudioSource _musicSource;
     [SerializeField] private AudioClip[] _soundClips;
-    private int _index = 0;
+    [SerializeField] private GameObject _redSphere;
+    [SerializeField] private GameObject _greenSphere;
+    public int Index { get; set; }
 
     public void Interact()
     {
-        _index++;
+        Index++;
         _musicSource.Stop();
-        if (_index > _soundClips.Length-1)
+        if (Index > _soundClips.Length-1)
         {
-            _index = 0;
+            Index = 0;
         }
-        Debug.Log(_index);
-        _musicSource.clip = _soundClips[_index];
+        Debug.Log(Index);
+        _musicSource.clip = _soundClips[Index];
         _musicSource.Play();
+        _redSphere.SetActive(false);
+        _greenSphere.SetActive(true);
     }
 }

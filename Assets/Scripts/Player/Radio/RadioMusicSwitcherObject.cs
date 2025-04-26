@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UniRx;
 using UnityEngine;
 
-public class RadioObject : MonoBehaviour
+public class RadioMusicSwitcherObject : MonoBehaviour
 {
     [SerializeField] private RadioMusicSwitcher _radioMusicSwitcher;
 
