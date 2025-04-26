@@ -98,8 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 071e242d5b465c64d80971ed10a446e7,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 5190bde6b6f10f14d87fbf126f377dc4,
     type: 2}
 --- !u!196 &4
@@ -54445,8 +54444,8 @@ GameObject:
   - component: {fileID: 721407901}
   - component: {fileID: 721407905}
   - component: {fileID: 721407904}
-  - component: {fileID: 721407903}
-  - component: {fileID: 721407902}
+  - component: {fileID: 721407906}
+  - component: {fileID: 721407907}
   m_Layer: 0
   m_Name: Door.017
   m_TagString: door
@@ -54471,52 +54470,6 @@ Transform:
   m_Father: {fileID: 1710356784}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &721407902
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721407900}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300230, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
---- !u!114 &721407903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721407900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7954b3afdba044799272ef7bf5c206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UseDoors:
-  - Door: {fileID: 967079431}
-    CloseValue: 0
-    OpenValue: -88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 721407900}
-  - Door: {fileID: 1720393399}
-    CloseValue: 0
-    OpenValue: 88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 1725264061}
-  door_in_use: 0
 --- !u!23 &721407904
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54567,6 +54520,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721407900}
   m_Mesh: {fileID: 4300230, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
+--- !u!65 &721407906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721407900}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0013632452, y: 0.009476167, z: 0.019345703}
+  m_Center: {x: -0.00058558997, y: 0.0046083746, z: -0.00060279993}
+--- !u!114 &721407907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721407900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4dde127861aa194fb480f34ffe9a1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: 3
 --- !u!1001 &723844424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58504,7 +58491,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -77561,9 +77548,6 @@ GameObject:
   - component: {fileID: 967079432}
   - component: {fileID: 967079437}
   - component: {fileID: 967079436}
-  - component: {fileID: 967079435}
-  - component: {fileID: 967079434}
-  - component: {fileID: 967079433}
   m_Layer: 8
   m_Name: Window Prefab
   m_TagString: door
@@ -77586,74 +77570,6 @@ Transform:
   m_Father: {fileID: 721407901}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &967079433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967079431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7954b3afdba044799272ef7bf5c206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UseDoors:
-  - Door: {fileID: 967079431}
-    CloseValue: 0
-    OpenValue: -88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 721407900}
-  - Door: {fileID: 1720393399}
-    CloseValue: 0
-    OpenValue: 88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 1725264061}
-  door_in_use: 0
---- !u!64 &967079434
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967079431}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
---- !u!64 &967079435
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967079431}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
 --- !u!23 &967079436
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -98330,7 +98246,6 @@ GameObject:
   - component: {fileID: 1253661933}
   - component: {fileID: 1253661936}
   - component: {fileID: 1253661935}
-  - component: {fileID: 1253661934}
   m_Layer: 8
   m_Name: Window Prefab (4)
   m_TagString: Untagged
@@ -98353,28 +98268,6 @@ Transform:
   m_Father: {fileID: 1710356784}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1253661934
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253661932}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
 --- !u!23 &1253661935
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -99006,7 +98899,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -109772,7 +109665,6 @@ GameObject:
   - component: {fileID: 1396751761}
   - component: {fileID: 1396751764}
   - component: {fileID: 1396751763}
-  - component: {fileID: 1396751762}
   m_Layer: 8
   m_Name: Window Prefab (3)
   m_TagString: Untagged
@@ -109795,28 +109687,6 @@ Transform:
   m_Father: {fileID: 1710356784}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1396751762
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396751760}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
 --- !u!23 &1396751763
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -117042,7 +116912,6 @@ GameObject:
   - component: {fileID: 1495451164}
   - component: {fileID: 1495451167}
   - component: {fileID: 1495451166}
-  - component: {fileID: 1495451165}
   m_Layer: 8
   m_Name: Window Prefab (2)
   m_TagString: Untagged
@@ -117065,28 +116934,6 @@ Transform:
   m_Father: {fileID: 1710356784}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1495451165
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495451163}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
 --- !u!23 &1495451166
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -123175,7 +123022,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -123654,7 +123501,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -124408,7 +124255,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -136217,9 +136064,6 @@ GameObject:
   - component: {fileID: 1720393405}
   - component: {fileID: 1720393404}
   - component: {fileID: 1720393403}
-  - component: {fileID: 1720393402}
-  - component: {fileID: 1720393401}
-  - component: {fileID: 1720393400}
   m_Layer: 8
   m_Name: Window Prefab (1)
   m_TagString: door
@@ -136227,74 +136071,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1720393400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720393399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7954b3afdba044799272ef7bf5c206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UseDoors:
-  - Door: {fileID: 967079431}
-    CloseValue: 0
-    OpenValue: -88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 721407900}
-  - Door: {fileID: 1720393399}
-    CloseValue: 0
-    OpenValue: 88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 1725264061}
-  door_in_use: 0
---- !u!64 &1720393401
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720393399}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
---- !u!64 &1720393402
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720393399}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300050, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
 --- !u!23 &1720393403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -136772,8 +136548,8 @@ GameObject:
   - component: {fileID: 1725264066}
   - component: {fileID: 1725264065}
   - component: {fileID: 1725264064}
-  - component: {fileID: 1725264063}
-  - component: {fileID: 1725264062}
+  - component: {fileID: 1725264067}
+  - component: {fileID: 1725264068}
   m_Layer: 0
   m_Name: Door.016
   m_TagString: door
@@ -136781,52 +136557,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1725264062
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725264061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300232, guid: 18cd780e6948a554a850b2d047ebf8fb, type: 3}
---- !u!114 &1725264063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725264061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7954b3afdba044799272ef7bf5c206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UseDoors:
-  - Door: {fileID: 967079431}
-    CloseValue: 0
-    OpenValue: -88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 721407900}
-  - Door: {fileID: 1720393399}
-    CloseValue: 0
-    OpenValue: 88
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 1725264061}
-  door_in_use: 0
 --- !u!23 &1725264064
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -136894,6 +136624,40 @@ Transform:
   m_Father: {fileID: 1710356784}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1725264067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725264061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.00131644, y: 0.009477425, z: 0.0193457}
+  m_Center: {x: -0.00055581745, y: -0.004616134, z: 0.009666986}
+--- !u!114 &1725264068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725264061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4dde127861aa194fb480f34ffe9a1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: 3
 --- !u!1001 &1725432631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -139539,7 +139303,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -166666,7 +166430,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0

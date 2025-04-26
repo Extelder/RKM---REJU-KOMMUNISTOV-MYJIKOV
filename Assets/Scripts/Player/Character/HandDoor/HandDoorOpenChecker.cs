@@ -24,6 +24,11 @@ public class HandDoorOpenChecker : MonoBehaviour
             _tagetWeight = 1;
             _doorSound.Play();
         }
+
+        if (other.TryGetComponent<ChangeSceneDoor>(out ChangeSceneDoor changeSceneDoor))
+        {
+            changeSceneDoor.Open();
+        }
     }
 
     private void OnTriggerExit(Collider other)

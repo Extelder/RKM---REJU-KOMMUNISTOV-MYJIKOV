@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: cdb1b8a3cf249df4f9f5b20a3366883b
   - enabled: 1
-    path: Assets/Scenes/CityArasaka.unity
-    guid: f6f62f0fc439b6b45bcebbf69f5b992e
+    path: Assets/Scenes/CityArasaka 1.unity
+    guid: 7a55b8082b9d27d48b33ab6ed3ebcd54
   - enabled: 1
     path: Assets/Scenes/RKM OFFICE.unity
     guid: a172e5f531d90634dbc317e891be40bc
