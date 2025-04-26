@@ -1605,7 +1605,8 @@
             <e p="PlayerCharacter.cs" t="Include" />
             <e p="Radio" t="Include">
               <e p="RadioMusicSwitcher.cs" t="Include" />
-              <e p="RadioObject.cs" t="Include" />
+              <e p="RadioMusicSwitcherObject.cs" t="Include" />
+              <e p="RadioStopMusicObject.cs" t="Include" />
             </e>
             <e p="Sounds" t="Include">
               <e p="PlayerStepSound.cs" t="Include" />
