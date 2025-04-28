@@ -818,7 +818,7 @@ Transform:
   - {fileID: 4557654799717196550}
   - {fileID: 6143940431829092141}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -273.883, z: 0}
 --- !u!143 &87933496191064824
 CharacterController:
@@ -7629,17 +7629,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433faa8b758afed4f9295b193c697276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _PixelationFactor: 1
-  _ColorEmulationMode: 3
-  _FullscreenColorDepth: {x: 256, y: 256, z: 256}
-  _FullscreenDitherDepth: {x: 32, y: 32, z: 32}
+  _PixelationFactor: 0.428
+  _ColorEmulationMode: 1
+  _FullscreenColorDepth: {x: 15, y: 15, z: 15}
+  _FullscreenDitherDepth: {x: 10, y: 10, z: 10}
   _DitheringMatrixSize: 2
-  _DitheringScale: 1
+  _DitheringScale: 0
   _InterlacingSize: 1
-  _PostProcessShader: {fileID: 0}
-  _PostProcessShaderAccurate: {fileID: 0}
-  _PixelationShader: {fileID: 0}
-  _InterlacingShader: {fileID: 0}
+  _PostProcessShader: {fileID: 4800000, guid: 56d52fd5b7c6911468179e5a7359ce0e, type: 3}
+  _PostProcessShaderAccurate: {fileID: 4800000, guid: 2ebed186567d3c244a87538744a62920,
+    type: 3}
+  _PixelationShader: {fileID: 4800000, guid: f2da0e2a14a532548b5db043244b3df1, type: 3}
+  _InterlacingShader: {fileID: 4800000, guid: 03ebd34214b41ef459d7ee6753b062be, type: 3}
 --- !u!114 &884042058796269612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8432,10 +8433,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433faa8b758afed4f9295b193c697276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _PixelationFactor: 0.635
-  _ColorEmulationMode: 3
-  _FullscreenColorDepth: {x: 256, y: 256, z: 256}
-  _FullscreenDitherDepth: {x: 32, y: 32, z: 32}
+  _PixelationFactor: 0.428
+  _ColorEmulationMode: 1
+  _FullscreenColorDepth: {x: 15, y: 15, z: 15}
+  _FullscreenDitherDepth: {x: 10, y: 10, z: 10}
   _DitheringMatrixSize: 2
   _DitheringScale: 0
   _InterlacingSize: 1
