@@ -19,6 +19,7 @@
             </e>
             <e p="Sit" t="Include" />
           </e>
+          <e p="Jarahov" t="Include" />
           <e p="Player" t="Include">
             <e p="Drag&amp;Drop" t="Include" />
             <e p="Judge" t="Include" />
@@ -32,6 +33,22 @@
           <e p="New Icons" t="Include" />
           <e p="Prefabs Buttons" t="Include" />
           <e p="Prefabs Panel" t="Include" />
+        </e>
+        <e p="Farming_game_FX" t="Include">
+          <e p="DemoScene" t="Include" />
+          <e p="Documentation" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="Materials" t="Include">
+            <e p="Farming" t="Include">
+              <e p="Textures" t="Include" />
+            </e>
+          </e>
+          <e p="Prefabs" t="Include">
+            <e p="Farming" t="Include" />
+            <e p="Fishing" t="Include" />
+            <e p="Mineing" t="Include" />
+          </e>
         </e>
         <e p="Font" t="Include" />
         <e p="Materials" t="Include" />
@@ -534,6 +551,10 @@
           </e>
         </e>
         <e p="Models" t="Include">
+          <e p="Carpet" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Character" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -545,6 +566,10 @@
             <e p="source" t="Include" />
           </e>
           <e p="GRECHNIK" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Jarahov" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -575,6 +600,7 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="Piss" t="Include" />
           <e p="Radio" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -585,6 +611,10 @@
           </e>
           <e p="Watches" t="Include">
             <e p="source" t="Include" />
+          </e>
+          <e p="WaterGun'" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
           </e>
           <e p="ZOffice" t="Include" />
         </e>
@@ -1451,6 +1481,8 @@
         <e p="Scenes" t="Include">
           <e p="CityArasaka" t="Include" />
           <e p="CityArasaka_Profiles" t="Include" />
+          <e p="Loading" t="Include" />
+          <e p="Loading_Profiles" t="Include" />
           <e p="RKM OFFICE" t="Include" />
           <e p="RKM OFFICE_Profiles" t="Include" />
         </e>
@@ -1565,8 +1597,14 @@
               <e p="DragAndDropSeat.cs" t="Include" />
             </e>
           </e>
+          <e p="Environment" t="Include">
+            <e p="ChangeSceneDoor.cs" t="Include" />
+          </e>
           <e p="KPP" t="Include">
             <e p="Character.cs" t="Include" />
+          </e>
+          <e p="Loading" t="Include">
+            <e p="Loading.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="Character" t="Include">
@@ -1609,11 +1647,15 @@
               <e p="RadioStopMusicObject.cs" t="Include" />
             </e>
             <e p="Sounds" t="Include">
+              <e p="PlayerPickAndDropItem.cs" t="Include" />
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
             <e p="Trigger" t="Include">
               <e p="AnimatorTrigger.cs" t="Include" />
             </e>
+          </e>
+          <e p="Prank" t="Include">
+            <e p="Prank.cs" t="Include" />
           </e>
           <e p="Raycaster" t="Include">
             <e p="RaycastBehaviour.cs" t="Include" />
@@ -1624,6 +1666,7 @@
           </e>
           <e p="Sounds" t="Include">
             <e p="PlayStopSound.cs" t="Include" />
+            <e p="PlayStopSoundOnTriggerEnterExit.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Disclaimer" t="Include">
@@ -1638,8 +1681,11 @@
         </e>
         <e p="Sounds" t="Include">
           <e p="Ambience" t="Include" />
-          <e p="Enviroment" t="Include" />
+          <e p="Enviroment" t="Include">
+            <e p="Jarahov" t="Include" />
+          </e>
           <e p="Music" t="Include" />
+          <e p="Piiss" t="Include" />
           <e p="Player" t="Include">
             <e p="Footsteps - Essentials" t="Include">
               <e p="Footsteps_DirtyGround" t="Include">
@@ -1704,6 +1750,7 @@
                 <e p="Footsteps_Wood_Walk" t="Include" />
               </e>
             </e>
+            <e p="Items" t="Include" />
             <e p="Judge" t="Include" />
             <e p="Swooshes" t="Include" />
           </e>

@@ -8,6 +8,8 @@ public class DragAndDropObject : MonoBehaviour
 {
     [SerializeField] private float _rotateSpeed;
     [SerializeField] private PlayerDragAndDrop _playerDragAndDrop;
+    public event Action PickedUp;
+    public event Action DropedDown;
     private Quaternion _defaultRotation;
 
     private Rigidbody _rigidBody;
@@ -42,6 +44,7 @@ public class DragAndDropObject : MonoBehaviour
             transform.localRotation = Quaternion.Lerp(transform.localRotation, _defaultRotation,
                 _rotateSpeed * Time.deltaTime);
         }).AddTo(_disposable);
+        PickedUp?.Invoke();
     }
 
     private void OnDisable()
@@ -53,6 +56,7 @@ public class DragAndDropObject : MonoBehaviour
     {
         _disposable.Clear();
         _rigidBody.constraints = RigidbodyConstraints.None;
+        DropedDown?.Invoke();
     }
 
     private void OnMouseUp()
