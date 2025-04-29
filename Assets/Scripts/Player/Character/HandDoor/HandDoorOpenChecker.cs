@@ -19,8 +19,9 @@ public class HandDoorOpenChecker : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 8)
+        if (other.TryGetComponent<InteractDoor>(out InteractDoor door))
         {
+            door.Opening();
             _tagetWeight = 1;
             _doorSound.Play();
         }
@@ -33,8 +34,9 @@ public class HandDoorOpenChecker : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.layer == 8)
+        if (other.TryGetComponent<InteractDoor>(out InteractDoor door))
         {
+            door.StopOpening();
             _tagetWeight = 0;
         }
     }
