@@ -12,8 +12,6 @@ public class InteractDoor : MonoBehaviour
 
     private void Update()
     {
-        Debug.LogError(_hinge.angle);
-
         if ((_hinge.angle >= 89 || _hinge.angle <= -89) && _opening == true)
         {
             _rigidbody.isKinematic = true;

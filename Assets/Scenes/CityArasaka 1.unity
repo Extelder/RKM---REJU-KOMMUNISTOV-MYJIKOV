@@ -37541,10 +37541,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433faa8b758afed4f9295b193c697276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _PixelationFactor: 0.635
-  _ColorEmulationMode: 3
-  _FullscreenColorDepth: {x: 256, y: 256, z: 256}
-  _FullscreenDitherDepth: {x: 32, y: 32, z: 32}
+  _PixelationFactor: 0.428
+  _ColorEmulationMode: 1
+  _FullscreenColorDepth: {x: 20.4, y: 51.2, z: 51.2}
+  _FullscreenDitherDepth: {x: 128, y: 128, z: 128}
   _DitheringMatrixSize: 2
   _DitheringScale: 0
   _InterlacingSize: 1
@@ -61306,10 +61306,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433faa8b758afed4f9295b193c697276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _PixelationFactor: 0.635
-  _ColorEmulationMode: 3
-  _FullscreenColorDepth: {x: 256, y: 256, z: 256}
-  _FullscreenDitherDepth: {x: 32, y: 32, z: 32}
+  _PixelationFactor: 0.428
+  _ColorEmulationMode: 1
+  _FullscreenColorDepth: {x: 20.4, y: 51.2, z: 51.2}
+  _FullscreenDitherDepth: {x: 128, y: 128, z: 128}
   _DitheringMatrixSize: 2
   _DitheringScale: 0
   _InterlacingSize: 1
@@ -177848,32 +177848,32 @@ PrefabInstance:
     - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _FullscreenColorDepth.x
-      value: 256
+      value: 20.4
       objectReference: {fileID: 0}
     - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _FullscreenColorDepth.y
-      value: 256
+      value: 51.2
       objectReference: {fileID: 0}
     - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _FullscreenColorDepth.z
-      value: 256
+      value: 51.2
       objectReference: {fileID: 0}
     - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _FullscreenDitherDepth.x
-      value: 16
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _FullscreenDitherDepth.y
-      value: 16
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _FullscreenDitherDepth.z
-      value: 16
+      value: 128
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
