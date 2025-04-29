@@ -10,8 +10,10 @@ public class DragAndDropCamera : MonoBehaviour
 
     [SerializeField] private Vector3 _upEulerAngles;
     [SerializeField] private Vector3 _downEulerAngles;
+    [SerializeField] private AudioSource _lookUpSound;
 
     private Vector3 _targetEulerAngles;
+    private bool _lookUp;
 
     private void Start()
     {
@@ -34,11 +36,31 @@ public class DragAndDropCamera : MonoBehaviour
 
     public void LookUp()
     {
+        if (_lookUp == true)
+        {
+            return;
+        }
+        StopAllCoroutines();
         _targetEulerAngles = _upEulerAngles;
+        StartCoroutine(PlayLookUpSound());
+        _lookUp = true;
     }
 
     public void LookDown()
     {
+        if (_lookUp == false)
+        {
+            return;
+        }
+        StopAllCoroutines();
         _targetEulerAngles = _downEulerAngles;
+        StartCoroutine(PlayLookUpSound());
+        _lookUp = false;
+    }
+
+    private IEnumerator PlayLookUpSound()
+    {
+        yield return new WaitForSeconds(0.2f);
+        _lookUpSound.Play();
     }
 }
