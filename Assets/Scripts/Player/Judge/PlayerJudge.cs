@@ -5,19 +5,25 @@ using DG.Tweening;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
-public class PlayerJudge : MonoBehaviour
+public partial class PlayerJudge : MonoBehaviour
 {
     [SerializeField] private Ease _moveEase;
 
     [SerializeField] private Animator _animator;
+    [SerializeField] private PlayerJudgeAnimator _judgeAnimator;
     [SerializeField] private Collider _banCollider;
     [SerializeField] private Collider _passCollider;
+    [SerializeField] private Collider _breakCollider;
     [SerializeField] private Collider _judgeCollider;
 
     [SerializeField] private Transform _banTransform;
     [SerializeField] private Transform _passTransform;
+    [SerializeField] private Transform _breakTransform;
     [SerializeField] private float _moveSpeed;
+    
+    [SerializeInterface] private IConfirmable _confirmabl;
 
     private bool _selecting;
     private bool _confirming;
@@ -25,6 +31,14 @@ public class PlayerJudge : MonoBehaviour
     private CompositeDisposable _disposable = new CompositeDisposable();
 
     private Tween _moveTween;
+
+    private Vector3 _defaultPosition;
+
+    private void Start()
+    {
+        _defaultPosition = transform.position;
+    }
+
 
     public void Confirm()
     {
@@ -50,6 +64,7 @@ public class PlayerJudge : MonoBehaviour
 
     private void OnEnable()
     {
+        _judgeAnimator.Confirmed += Confirmed;
         _judgeCollider.OnMouseDownAsObservable().Subscribe(_ =>
         {
             _selecting = !_selecting;
@@ -60,7 +75,7 @@ public class PlayerJudge : MonoBehaviour
         _banCollider.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
 
         _passCollider.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
-
+        _breakCollider.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
 
         _banCollider.OnMouseEnterAsObservable().Subscribe(_ =>
         {
@@ -77,10 +92,25 @@ public class PlayerJudge : MonoBehaviour
             _moveTween?.Kill();
             _moveTween = transform.DOMove(_passTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
+
+        _breakCollider.OnMouseEnterAsObservable().Subscribe(_ =>
+        {
+            if (!_selecting)
+                return;
+            _moveTween?.Kill();
+            _moveTween = transform.DOMove(_breakTransform.position, _moveSpeed).SetEase(_moveEase);
+        }).AddTo(_disposable);
+    }
+
+    public void Confirmed()
+    {
+        _moveTween?.Kill();
+        _moveTween = transform.DOMove(_defaultPosition, _moveSpeed).SetEase(_moveEase);
     }
 
     private void OnDisable()
     {
+        _judgeAnimator.Confirmed -= Confirmed;
         _moveTween?.Kill();
         _disposable.Clear();
     }

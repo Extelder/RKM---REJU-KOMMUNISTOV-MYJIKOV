@@ -10,6 +10,13 @@ public class InteractDoor : MonoBehaviour
 
     private bool _opening;
 
+    private float _defaultDamper;
+
+    private void Start()
+    {
+        _defaultDamper = _hinge.spring.damper;
+    }
+
     private void Update()
     {
         if ((_hinge.angle >= 89 || _hinge.angle <= -89) && _opening == true)
@@ -20,11 +27,13 @@ public class InteractDoor : MonoBehaviour
 
     public void Opening()
     {
+        _hinge.useSpring = false;
         _opening = true;
     }
 
     public void StopOpening()
     {
+        _hinge.useSpring = true;
         _opening = false;
         _rigidbody.isKinematic = false;
     }

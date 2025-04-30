@@ -9,6 +9,8 @@ public class HandDoorOpenChecker : MonoBehaviour
     [SerializeField] private TwoBoneIKConstraint _ik;
     [SerializeField] private float _weightChangeSpeed;
     [SerializeField] private AudioSource _doorSound;
+    [SerializeField] private float _openForce;
+    [SerializeField] private ForceMode _forceMode;
 
     private float _tagetWeight;
 
@@ -29,6 +31,14 @@ public class HandDoorOpenChecker : MonoBehaviour
         if (other.TryGetComponent<ChangeSceneDoor>(out ChangeSceneDoor changeSceneDoor))
         {
             changeSceneDoor.Open();
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.TryGetComponent<InteractDoor>(out InteractDoor door))
+        {
+            door.GetComponent<Rigidbody>().AddForce(transform.forward * _openForce, _forceMode);
         }
     }
 
