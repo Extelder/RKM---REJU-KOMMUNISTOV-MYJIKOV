@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE 2 Floor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE 2 Floor.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Drag&amp;Drop/DragAndDropCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Drag&amp;Drop/DragAndDropCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/New Character.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Паша-Техник.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Паша-Техник.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +45,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/PlayerCursor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerPickAndDropItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/ShowCursorOnEnableGameobject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -66,6 +76,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Drag&amp;Drop/DragAndDropObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerPickAndDropItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Drag&amp;Drop/DragAndDropCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +128,9 @@
       <workItem from="1745407725221" duration="4525000" />
       <workItem from="1745584236665" duration="3288000" />
       <workItem from="1745654143746" duration="3491000" />
-      <workItem from="1745923407188" duration="2045000" />
+      <workItem from="1745923407188" duration="2745000" />
+      <workItem from="1746096256757" duration="3799000" />
+      <workItem from="1746120207516" duration="3530000" />
     </task>
     <servers />
   </component>
@@ -137,9 +152,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1745589522509">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1746105572201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1745589522509" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1746105572201" />
   </component>
 </project>

@@ -18,3 +18,11 @@ MonoBehaviour:
   BirthdayDate: 15.08.2008
   _pakosti:
   - Name: The Room 23
+    Color: {r: 0, g: 0, b: 0, a: 0}
+  News:
+    Title: dawdaw
+    Data: 23.23
+    Text: dwadawd
+    TitleColor: {r: 1, g: 0, b: 0, a: 1}
+    TextColor: {r: 1, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
