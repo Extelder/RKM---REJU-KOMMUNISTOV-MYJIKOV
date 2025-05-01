@@ -7,7 +7,7 @@ using UniRx.Triggers;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-public partial class PlayerJudge : MonoBehaviour
+public class PlayerJudge : MonoBehaviour
 {
     [SerializeField] private Ease _moveEase;
 
@@ -23,8 +23,6 @@ public partial class PlayerJudge : MonoBehaviour
     [SerializeField] private Transform _breakTransform;
     [SerializeField] private float _moveSpeed;
     
-    [SerializeInterface] private IConfirmable _confirmabl;
-
     private bool _selecting;
     private bool _confirming;
 
