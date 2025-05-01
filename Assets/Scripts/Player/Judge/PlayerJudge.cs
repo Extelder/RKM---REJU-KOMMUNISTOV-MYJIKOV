@@ -13,16 +13,13 @@ public class PlayerJudge : MonoBehaviour
 
     [SerializeField] private Animator _animator;
     [SerializeField] private PlayerJudgeAnimator _judgeAnimator;
-    [SerializeField] private Collider _banCollider;
-    [SerializeField] private Collider _passCollider;
-    [SerializeField] private Collider _breakCollider;
+    [SerializeField] private Confirmable _ban;
+    [SerializeField] private Confirmable _pass;
+    [SerializeField] private Confirmable _break;
     [SerializeField] private Collider _judgeCollider;
 
-    [SerializeField] private Transform _banTransform;
-    [SerializeField] private Transform _passTransform;
-    [SerializeField] private Transform _breakTransform;
     [SerializeField] private float _moveSpeed;
-    
+
     private bool _selecting;
     private bool _confirming;
 
@@ -70,33 +67,33 @@ public class PlayerJudge : MonoBehaviour
             _animator.ResetTrigger("Confirm");
         }).AddTo(_disposable);
 
-        _banCollider.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
+        _ban.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
 
-        _passCollider.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
-        _breakCollider.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
+        _pass.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
+        _break.OnMouseDownAsObservable().Subscribe(_ => { Confirm(); }).AddTo(_disposable);
 
-        _banCollider.OnMouseEnterAsObservable().Subscribe(_ =>
+        _ban.OnMouseEnterAsObservable().Subscribe(_ =>
         {
             if (!_selecting)
                 return;
             _moveTween?.Kill();
-            _moveTween = transform.DOMove(_banTransform.position, _moveSpeed).SetEase(_moveEase);
+            _moveTween = transform.DOMove(_ban.JudgeTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
 
-        _passCollider.OnMouseEnterAsObservable().Subscribe(_ =>
+        _pass.OnMouseEnterAsObservable().Subscribe(_ =>
         {
             if (!_selecting)
                 return;
             _moveTween?.Kill();
-            _moveTween = transform.DOMove(_passTransform.position, _moveSpeed).SetEase(_moveEase);
+            _moveTween = transform.DOMove(_pass.JudgeTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
 
-        _breakCollider.OnMouseEnterAsObservable().Subscribe(_ =>
+        _break.OnMouseEnterAsObservable().Subscribe(_ =>
         {
             if (!_selecting)
                 return;
             _moveTween?.Kill();
-            _moveTween = transform.DOMove(_breakTransform.position, _moveSpeed).SetEase(_moveEase);
+            _moveTween = transform.DOMove(_break.JudgeTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
     }
 
