@@ -25838,11 +25838,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveEase: 35
   _animator: {fileID: 288491290}
-  _banCollider: {fileID: 2029633758}
-  _passCollider: {fileID: 1478496558}
+  _judgeAnimator: {fileID: 0}
+  _ban: {fileID: 0}
+  _pass: {fileID: 0}
+  _break: {fileID: 0}
   _judgeCollider: {fileID: 413600713}
-  _banTransform: {fileID: 1573494992}
-  _passTransform: {fileID: 2037518878}
   _moveSpeed: 0.3
 --- !u!4 &1319490632 stripped
 Transform:
