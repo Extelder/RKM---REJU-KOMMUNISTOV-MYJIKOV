@@ -99,6 +99,9 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="Reception" t="Include">
+            <e p="source" t="Include" />
+          </e>
           <e p="Watch" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -107,6 +110,10 @@
             <e p="source" t="Include" />
           </e>
           <e p="WaterGun'" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Worker" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -986,6 +993,7 @@
           <e p="Loading_Profiles" t="Include" />
           <e p="RKM OFFICE" t="Include" />
           <e p="RKM OFFICE_Profiles" t="Include" />
+          <e p="SECOND RKM OFFICE FLOOR" t="Include" />
         </e>
         <e p="ScifiOfficeLite" t="Include">
           <e p="meshes" t="Include">
@@ -1108,6 +1116,7 @@
           <e p="Environment" t="Include">
             <e p="ChangeSceneDoor.cs" t="Include" />
             <e p="Elevator" t="Include">
+              <e p="ChangeSceneButton.cs" t="Include" />
               <e p="OpenCloseElevatorTrigger.cs" t="Include" />
             </e>
           </e>
@@ -1173,6 +1182,7 @@
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
             <e p="Trigger" t="Include">
+              <e p="AnimatorBoolTrigger.cs" t="Include" />
               <e p="AnimatorTrigger.cs" t="Include" />
             </e>
           </e>
