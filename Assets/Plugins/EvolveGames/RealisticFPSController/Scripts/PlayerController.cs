@@ -123,31 +123,31 @@ namespace EvolveGames
                 else cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, InstallFOV, SpeedToFOV * Time.deltaTime);
             }
 
-            if (Input.GetKey(CroughKey))
-            {
-                isCrough = true;
-                float Height = Mathf.Lerp(characterController.height, CroughHeight, 5 * Time.deltaTime);
-                characterController.height = Height;
-                WalkingValue = Mathf.Lerp(WalkingValue, CroughSpeed, 6 * Time.deltaTime);
-
-            }
-            else if (!Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.up), out CroughCheck, 0.8f, 1))
-            {
-                if (characterController.height != InstallCroughHeight)
-                {
-                    isCrough = false;
-                    float Height = Mathf.Lerp(characterController.height, InstallCroughHeight, 6 * Time.deltaTime);
-                    characterController.height = Height;
-                    WalkingValue = Mathf.Lerp(WalkingValue, walkingSpeed, 4 * Time.deltaTime);
-                }
-            }
-
-            if(WallDistance != Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt) && CanHideDistanceWall)
-            {
-                WallDistance = Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt);
-                Items.ani.SetBool("Hide", WallDistance);
-                Items.DefiniteHide = WallDistance;
-            }
+            // if (Input.GetKey(CroughKey))
+            // {
+            //     isCrough = true;
+            //     float Height = Mathf.Lerp(characterController.height, CroughHeight, 5 * Time.deltaTime);
+            //     characterController.height = Height;
+            //     WalkingValue = Mathf.Lerp(WalkingValue, CroughSpeed, 6 * Time.deltaTime);
+            //
+            // }
+            // else if (!Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.up), out CroughCheck, 0.8f, 1))
+            // {
+            //     if (characterController.height != InstallCroughHeight)
+            //     {
+            //         isCrough = false;
+            //         float Height = Mathf.Lerp(characterController.height, InstallCroughHeight, 6 * Time.deltaTime);
+            //         characterController.height = Height;
+            //         WalkingValue = Mathf.Lerp(WalkingValue, walkingSpeed, 4 * Time.deltaTime);
+            //     }
+            // }
+            //
+            // if(WallDistance != Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt) && CanHideDistanceWall)
+            // {
+            //     WallDistance = Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt);
+            //     Items.ani.SetBool("Hide", WallDistance);
+            //     Items.DefiniteHide = WallDistance;
+            // }
         }
 
         private void OnTriggerEnter(Collider other)
