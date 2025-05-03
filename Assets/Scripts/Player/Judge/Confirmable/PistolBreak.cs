@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class PistolBreak : Confirmable
 {
-    [field: SerializeField] public Collider Collider { get; private set; }
+    [SerializeField] private Collider _collider;
+    [SerializeField] private GameObject _breakGlass;
+    [SerializeField] private GameObject _normalGlass;
+    [SerializeField] private Rigidbody[] _breakedParts;
+    [SerializeField] private float _breakedExplosionForce;
+
     [field: SerializeField] public override Transform JudgeTransform { get; protected set; }
 
-    public void Confirm()
+
+    public override void Confirme()
     {
+        Debug.LogError("Confirmed pistol");
+        _collider.enabled = false;
+        _breakGlass.SetActive(true);
+
+        for (int i = 0; i < _breakedParts.Length; i++)
+        {
+            _breakedParts[i].AddExplosionForce(_breakedExplosionForce, transform.position, 3);
+        }
+
+        _normalGlass.SetActive(false);
     }
 }

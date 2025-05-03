@@ -29,11 +29,12 @@ public class PlayerJudge : MonoBehaviour
 
     private Vector3 _defaultPosition;
 
+    private Confirmable _currentConfirmable;
+
     private void Start()
     {
         _defaultPosition = transform.position;
     }
-
 
     public void Confirm()
     {
@@ -46,6 +47,7 @@ public class PlayerJudge : MonoBehaviour
                 _animator.SetBool("IsSelecting", false);
                 _selecting = false;
                 _animator.SetTrigger("Confirm");
+                _currentConfirmable.Confirme();
             });
             return;
         }
@@ -55,6 +57,7 @@ public class PlayerJudge : MonoBehaviour
         _animator.SetBool("IsSelecting", false);
 
         _animator.SetTrigger("Confirm");
+        _currentConfirmable.Confirme();
     }
 
     private void OnEnable()
@@ -77,6 +80,7 @@ public class PlayerJudge : MonoBehaviour
             if (!_selecting)
                 return;
             _moveTween?.Kill();
+            _currentConfirmable = _ban;
             _moveTween = transform.DOMove(_ban.JudgeTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
 
@@ -85,6 +89,8 @@ public class PlayerJudge : MonoBehaviour
             if (!_selecting)
                 return;
             _moveTween?.Kill();
+            _currentConfirmable = _pass;
+
             _moveTween = transform.DOMove(_pass.JudgeTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
 
@@ -93,6 +99,8 @@ public class PlayerJudge : MonoBehaviour
             if (!_selecting)
                 return;
             _moveTween?.Kill();
+            _currentConfirmable = _break;
+
             _moveTween = transform.DOMove(_break.JudgeTransform.position, _moveSpeed).SetEase(_moveEase);
         }).AddTo(_disposable);
     }

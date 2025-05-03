@@ -5,4 +5,6 @@ using UnityEngine;
 public abstract class Confirmable : MonoBehaviour
 {
     [field:SerializeField] abstract public Transform JudgeTransform { get; protected set; }
+
+    public abstract void Confirme();
 }

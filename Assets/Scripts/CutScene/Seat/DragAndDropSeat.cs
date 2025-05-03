@@ -1,8 +1,6 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
-using EvolveGames;
 using UniRx;
 using UnityEngine;
 
@@ -24,7 +22,6 @@ public class DragAndDropSeat : MonoBehaviour, Iinteractable
 
     private Transform camera;
     private Vector3 cameraDefaultPosition;
-    private Vector3 cameraDefaultRotation;
 
     private void Awake()
     {
@@ -46,7 +43,6 @@ public class DragAndDropSeat : MonoBehaviour, Iinteractable
         PlayerCharacter.Instance.DisablePlayer();
 
         cameraDefaultPosition = camera.position;
-        cameraDefaultRotation = camera.eulerAngles;
 
         _moveTween = camera.DOMove(_cameraTarget.position, _moveSpeed).SetEase(_ease);
 
