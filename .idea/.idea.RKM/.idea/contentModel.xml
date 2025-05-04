@@ -35,8 +35,18 @@
           <e p="Prefabs Buttons" t="Include" />
           <e p="Prefabs Panel" t="Include" />
         </e>
+        <e p="Day-Night Skyboxes" t="Include">
+          <e p="Materials" t="Include" />
+          <e p="readme.txt" t="Include" />
+          <e p="Textures" t="Include">
+            <e p="Readme for Assigning.txt" t="Include" />
+          </e>
+        </e>
         <e p="Font" t="Include">
           <e p="OFL.txt" t="Include" />
+        </e>
+        <e p="KPP" t="Include">
+          <e p="Characters" t="Include" />
         </e>
         <e p="Materials" t="Include" />
         <e p="Models" t="Include">
@@ -47,6 +57,9 @@
           </e>
           <e p="Character" t="Include">
             <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Character 1" t="Include">
             <e p="Textures" t="Include" />
           </e>
           <e p="Elevator" t="Include">
@@ -102,6 +115,10 @@
           <e p="Reception" t="Include">
             <e p="source" t="Include" />
           </e>
+          <e p="Shotgun" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Watch" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -118,6 +135,10 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="ZOffice" t="Include" />
+          <e p="Zombie" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
         </e>
         <e p="NativeCursor" t="Include">
           <e p="Cursors" t="Include">
@@ -203,6 +224,156 @@
               <e p="VirtualCursor.cs" t="Include" />
               <e p="VirtualCursorBase.cs" t="Include" />
               <e p="VirtualCursorService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="NaughtyAttributes" t="Include">
+          <e p="package.json" t="Include" />
+          <e p="Samples" t="Include">
+            <e p="DemoScene" t="Include">
+              <e p="TestAssets" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Core" t="Include">
+              <e p="DrawerAttributes" t="Include">
+                <e p="AllowNestingAttribute.cs" t="Include" />
+                <e p="AnimatorParamAttribute.cs" t="Include" />
+                <e p="CurveRangeAttribute.cs" t="Include" />
+                <e p="DrawerAttribute.cs" t="Include" />
+                <e p="DropdownAttribute.cs" t="Include" />
+                <e p="EnumFlagsAttribute.cs" t="Include" />
+                <e p="Expandable.cs" t="Include" />
+                <e p="HorizontalLineAttribute.cs" t="Include" />
+                <e p="InfoBoxAttribute.cs" t="Include" />
+                <e p="InputAxisAttribute.cs" t="Include" />
+                <e p="LayerAttribute.cs" t="Include" />
+                <e p="MinMaxSliderAttribute.cs" t="Include" />
+                <e p="ProgressBarAttribute.cs" t="Include" />
+                <e p="ResizableTextAreaAttribute.cs" t="Include" />
+                <e p="SceneAttribute.cs" t="Include" />
+                <e p="ShowAssetPreviewAttribute.cs" t="Include" />
+                <e p="SortingLayerAttribute.cs" t="Include" />
+                <e p="TagAttribute.cs" t="Include" />
+              </e>
+              <e p="DrawerAttributes_SpecialCase" t="Include">
+                <e p="ButtonAttribute.cs" t="Include" />
+                <e p="ReorderableListAttribute.cs" t="Include" />
+                <e p="ShowNativePropertyAttribute.cs" t="Include" />
+                <e p="ShowNonSerializedFieldAttribute.cs" t="Include" />
+                <e p="SpecialCaseDrawerAttribute.cs" t="Include" />
+              </e>
+              <e p="INaughtyAttribute.cs" t="Include" />
+              <e p="MetaAttributes" t="Include">
+                <e p="BoxGroupAttribute.cs" t="Include" />
+                <e p="DisableIfAttribute.cs" t="Include" />
+                <e p="EnableIfAttribute.cs" t="Include" />
+                <e p="EnableIfAttributeBase.cs" t="Include" />
+                <e p="FoldoutAttribute.cs" t="Include" />
+                <e p="HideIfAttribute.cs" t="Include" />
+                <e p="IGroupAttribute.cs" t="Include" />
+                <e p="LabelAttribute.cs" t="Include" />
+                <e p="MetaAttribute.cs" t="Include" />
+                <e p="OnValueChangedAttribute.cs" t="Include" />
+                <e p="ReadOnlyAttribute.cs" t="Include" />
+                <e p="ShowIfAttribute.cs" t="Include" />
+                <e p="ShowIfAttributeBase.cs" t="Include" />
+              </e>
+              <e p="NaughtyAttributes.Core.asmdef" t="Include" />
+              <e p="Utility" t="Include">
+                <e p="EColor.cs" t="Include" />
+                <e p="EConditionOperator.cs" t="Include" />
+              </e>
+              <e p="ValidatorAttributes" t="Include">
+                <e p="MaxValueAttribute.cs" t="Include" />
+                <e p="MinValueAttribute.cs" t="Include" />
+                <e p="RequiredAttribute.cs" t="Include" />
+                <e p="ValidateInputAttribute.cs" t="Include" />
+                <e p="ValidatorAttribute.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="DecoratorDrawers" t="Include">
+                <e p="HorizontalLineDecoratorDrawer.cs" t="Include" />
+                <e p="InfoBoxDecoratorDrawer.cs" t="Include" />
+              </e>
+              <e p="NaughtyAttributes.Editor.asmdef" t="Include" />
+              <e p="NaughtyInspector.cs" t="Include" />
+              <e p="PropertyDrawers" t="Include">
+                <e p="AllowNestingPropertyDrawer.cs" t="Include" />
+                <e p="AnimatorParamPropertyDrawer.cs" t="Include" />
+                <e p="CurveRangePropertyDrawer.cs" t="Include" />
+                <e p="DropdownPropertyDrawer.cs" t="Include" />
+                <e p="EnumFlagsPropertyDrawer.cs" t="Include" />
+                <e p="ExpandablePropertyDrawer.cs" t="Include" />
+                <e p="InputAxisPropertyDrawer.cs" t="Include" />
+                <e p="LayerPropertyDrawer.cs" t="Include" />
+                <e p="MinMaxSliderPropertyDrawer.cs" t="Include" />
+                <e p="ProgressBarPropertyDrawer.cs" t="Include" />
+                <e p="PropertyDrawerBase.cs" t="Include" />
+                <e p="ResizableTextAreaPropertyDrawer.cs" t="Include" />
+                <e p="ScenePropertyDrawer.cs" t="Include" />
+                <e p="ShowAssetPreviewPropertyDrawer.cs" t="Include" />
+                <e p="SortingLayerPropertyDrawer.cs" t="Include" />
+                <e p="TagPropertyDrawer.cs" t="Include" />
+              </e>
+              <e p="PropertyDrawers_SpecialCase" t="Include">
+                <e p="ReorderableListPropertyDrawer.cs" t="Include" />
+                <e p="SpecialCasePropertyDrawerBase.cs" t="Include" />
+              </e>
+              <e p="PropertyValidators" t="Include">
+                <e p="MaxValuePropertyValidator.cs" t="Include" />
+                <e p="MinValuePropertyValidator.cs" t="Include" />
+                <e p="PropertyValidatorBase.cs" t="Include" />
+                <e p="RequiredPropertyValidator.cs" t="Include" />
+                <e p="ValidateInputPropertyValidator.cs" t="Include" />
+              </e>
+              <e p="Utility" t="Include">
+                <e p="ButtonUtility.cs" t="Include" />
+                <e p="NaughtyEditorGUI.cs" t="Include" />
+                <e p="PropertyUtility.cs" t="Include" />
+                <e p="ReflectionUtility.cs" t="Include" />
+                <e p="SavedBool.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Test" t="Include">
+              <e p="_NaughtyComponent.cs" t="Include" />
+              <e p="_NaughtyScriptableObject.cs" t="Include" />
+              <e p="_TestScriptableObjectA.cs" t="Include" />
+              <e p="_TestScriptableObjectB.cs" t="Include" />
+              <e p="AnimatorParamTest.cs" t="Include" />
+              <e p="BoxGroupTest.cs" t="Include" />
+              <e p="ButtonTest.cs" t="Include" />
+              <e p="CurveRangeTest.cs" t="Include" />
+              <e p="DisableIfTest.cs" t="Include" />
+              <e p="DropdownTest.cs" t="Include" />
+              <e p="EnableIfTest.cs" t="Include" />
+              <e p="EnumFlagsTest.cs" t="Include" />
+              <e p="ExpandableTest.cs" t="Include" />
+              <e p="FoldoutTest.cs" t="Include" />
+              <e p="HideIfTest.cs" t="Include" />
+              <e p="HorizontalLineTest.cs" t="Include" />
+              <e p="InfoBoxTest.cs" t="Include" />
+              <e p="InputAxisTest.cs" t="Include" />
+              <e p="LabelTest.cs" t="Include" />
+              <e p="LayerTest.cs" t="Include" />
+              <e p="MinMaxSliderTest.cs" t="Include" />
+              <e p="MinMaxValueTest.cs" t="Include" />
+              <e p="NaughtyAttributes.Test.asmdef" t="Include" />
+              <e p="OnValueChangedTest.cs" t="Include" />
+              <e p="ProgressBarTest.cs" t="Include" />
+              <e p="ReadOnlyTest.cs" t="Include" />
+              <e p="ReorderableListTest.cs" t="Include" />
+              <e p="RequiredTest.cs" t="Include" />
+              <e p="ResizableTextAreaTest.cs" t="Include" />
+              <e p="SceneTest.cs" t="Include" />
+              <e p="ShowAssetPreviewTest.cs" t="Include" />
+              <e p="ShowIfTest.cs" t="Include" />
+              <e p="ShowNativePropertyTest.cs" t="Include" />
+              <e p="ShowNonSerializedFieldTest.cs" t="Include" />
+              <e p="SortingLayerTest.cs" t="Include" />
+              <e p="TagTest.cs" t="Include" />
+              <e p="ValidateInputTest.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -448,6 +619,25 @@
             <e p="license_unity.txt" t="Include" />
           </e>
           <e p="_TerrainAutoUpgrade" t="Include" />
+          <e p="BigRookGames" t="Include">
+            <e p="_AssetPacks" t="Include">
+              <e p="Stylized Weapon Pack" t="Include">
+                <e p="M4 Scoped Assault Rifle" t="Include">
+                  <e p="Audio" t="Include" />
+                  <e p="Materials" t="Include">
+                    <e p="Mobile" t="Include" />
+                  </e>
+                  <e p="Models" t="Include" />
+                  <e p="Prefabs" t="Include" />
+                  <e p="readme.txt" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="GunfireController.cs" t="Include" />
+                  </e>
+                  <e p="Textures" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Blink" t="Include">
             <e p="Art" t="Include">
               <e p="Animations" t="Include">
@@ -1122,6 +1312,13 @@
           </e>
           <e p="KPP" t="Include">
             <e p="Character.cs" t="Include" />
+            <e p="CharacterGenerator.cs" t="Include" />
+            <e p="KPPCharacter.cs" t="Include" />
+            <e p="Shotgun" t="Include">
+              <e p="KPPShotgun.cs" t="Include" />
+              <e p="ShotgunShake.cs" t="Include" />
+              <e p="ShotgunVFX.cs" t="Include" />
+            </e>
           </e>
           <e p="Loading" t="Include">
             <e p="Loading.cs" t="Include" />
@@ -6045,6 +6242,11 @@
       <e p="NativeCursor.GUI.Editor.csproj" t="IncludeRecursive" />
       <e p="NativeCursor.Runtime.csproj" t="IncludeRecursive" />
       <e p="NativeCursor.Runtime.Player.csproj" t="IncludeRecursive" />
+      <e p="NaughtyAttributes.Core.csproj" t="IncludeRecursive" />
+      <e p="NaughtyAttributes.Core.Player.csproj" t="IncludeRecursive" />
+      <e p="NaughtyAttributes.Editor.csproj" t="IncludeRecursive" />
+      <e p="NaughtyAttributes.Test.csproj" t="IncludeRecursive" />
+      <e p="NaughtyAttributes.Test.Player.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="OverloadedFunctionPointers.csproj" t="IncludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
