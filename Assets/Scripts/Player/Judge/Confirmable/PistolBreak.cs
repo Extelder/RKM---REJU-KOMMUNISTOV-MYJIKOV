@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,9 +13,11 @@ public class PistolBreak : Confirmable
 
     [field: SerializeField] public override Transform JudgeTransform { get; protected set; }
 
+    public event Action Confirmed;
 
     public override void Confirme()
     {
+        Confirmed.Invoke();
         Debug.LogError("Confirmed pistol");
         _collider.enabled = false;
         _breakGlass.SetActive(true);

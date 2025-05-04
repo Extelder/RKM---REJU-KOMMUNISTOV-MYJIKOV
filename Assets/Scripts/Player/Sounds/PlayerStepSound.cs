@@ -13,11 +13,13 @@ public class PlayerStepSound : MonoBehaviour
     [SerializeField] private AudioClip _officeStepSound;
     [SerializeField] private AudioClip _defaultStepSound;
     [SerializeField] private int _officeSceneIndex;
+    [SerializeField] private int _secondFloorOfficeSceneIndex;
     private CompositeDisposable _compositeDisposable = new CompositeDisposable();
 
     private void OnEnable()
     {
-        if (SceneManager.GetActiveScene().buildIndex == _officeSceneIndex)
+        if (SceneManager.GetActiveScene().buildIndex == _officeSceneIndex ||
+            SceneManager.GetActiveScene().buildIndex == _secondFloorOfficeSceneIndex)
         {
             _stepSound.clip = _officeStepSound;
         }

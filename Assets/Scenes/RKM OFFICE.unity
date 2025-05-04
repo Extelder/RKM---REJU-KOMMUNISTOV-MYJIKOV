@@ -19765,6 +19765,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6234229979466372487, guid: 0022f5849181d5541b9d4737133bfa44,
+        type: 3}
+      propertyPath: _secondFloorOfficeSceneIndex
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8102424094918124269, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: CroughKey
