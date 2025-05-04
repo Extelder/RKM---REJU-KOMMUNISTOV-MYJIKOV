@@ -14,6 +14,14 @@ public enum Casta
     Музыкант = 4
 }
 
+public enum Sex
+{
+    Муж = 1,
+    Жен = 2,
+    А = 3,
+    Оно = 4
+}
+
 [CreateAssetMenu(menuName = "KPP/Character")]
 public class Character : ScriptableObject
 {
@@ -21,6 +29,7 @@ public class Character : ScriptableObject
 
     public string Name;
     public Casta Casta;
+    public Sex Sex;
     public bool _inoagent;
     public string BirthdayDate = "00.00.0000";
     public Pakost[] _pakosti;
@@ -33,6 +42,7 @@ public class Character : ScriptableObject
         Name = CharacterGenerator.PoolNames[Random.Range(0, CharacterGenerator.PoolNames.Length)];
         name = Name;
         Casta = (Casta) Random.Range(1, Enum.GetNames(typeof(Casta)).Length);
+        Sex = (Sex) Random.Range(1, Enum.GetNames(typeof(Sex)).Length);
         if (Random.value >= 0.7)
             _inoagent = true;
         else
