@@ -57,6 +57,8 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Logs</Path>
+      <Path>R</Path>
+      <Path>RKM</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
