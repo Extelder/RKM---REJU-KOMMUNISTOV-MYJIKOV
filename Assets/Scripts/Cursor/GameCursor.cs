@@ -12,6 +12,8 @@ public struct CursorState
 
 public class GameCursor : MonoBehaviour
 {
+    [SerializeField] private Texture2D _cursor;
+
     public static GameCursor Instance { get; private set; }
 
     public CursorState PrevCursorState;
@@ -29,8 +31,10 @@ public class GameCursor : MonoBehaviour
         Debug.Break();
     }
 
-    private void OnEnable()
+    private void Start()
     {
+        Cursor.SetCursor(_cursor, new Vector2(0, 0), CursorMode.ForceSoftware);
+
         Hide();
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {

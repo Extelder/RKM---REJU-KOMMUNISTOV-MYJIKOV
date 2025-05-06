@@ -8,6 +8,7 @@ public class KPPShotgun : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private string _shootTrigger;
     [SerializeField] private string _takeOutTrigger;
+    [SerializeField] private AudioSource _clearBoxSound;
 
     [SerializeField] private PistolBreak _pistol;
 
@@ -31,6 +32,11 @@ public class KPPShotgun : MonoBehaviour
     public void PerformShoot()
     {
         Shooted?.Invoke();
+    }
+
+    public void ClearBoxSound()
+    {
+        _clearBoxSound.Play();
     }
 
     public void OnConfirmed()

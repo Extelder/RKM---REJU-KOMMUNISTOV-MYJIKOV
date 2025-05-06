@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc43b56954dd1d142900749df34dab7e, type: 3}
-  m_Name: "\u0418\u0433\u043E\u0440\u044C"
+  m_Name: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 11400000, guid: 6a6b51e6ab6d32b4bba507ef1074d18b, type: 2}
-  Name: "\u0418\u0433\u043E\u0440\u044C"
-  Casta: 2
-  Sex: 1
-  _inoagent: 1
-  BirthdayDate: 13.9.1990
+  Name: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+  Casta: 3
+  Sex: 3
+  _inoagent: 0
+  BirthdayDate: 9.1.2004
   _pakosti:
+  - Name: "\u041A\u0443\u0440\u0438\u043B \u0432 \u0448\u043A\u043E\u043B\u0435"
+    Color: {r: 1, g: 0, b: 0, a: 1}
   - Name: "\u0420\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u0435
       \u041B\u0413\u0411\u0422"
     Color: {r: 1, g: 0, b: 0.87803173, a: 1}
-  - Name: "\u0410\u043D\u0442\u0438\u0432\u043E\u0435\u043D\u043D\u044B\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F"
-    Color: {r: 0, g: 0, b: 0, a: 1}
   News:
     Title: dawdaw
     Data: 23.23

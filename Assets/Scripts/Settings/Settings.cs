@@ -78,8 +78,8 @@ public class Settings : MonoBehaviour
         bool fullScreen = Convert.ToBoolean(PlayerPrefs.GetInt("FullScreen", 1));
         Screen.SetResolution(PlayerPrefs.GetInt("Width"), PlayerPrefs.GetInt("Height"), fullScreen);
         SetResolutionReady();
-        BootstrapDisplay();
-        Display.displays[PlayerPrefs.GetInt("Display", _monitorIndex)].Activate();
+      //  BootstrapDisplay();
+      //  Display.displays[PlayerPrefs.GetInt("Display", _monitorIndex)].Activate();
         Screen.fullScreen = fullScreen;
         if (fullScreen)
         {

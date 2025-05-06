@@ -30,6 +30,7 @@ public class PlayerCharacter : MonoBehaviour
 
     public void DisablePlayer()
     {
+        GameCursor.Instance.ToPrevState();
         _sounds.SetActive(false);
         _controller.enabled = false;
         _characterController.enabled = false;
