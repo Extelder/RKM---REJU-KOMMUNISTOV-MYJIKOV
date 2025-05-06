@@ -62,7 +62,15 @@
           <e p="Character 1" t="Include">
             <e p="Textures" t="Include" />
           </e>
+          <e p="Dog" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Elevator" t="Include">
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="FactoryMachine" t="Include">
+            <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
           <e p="Frame" t="Include">
@@ -86,6 +94,10 @@
             </e>
             <e p="Textures" t="Include" />
           </e>
+          <e p="Manhole" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Monitor" t="Include">
             <e p="source" t="Include">
               <e p="read.txt" t="Include" />
@@ -107,6 +119,13 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="Passport" t="Include">
+            <e p="source" t="Include">
+              <e p="Custom" t="Include" />
+              <e p="Textures" t="Include" />
+            </e>
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Piss" t="Include" />
           <e p="Radio" t="Include">
             <e p="source" t="Include" />
@@ -116,6 +135,14 @@
             <e p="source" t="Include" />
           </e>
           <e p="Shotgun" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Stool" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Tv" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -1313,16 +1340,23 @@
           <e p="KPP" t="Include">
             <e p="Character.cs" t="Include" />
             <e p="CharacterGenerator.cs" t="Include" />
+            <e p="DragAndDropItemSound.cs" t="Include" />
             <e p="KPPCharacter.cs" t="Include" />
+            <e p="Passport" t="Include">
+              <e p="Passport.cs" t="Include" />
+              <e p="PassportDragAndDrop.cs" t="Include" />
+            </e>
             <e p="Shotgun" t="Include">
               <e p="KPPShotgun.cs" t="Include" />
               <e p="ShotgunShake.cs" t="Include" />
+              <e p="ShotgunSound.cs" t="Include" />
               <e p="ShotgunVFX.cs" t="Include" />
             </e>
           </e>
           <e p="Loading" t="Include">
             <e p="Loading.cs" t="Include" />
           </e>
+          <e p="LookAt" t="Include" />
           <e p="News" t="Include">
             <e p="NewsContainer.cs" t="Include" />
             <e p="Newspaper.cs" t="Include" />
@@ -1363,7 +1397,10 @@
                 <e p="BanConfirm.cs" t="Include" />
                 <e p="Confirmable.cs" t="Include" />
                 <e p="PassConfirm.cs" t="Include" />
-                <e p="PistolBreak.cs" t="Include" />
+                <e p="Pistol" t="Include">
+                  <e p="PistolBreak.cs" t="Include" />
+                  <e p="PistolBreakSound.cs" t="Include" />
+                </e>
               </e>
               <e p="PlayerJudge.cs" t="Include" />
               <e p="PlayerJudgeAnimator.cs" t="Include" />
@@ -1375,12 +1412,12 @@
               <e p="RadioStopMusicObject.cs" t="Include" />
             </e>
             <e p="Sounds" t="Include">
-              <e p="PlayerPickAndDropItem.cs" t="Include" />
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
             <e p="Trigger" t="Include">
               <e p="AnimatorBoolTrigger.cs" t="Include" />
               <e p="AnimatorTrigger.cs" t="Include" />
+              <e p="DogTrigger.cs" t="Include" />
             </e>
           </e>
           <e p="Prank" t="Include">
@@ -1412,6 +1449,11 @@
           <e p="Ambience" t="Include" />
           <e p="Enviroment" t="Include">
             <e p="Jarahov" t="Include" />
+          </e>
+          <e p="KPP" t="Include">
+            <e p="GlassBreak" t="Include" />
+            <e p="Paper" t="Include" />
+            <e p="Pistol" t="Include" />
           </e>
           <e p="Music" t="Include" />
           <e p="Piiss" t="Include" />
@@ -1574,6 +1616,7 @@
             <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
+        <e p="Videos" t="Include" />
       </e>
       <e p="DocCodeExamples.csproj" t="IncludeRecursive" />
       <e p="Library" t="Include">
