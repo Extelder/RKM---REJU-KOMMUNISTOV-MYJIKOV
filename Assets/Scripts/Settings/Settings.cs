@@ -79,7 +79,16 @@ public class Settings : MonoBehaviour
         Screen.SetResolution(PlayerPrefs.GetInt("Width"), PlayerPrefs.GetInt("Height"), fullScreen);
         SetResolutionReady();
       //  BootstrapDisplay();
-      //  Display.displays[PlayerPrefs.GetInt("Display", _monitorIndex)].Activate();
+
+        // if (PlayerPrefs.GetInt("Display") == -1)
+        // {
+        //     Display.main.Activate();
+        // }
+        // else
+        // {
+        //     Display.displays[PlayerPrefs.GetInt("Display", _monitorIndex)].Activate();
+        // }
+
         Screen.fullScreen = fullScreen;
         if (fullScreen)
         {
@@ -210,9 +219,10 @@ public class Settings : MonoBehaviour
         _monitorCount = Display.displays.Length;
         if (_monitorCount <= 1)
         {
-            Display.displays[0].Activate();
+            Display.main.Activate();
             string displayName = "Display" + " " + _monitorIndex;
             display.Add(displayName);
+            PlayerPrefs.SetInt("Display", -1);
         }
         else
         {
@@ -227,13 +237,14 @@ public class Settings : MonoBehaviour
                     Display.displays[i].SetRenderingResolution(Display.displays[i].systemWidth,
                         Display.displays[i].systemHeight);
                 }
+
+                PlayerPrefs.SetInt("Display", _monitorIndex);
             }
         }
 
         _displayDropdown.AddOptions(display);
         _displayDropdown.value = _monitorCount;
         _displayDropdown.RefreshShownValue();
-        PlayerPrefs.SetInt("Display", _monitorIndex);
     }
 
     public void SwitchDisplay(int displayIndex)
