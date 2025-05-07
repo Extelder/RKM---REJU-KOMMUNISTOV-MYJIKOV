@@ -1356,7 +1356,6 @@
           <e p="Loading" t="Include">
             <e p="Loading.cs" t="Include" />
           </e>
-          <e p="LookAt" t="Include" />
           <e p="News" t="Include">
             <e p="NewsContainer.cs" t="Include" />
             <e p="Newspaper.cs" t="Include" />
@@ -1414,10 +1413,17 @@
             <e p="Sounds" t="Include">
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
+            <e p="Time" t="Include">
+              <e p="PlayerTime.cs" t="Include" />
+              <e p="PlayerWatchesTime.cs" t="Include" />
+            </e>
             <e p="Trigger" t="Include">
               <e p="AnimatorBoolTrigger.cs" t="Include" />
               <e p="AnimatorTrigger.cs" t="Include" />
-              <e p="DogTrigger.cs" t="Include" />
+              <e p="PlayVideoOnTriggerEnterExit.cs" t="Include" />
+            </e>
+            <e p="Watches" t="Include">
+              <e p="PlayerWatches.cs" t="Include" />
             </e>
           </e>
           <e p="Prank" t="Include">
@@ -1448,6 +1454,8 @@
         <e p="Sounds" t="Include">
           <e p="Ambience" t="Include" />
           <e p="Enviroment" t="Include">
+            <e p="Dog" t="Include" />
+            <e p="Elevator" t="Include" />
             <e p="Jarahov" t="Include" />
           </e>
           <e p="KPP" t="Include">
