@@ -11,11 +11,39 @@ public class PassportDragAndDrop : MonoBehaviour
     [SerializeField] private Collider _closeCollider;
 
     [SerializeField] private DragAndDropObject _dragAndDropObject;
+    [SerializeField] private PlayerDragAndDrop _dragAndDrop;
+    [SerializeField] private ParticleSystem _fire;
+    [SerializeField] private float _fireTime;
+
+    private Vector3 _defaultPoint;
+
+    private void Awake()
+    {
+        _defaultPoint = transform.position;
+    }
 
     private void OnEnable()
     {
+        _dragAndDrop.Character.Dead += OnCharacterDead;
         _dragAndDropObject.PickedUp += OnPickuped;
         _dragAndDropObject.DropedDown += OnDropedDown;
+    }
+
+    private void OnCharacterDead()
+    {
+        
+        Debug.LogError("Fire");
+        StopAllCoroutines();
+        _fire.Play();
+        StartCoroutine(Firing());
+    }
+
+    private IEnumerator Firing()
+    {
+        yield return new WaitForSeconds(_fireTime);
+        _fire.Stop();
+        transform.position = _defaultPoint;
+        gameObject.SetActive(false);
     }
 
     private void OnPickuped()
@@ -34,6 +62,7 @@ public class PassportDragAndDrop : MonoBehaviour
 
     private void OnDisable()
     {
+        _dragAndDrop.Character.Dead -= OnCharacterDead;
         _dragAndDropObject.PickedUp -= OnPickuped;
         _dragAndDropObject.DropedDown -= OnDropedDown;
     }

@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class KPPShotgun : MonoBehaviour
 {
+    [SerializeField] private PlayerDragAndDrop _dragAndDrop;
+    [field: SerializeField] public Transform ShootPivot { get; private set; }
+
     [SerializeField] private Animator _animator;
     [SerializeField] private string _shootTrigger;
     [SerializeField] private string _takeOutTrigger;
@@ -31,6 +34,7 @@ public class KPPShotgun : MonoBehaviour
 
     public void PerformShoot()
     {
+        _dragAndDrop.Character.OnShoot();
         Shooted?.Invoke();
     }
 

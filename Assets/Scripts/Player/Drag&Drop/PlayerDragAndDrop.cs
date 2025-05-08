@@ -9,8 +9,9 @@ public class PlayerDragAndDrop : MonoBehaviour
     [SerializeField] private Texture2D _grabCursor;
     [SerializeField] private Texture2D _tryGrabCursor;
     [SerializeField] private Texture2D _defaultCursor;
+    [SerializeField] private GameObject _bell;
 
-    [SerializeField] private Camera _camera;
+    [field: SerializeField] public Camera Camera { get; private set; }
     [SerializeField] private LayerMask _mask;
     [SerializeField] private float _range;
     [SerializeField] private float _dragSpeed;
@@ -22,9 +23,30 @@ public class PlayerDragAndDrop : MonoBehaviour
 
     private CompositeDisposable _disposable = new CompositeDisposable();
 
+    public KPPCharacter Character { get; set; }
+
+    public static PlayerDragAndDrop Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (!Instance)
+        {
+            Instance = this;
+            return;
+        }
+
+        Debug.LogError("There`s one more PlayerDragAndDrop");
+        Debug.Break();
+    }
+
+    private void Start()
+    {
+        _bell.GetComponent<Collider>().enabled = true;
+    }
+
     private void OnDrawGizmos()
     {
-        Gizmos.DrawRay(_camera.ScreenPointToRay(Input.mousePosition));
+        Gizmos.DrawRay(Camera.ScreenPointToRay(Input.mousePosition));
     }
 
     public void ObjectEntered(DragAndDropObject dragAndDropObject)
@@ -67,7 +89,7 @@ public class PlayerDragAndDrop : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, _range, _mask))
         {
