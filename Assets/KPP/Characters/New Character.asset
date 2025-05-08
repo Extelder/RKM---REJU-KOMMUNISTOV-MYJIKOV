@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 11400000, guid: 6a6b51e6ab6d32b4bba507ef1074d18b, type: 2}
   Name: "\u041C\u0438\u0440\u043E\u043D"
-  Casta: 2
-  Sex: 3
-  _inoagent: 1
-  BirthdayDate: 28.2.1997
+  Casta: 1
+  Sex: 2
+  _inoagent: 0
+  BirthdayDate: 23.2.2004
   _pakosti:
+  - Name: "\u041A\u0443\u0440\u0438\u043B \u0432 \u0448\u043A\u043E\u043B\u0435"
+    Color: {r: 1, g: 0, b: 0, a: 1}
   - Name: "\u0410\u043D\u0442\u0438\u0432\u043E\u0435\u043D\u043D\u044B\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F"
     Color: {r: 0, g: 0, b: 0, a: 1}
   News:

@@ -18,6 +18,7 @@
               <e p="Guide" t="Include" />
             </e>
             <e p="Sit" t="Include" />
+            <e p="SitSofa" t="Include" />
           </e>
           <e p="Elevator" t="Include" />
           <e p="Jarahov" t="Include" />
@@ -1325,6 +1326,7 @@
             </e>
             <e p="Seat" t="Include">
               <e p="DragAndDropSeat.cs" t="Include" />
+              <e p="PlayerSeatPlace.cs" t="Include" />
             </e>
           </e>
           <e p="Door" t="Include">
@@ -1338,10 +1340,21 @@
             </e>
           </e>
           <e p="KPP" t="Include">
-            <e p="Character.cs" t="Include" />
-            <e p="CharacterGenerator.cs" t="Include" />
-            <e p="DragAndDropItemSound.cs" t="Include" />
-            <e p="KPPCharacter.cs" t="Include" />
+            <e p="Character" t="Include">
+              <e p="Character.cs" t="Include" />
+              <e p="CharacterGenerator.cs" t="Include" />
+              <e p="KPPCharacterAnimator.cs" t="Include" />
+              <e p="StateMachine" t="Include">
+                <e p="KPPCharacter.cs" t="Include" />
+                <e p="KPPCharacterAnimatorState.cs" t="Include" />
+                <e p="KPPCharacterGoToTableState.cs" t="Include" />
+                <e p="KPPCharacterIdleState.cs" t="Include" />
+                <e p="KPPCharacterStateMachine.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DragAndRop" t="Include">
+              <e p="DragAndDropItemSound.cs" t="Include" />
+            </e>
             <e p="Passport" t="Include">
               <e p="Passport.cs" t="Include" />
               <e p="PassportDragAndDrop.cs" t="Include" />
@@ -1361,6 +1374,9 @@
             <e p="Newspaper.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="Camera" t="Include">
+              <e p="CameraMovement.cs" t="Include" />
+            </e>
             <e p="Character" t="Include">
               <e p="Animator" t="Include">
                 <e p="CharacterAnimator.cs" t="Include" />
@@ -1410,6 +1426,9 @@
               <e p="RadioMusicSwitcherObject.cs" t="Include" />
               <e p="RadioStopMusicObject.cs" t="Include" />
             </e>
+            <e p="Seat" t="Include">
+              <e p="SeatCamera.cs" t="Include" />
+            </e>
             <e p="Sounds" t="Include">
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
@@ -1439,6 +1458,10 @@
           <e p="Sounds" t="Include">
             <e p="PlayStopSound.cs" t="Include" />
             <e p="PlayStopSoundOnTriggerEnterExit.cs" t="Include" />
+          </e>
+          <e p="StateMachine" t="Include">
+            <e p="State.cs" t="Include" />
+            <e p="StateMachine.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Disclaimer" t="Include">

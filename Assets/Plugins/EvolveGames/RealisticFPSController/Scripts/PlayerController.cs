@@ -51,7 +51,7 @@ namespace EvolveGames
         [HideInInspector] public Vector3 moveDirection = Vector3.zero;
         bool isCrough = false;
         float InstallCroughHeight;
-        float rotationX = 0;
+        public float rotationX = 0;
         [HideInInspector] public bool isRunning = false;
         Vector3 InstallCameraMovement;
         float InstallFOV;

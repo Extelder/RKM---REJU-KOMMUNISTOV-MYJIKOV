@@ -22,19 +22,12 @@
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Close.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevetor.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevetor.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jarahov/JarahovMove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jarahov/JarahovMove.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Loading.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/Elevator/ChangeSceneButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/Elevator/ChangeSceneButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/New Character.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/DogTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/DogTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayVideoOnTriggerEnterExit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -69,11 +65,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Arasaka/ArasakaCutScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Animator/CharacterAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" />
@@ -86,12 +80,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorBoolTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayVideoOnTriggerEnterExit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/Elevator/ChangeSceneButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Watches/PlayerWatches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerWatchesTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/SofaSeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" />
       </list>
     </option>
   </component>
@@ -148,6 +148,8 @@
       <workItem from="1746350601575" duration="1207000" />
       <workItem from="1746531162290" duration="7251000" />
       <workItem from="1746552519008" duration="1039000" />
+      <workItem from="1746640346144" duration="3413000" />
+      <workItem from="1746696226920" duration="4257000" />
     </task>
     <servers />
   </component>
