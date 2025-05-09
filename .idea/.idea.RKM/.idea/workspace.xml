@@ -22,12 +22,11 @@
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Character/source/office.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Character/source/office.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MainCharacter/source/untitled3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/MainCharacter/source/untitled3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayVideoOnTriggerEnterExit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera/Emotions/CameraThirdPersonEmote.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,6 +92,9 @@
         <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPersonMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPerson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/Emotions/CameraThirdPersonEmote.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +152,8 @@
       <workItem from="1746531162290" duration="7251000" />
       <workItem from="1746552519008" duration="1039000" />
       <workItem from="1746640346144" duration="3413000" />
-      <workItem from="1746696226920" duration="4257000" />
+      <workItem from="1746696226920" duration="4853000" />
+      <workItem from="1746782452526" duration="10488000" />
     </task>
     <servers />
   </component>
@@ -171,9 +175,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1746105572201">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1746785732501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1746105572201" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1746785732501" />
   </component>
 </project>
