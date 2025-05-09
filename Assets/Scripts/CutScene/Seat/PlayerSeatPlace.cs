@@ -23,9 +23,12 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
 
     private Transform camera;
     private Vector3 cameraDefaultPosition;
+    
+    public bool CanUseThirdPerson { get; private set; }
 
     private void Awake()
     {
+        CanUseThirdPerson = true;
         _collider = GetComponent<Collider>();
     }
 
@@ -48,6 +51,7 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
 
         _rotateTween = camera.DORotate(_cameraTarget.eulerAngles, _moveSpeed).SetEase(_ease).OnComplete(() =>
         {
+            CanUseThirdPerson = false;
             _cutSceneCamera.SetActive(true);
             _cutSceneAnimator.SetTrigger("Seat");
             _watches.SetActive(false);
@@ -96,13 +100,13 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
             _watches.SetActive(true);
             PlayerCharacter.Instance._controller.canMove = true;
             camera.localEulerAngles = new Vector3(0, 0, 0);
+            CanUseThirdPerson = true;
         });
     }
 
     private void OnDisable()
     {
         _disposable.Clear();
-
         _moveTween?.Kill();
         _rotateTween?.Kill();
     }

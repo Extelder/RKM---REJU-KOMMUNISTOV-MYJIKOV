@@ -51,6 +51,10 @@
         </e>
         <e p="Materials" t="Include" />
         <e p="Models" t="Include">
+          <e p="Bell" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="BreakToFire" t="Include" />
           <e p="Carpet" t="Include">
             <e p="source" t="Include" />
@@ -763,6 +767,20 @@
             <e p="Post Processing" t="Include" />
             <e p="Scenes" t="Include" />
           </e>
+          <e p="Hovl Studio" t="Include">
+            <e p="Procedural fire" t="Include">
+              <e p="Demo scene" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="Materials" t="Include" />
+              <e p="Prefabs" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="FireSphere.shader" t="Include" />
+              </e>
+              <e p="Textures" t="Include" />
+              <e p="URP and HDRP" t="Include" />
+            </e>
+          </e>
           <e p="MagicParticlesLite" t="Include">
             <e p="IMG" t="Include">
               <e p="ParticleMaterials" t="Include" />
@@ -1340,13 +1358,25 @@
             </e>
           </e>
           <e p="KPP" t="Include">
+            <e p="Bell.cs" t="Include" />
             <e p="Character" t="Include">
               <e p="Character.cs" t="Include" />
               <e p="CharacterGenerator.cs" t="Include" />
+              <e p="CharacterSpawner.cs" t="Include" />
+              <e p="Health" t="Include">
+                <e p="EnemyRagdollHealth.cs" t="Include" />
+                <e p="RagdollOperations.cs" t="Include" />
+                <e p="RigidbodyArrayOperations.cs" t="Include" />
+              </e>
               <e p="KPPCharacterAnimator.cs" t="Include" />
+              <e p="KPPCharacterMove.cs" t="Include" />
               <e p="StateMachine" t="Include">
                 <e p="KPPCharacter.cs" t="Include" />
                 <e p="KPPCharacterAnimatorState.cs" t="Include" />
+                <e p="KPPCharacterDeathState.cs" t="Include" />
+                <e p="KPPCharacterFlyOutLukeState.cs" t="Include" />
+                <e p="KPPCharacterGivePapers.cs" t="Include" />
+                <e p="KPPCharacterGoHomeState.cs" t="Include" />
                 <e p="KPPCharacterGoToTableState.cs" t="Include" />
                 <e p="KPPCharacterIdleState.cs" t="Include" />
                 <e p="KPPCharacterStateMachine.cs" t="Include" />
@@ -1355,6 +1385,7 @@
             <e p="DragAndRop" t="Include">
               <e p="DragAndDropItemSound.cs" t="Include" />
             </e>
+            <e p="Health" t="Include" />
             <e p="Passport" t="Include">
               <e p="Passport.cs" t="Include" />
               <e p="PassportDragAndDrop.cs" t="Include" />
@@ -1376,6 +1407,11 @@
           <e p="Player" t="Include">
             <e p="Camera" t="Include">
               <e p="CameraMovement.cs" t="Include" />
+              <e p="CameraThirdPerson.cs" t="Include" />
+              <e p="CameraThirdPersonMove.cs" t="Include" />
+              <e p="Emotions" t="Include">
+                <e p="CameraThirdPersonEmote.cs" t="Include" />
+              </e>
             </e>
             <e p="Character" t="Include">
               <e p="Animator" t="Include">
@@ -1397,6 +1433,7 @@
             <e p="Drag&amp;Drop" t="Include">
               <e p="DragAndDropBarrier.cs" t="Include" />
               <e p="DragAndDropCamera.cs" t="Include" />
+              <e p="DragAndDropData.cs" t="Include" />
               <e p="DragAndDropObject.cs" t="Include" />
               <e p="PlayerDragAndDrop.cs" t="Include" />
             </e>
@@ -1649,6 +1686,7 @@
         </e>
         <e p="Videos" t="Include" />
       </e>
+      <e p="BzKovSoft.RagdollHelper.Editor.csproj" t="IncludeRecursive" />
       <e p="DocCodeExamples.csproj" t="IncludeRecursive" />
       <e p="Library" t="Include">
         <e p="PackageCache" t="Include">
@@ -6323,7 +6361,24 @@
       <e p="NaughtyAttributes.Test.Player.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="OverloadedFunctionPointers.csproj" t="IncludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive">
+        <e p="bz-soft.ragdoll-helper" t="Include">
+          <e p="Editor" t="Include">
+            <e p="BoneHelper.cs" t="Include" />
+            <e p="ColliderController.cs" t="Include" />
+            <e p="ColliderHelper.cs" t="Include" />
+            <e p="JointController.cs" t="Include" />
+            <e p="RagdollController.cs" t="Include" />
+            <e p="Ragdoller.cs" t="Include" />
+            <e p="RagdollPart.cs" t="Include" />
+            <e p="RagdollProperties.cs" t="Include" />
+            <e p="RigidController.cs" t="Include" />
+            <e p="Unity.RagdollHelper.Editor.asmdef" t="Include" />
+            <e p="WeightCalculator.cs" t="Include" />
+          </e>
+          <e p="package.json" t="Include" />
+        </e>
+      </e>
       <e p="RKM.sln" t="IncludeFlat" />
       <e p="SeparateAssembly.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
