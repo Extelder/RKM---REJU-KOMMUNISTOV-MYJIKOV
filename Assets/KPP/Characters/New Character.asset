@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 11400000, guid: 6a6b51e6ab6d32b4bba507ef1074d18b, type: 2}
   Name: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
-  Casta: 8
-  Sex: 3
-  Inoagent: 0
-  BirthdayDate: 29.10.1990
+  Casta: 9
+  Sex: 1
+  Inoagent: 1
+  BirthdayDate: 5.7.1993
   Pakosti:
   - Name: "\u0420\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u0435
       \u041B\u0413\u0411\u0422"

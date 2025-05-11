@@ -11,7 +11,7 @@ public class Passport : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _name;
     [SerializeField] private TextMeshProUGUI _birthday;
     [SerializeField] private TextMeshProUGUI _sex;
-    [SerializeField] private TextMeshProUGUI _pakosti;
+    [SerializeField] private TextMeshProUGUI[] _pakosti;
     [SerializeField] private TextMeshProUGUI _casta;
     [SerializeField] private GameObject _inoagentImage;
 
@@ -26,7 +26,16 @@ public class Passport : MonoBehaviour
         _name.text = _character.Name;
         _birthday.text = _character.BirthdayDate;
         _sex.text = _character.Sex.ToString();
-        _pakosti.text = _character.Pakosti.ToString();
+        for (int i = 0; i < _character.Pakosti.Length; i++)
+        {
+            if (i > _character.Pakosti.Length)
+            {
+                _pakosti[i].text = String.Empty;
+                _pakosti[i].color = Color.white;
+            }
+            _pakosti[i].text = _character.Pakosti[i].Name;
+            _pakosti[i].color = _character.Pakosti[i].Color;
+        }
         _casta.text = _character.Casta.ToString();
         if (_character.Inoagent)
         {
@@ -35,6 +44,15 @@ public class Passport : MonoBehaviour
         else
         {
             _inoagentImage.SetActive(false);
+        }
+    }
+
+    private void OnDisable()
+    {
+        for (int i = 0; i < _pakosti.Length; i++)
+        {
+            _pakosti[i].text = String.Empty;
+            _pakosti[i].color = Color.white;
         }
     }
 }
