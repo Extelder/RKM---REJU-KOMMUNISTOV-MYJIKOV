@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using UniRx;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
     [SerializeField] private Animator _cutSceneAnimator;
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _achieveTime;
+    [SerializeField] private GameObject _escText;
 
     private Tween _moveTween;
     private Tween _rotateTween;
@@ -65,13 +67,14 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
     {
         _cutSceneCamera.SetActive(false);
         _collider.enabled = true;
-
+        _escText.SetActive(false);
         StartCoroutine(WaitingFOrMove());
     }
 
 
     public void EnableSeat()
     {
+        _escText.SetActive(true);
         _cutSceneCamera.SetActive(false);
         _seatPlace.SetActive(true);
         _disposable.Clear();
