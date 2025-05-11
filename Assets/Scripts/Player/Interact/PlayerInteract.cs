@@ -48,6 +48,10 @@ public class PlayerInteract : RaycastBehaviour
                     _interactable = interactable;
                     _interactButton.SetActive(true);
                 }
+                else if (collider.TryGetComponent<LukeAchievement>(out LukeAchievement LukeAchievement))
+                {
+                    SteamAchivement.Instance?.UnlockLuke();
+                }
                 else
                 {
                     _interactable = null;

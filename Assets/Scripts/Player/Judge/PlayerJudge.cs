@@ -47,7 +47,9 @@ public class PlayerJudge : MonoBehaviour
                 _animator.SetBool("IsSelecting", false);
                 _selecting = false;
                 _animator.SetTrigger("Confirm");
-                _currentConfirmable.Confirme();
+                _currentConfirmable?.Confirme();
+                _moveTween?.Kill();
+                _currentConfirmable = null;
             });
             return;
         }
@@ -55,9 +57,11 @@ public class PlayerJudge : MonoBehaviour
         _selecting = false;
 
         _animator.SetBool("IsSelecting", false);
+        _moveTween?.Kill();
 
         _animator.SetTrigger("Confirm");
-        _currentConfirmable.Confirme();
+        _currentConfirmable?.Confirme();
+        _currentConfirmable = null;
     }
 
     private void OnEnable()

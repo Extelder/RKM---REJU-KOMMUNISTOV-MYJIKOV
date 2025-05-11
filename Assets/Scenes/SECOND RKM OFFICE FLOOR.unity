@@ -8921,7 +8921,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &371827186
 PrefabInstance:
@@ -9957,10 +9957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!1 &413709706
 GameObject:
   m_ObjectHideFlags: 0
@@ -13663,6 +13661,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4849926163881581316, guid: 0022f5849181d5541b9d4737133bfa44,
+        type: 3}
+      propertyPath: <Range>k__BackingField
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7839719803242603852, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _playerSeat
@@ -13952,6 +13955,7 @@ MonoBehaviour:
   _cutSceneCamera: {fileID: 1188547214}
   _cutSceneAnimator: {fileID: 585124690}
   _moveSpeed: 0.7
+  _achieveTime: 0
 --- !u!95 &585124690
 Animator:
   serializedVersion: 5
@@ -15289,7 +15293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4866154646728850, guid: c928f883aa7cdcf41a6faa362ed971bc, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 4866154646728850, guid: c928f883aa7cdcf41a6faa362ed971bc, type: 3}
       propertyPath: m_LocalScale.x
@@ -16662,10 +16666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!114 &708009062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31600,12 +31602,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3c54ada17e1db4ab6c0f6b68c0c7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grabCursor: {fileID: 6778831284786772486, guid: 3e61a5e590314b740a6903669ccfb401,
-    type: 3}
-  _tryGrabCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _grabCursor: {fileID: 2800000, guid: 84cfc8afbdd2dd54483a80f0f6373231, type: 3}
+  _tryGrabCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
   _bell: {fileID: 919132148424791038}
   <Camera>k__BackingField: {fileID: 1221038652}
   _mask:
@@ -37500,10 +37499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!65 &1347594626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39472,10 +39469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!114 &1478496561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46642,6 +46637,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1875840513}
   - component: {fileID: 1875840512}
+  - component: {fileID: 1875840514}
+  - component: {fileID: 1875840515}
   m_Layer: 0
   m_Name: HatchAnimator
   m_TagString: Untagged
@@ -46686,6 +46683,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1875840514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875840511}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3781643, y: 0.7394333, z: 2.5884037}
+  m_Center: {x: -0.003926277, y: -0.13028336, z: -0.0055933}
+--- !u!114 &1875840515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875840511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fc735ae518d464ba557dca7a29ee51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1881682221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50344,10 +50374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!114 &2029633761
 MonoBehaviour:
   m_ObjectHideFlags: 0

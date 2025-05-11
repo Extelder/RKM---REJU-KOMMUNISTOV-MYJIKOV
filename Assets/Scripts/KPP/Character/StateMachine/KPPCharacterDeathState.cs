@@ -8,7 +8,7 @@ public class KPPCharacterDeathState : State
 
     public override void Enter()
     {
-        SteamAchivement.Instance.UnlockBoom();
+        SteamAchivement.Instance?.UnlockBoom();
         _enemyRagdoll.Death();
     }
 }

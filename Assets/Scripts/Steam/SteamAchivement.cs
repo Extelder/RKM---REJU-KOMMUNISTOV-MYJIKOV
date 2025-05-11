@@ -12,6 +12,7 @@ public class SteamAchivement : MonoBehaviour
     [SerializeField] private string _fuhAVName = "FUHAV";
     [SerializeField] private string _boomAVName = "BOOMAV";
     [SerializeField] private string _superAVName = "SUPERAV";
+    [SerializeField] private string _lukeAVName = "LUKEAV";
 
     public static SteamAchivement Instance { get; private set; }
 
@@ -32,6 +33,11 @@ public class SteamAchivement : MonoBehaviour
     public void UnlockPiss()
     {
         _steam.UnlockAchievement(_pissAVName);
+    }
+
+    public void UnlockLuke()
+    {
+        _steam.UnlockAchievement(_lukeAVName);
     }
 
     public void UnlockCorp()
@@ -68,5 +74,6 @@ public class SteamAchivement : MonoBehaviour
         _steam.ClearAchivement(_fuhAVName);
         _steam.ClearAchivement(_boomAVName);
         _steam.ClearAchivement(_superAVName);
+        _steam.ClearAchivement(_lukeAVName);
     }
 }
