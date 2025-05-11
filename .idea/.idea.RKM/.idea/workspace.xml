@@ -22,10 +22,16 @@
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/MORGENSHTERN.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/MORGENSHTERN.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Passport/Passport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Passport/Passport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PassportMain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PassportMain.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +96,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/HandDoor/HandDoorOpenChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPersonMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPerson.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/Emotions/CameraThirdPersonEmote.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Passport/Passport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" />
       </list>
     </option>
   </component>
@@ -156,7 +163,7 @@
       <workItem from="1746696226920" duration="4853000" />
       <workItem from="1746782452526" duration="10488000" />
       <workItem from="1746888765217" duration="2026000" />
-      <workItem from="1746955301477" duration="1962000" />
+      <workItem from="1746955301477" duration="6438000" />
     </task>
     <servers />
   </component>

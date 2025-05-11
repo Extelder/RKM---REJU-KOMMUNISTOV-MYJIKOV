@@ -7,6 +7,7 @@ public class PlayerInteract : RaycastBehaviour
 {
     [SerializeField] private float _checkRate;
     [SerializeField] private GameObject _interactButton;
+    [SerializeField] private GameObject _interactText;
 
     private Iinteractable _interactable;
 
@@ -34,6 +35,7 @@ public class PlayerInteract : RaycastBehaviour
         {
             _interactable.Interact();
             _interactButton.SetActive(false);
+            _interactText.SetActive(false);
         }
     }
 
@@ -47,6 +49,7 @@ public class PlayerInteract : RaycastBehaviour
                 {
                     _interactable = interactable;
                     _interactButton.SetActive(true);
+                    _interactText.SetActive(true);
                 }
                 else if (collider.TryGetComponent<LukeAchievement>(out LukeAchievement LukeAchievement))
                 {
@@ -56,12 +59,14 @@ public class PlayerInteract : RaycastBehaviour
                 {
                     _interactable = null;
                     _interactButton.SetActive(false);
+                    _interactText.SetActive(false);
                 }
             }
             else
             {
                 _interactable = null;
                 _interactButton.SetActive(false);
+                _interactText.SetActive(false);
             }
 
             yield return new WaitForSeconds(_checkRate);

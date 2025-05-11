@@ -66,7 +66,15 @@ public class Character : ScriptableObject
 
         for (int i = 0; i < Pakosti.Length; i++)
         {
-            Pakosti[i] = CharacterGenerator.PoolPakostey[Random.Range(0, CharacterGenerator.PoolPakostey.Length)];
+            var pakost = CharacterGenerator.PoolPakostey[Random.Range(0, CharacterGenerator.PoolPakostey.Length)];
+            for (int j = 0; j < Pakosti.Length; j++)
+            {
+                if (pakost != Pakosti[j])
+                {
+                    Pakosti[i] = pakost;
+                }
+            }
+            
         }
     }
 }
