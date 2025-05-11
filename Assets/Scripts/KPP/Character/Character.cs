@@ -11,15 +11,23 @@ public enum Casta
     Школьник = 1,
     Стример = 2,
     Ютубер = 3,
-    Музыкант = 4
+    Музыкант = 4,
+    Безработный = 5,
+    Наркоман = 6,
+    Киллер = 7,
+    Секс_Инструктор = 8,
+    Инфоцыган = 9,
+    Адун = 10
 }
 
 public enum Sex
 {
     Муж = 1,
     Жен = 2,
-    А = 3,
-    Оно = 4
+    Гидроцефал = 3,
+    Оно = 4,
+    Буцефал = 5,
+    Рапич = 6
 }
 
 [CreateAssetMenu(menuName = "KPP/Character")]
@@ -30,9 +38,9 @@ public class Character : ScriptableObject
     public string Name;
     public Casta Casta;
     public Sex Sex;
-    public bool _inoagent;
+    public bool Inoagent;
     public string BirthdayDate = "00.00.0000";
-    public Pakost[] _pakosti;
+    public Pakost[] Pakosti;
     public News News;
     public bool HasNews => News.Text != "";
 
@@ -42,11 +50,11 @@ public class Character : ScriptableObject
         Name = CharacterGenerator.PoolNames[Random.Range(0, CharacterGenerator.PoolNames.Length)];
         name = Name;
         Casta = (Casta) Random.Range(1, Enum.GetNames(typeof(Casta)).Length);
-        Sex = (Sex) Random.Range(1, Enum.GetNames(typeof(Sex)).Length);
+        Sex = (Sex) Random.Range(1, Enum.GetNames(typeof(Sex)).Length - 1);
         if (Random.value >= 0.7)
-            _inoagent = true;
+            Inoagent = true;
         else
-            _inoagent = false;
+            Inoagent = false;
 
         int randomDay = Random.Range(1, 30);
         int randomMonth = Random.Range(1, 12);
@@ -54,11 +62,11 @@ public class Character : ScriptableObject
 
         BirthdayDate = $"{randomDay}.{randomMonth}.{randomYear}";
 
-        _pakosti = new Pakost[Random.Range(1, 3)];
+        Pakosti = new Pakost[Random.Range(1, 3)];
 
-        for (int i = 0; i < _pakosti.Length; i++)
+        for (int i = 0; i < Pakosti.Length; i++)
         {
-            _pakosti[i] = CharacterGenerator.PoolPakostey[Random.Range(0, CharacterGenerator.PoolPakostey.Length)];
+            Pakosti[i] = CharacterGenerator.PoolPakostey[Random.Range(0, CharacterGenerator.PoolPakostey.Length)];
         }
     }
 }

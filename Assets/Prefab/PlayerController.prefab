@@ -3223,6 +3223,7 @@ Transform:
   - {fileID: 8975670343111722097}
   - {fileID: 3888140726809219746}
   - {fileID: 8484160235351126687}
+  - {fileID: 1078773611705488171}
   - {fileID: 5147955278547317562}
   m_Father: {fileID: 7482734965238544303}
   m_RootOrder: 0
@@ -8265,7 +8266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8484160235351126687}
   m_Layer: 10
-  m_Name: CameraTargetPostition (1)
+  m_Name: CameraTargetPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8437,6 +8438,8 @@ GameObject:
   - component: {fileID: 7447004370464759289}
   - component: {fileID: 7715290539645882984}
   - component: {fileID: 7839719803242603852}
+  - component: {fileID: 1779143815470657500}
+  - component: {fileID: 9210938836878331080}
   m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
@@ -8640,7 +8643,7 @@ MonoBehaviour:
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
   m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
+  m_ShowCustomSorter: 1
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
@@ -8657,10 +8660,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe16fd68d8b1a124a8ac936a296f6b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cameraTargetPosition: {fileID: 8484160235351126687}
-  _cameraStartPoint: {fileID: 3888140726809219746}
-  _duration: 1
+  <Camera>k__BackingField: {fileID: 5147955278547317562}
+  <ToIgnore>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 1028
+  <Range>k__BackingField: 2
+  <DrawGizmos>k__BackingField: 1
+  _cameraThirdPersonMove: {fileID: 1779143815470657500}
   _ease: 32
+  _cameraTargetPoint: {fileID: 8484160235351126687}
+  _cameraStartPoint: {fileID: 3888140726809219746}
+  _selfiePoint: {fileID: 1078773611705488171}
+  _playerController: {fileID: 8102424094918124269}
+  _duration: 1
   _key: 118
   _head:
   - {fileID: 7491536811587385439}
@@ -8669,6 +8681,41 @@ MonoBehaviour:
   - {fileID: 50858596188635771}
   - {fileID: 3884927233680207871}
   - {fileID: 5310182175717702106}
+  _playerSeat: {fileID: 0}
+--- !u!114 &1779143815470657500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397824687885876981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c8d591af64c764196d56c4fca032fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cameraPosition: {fileID: 5147955278547317562}
+--- !u!114 &9210938836878331080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397824687885876981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d03a00bc3e9a08429418ddeb16c2aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 3533489493759572108}
+  _animNames:
+  - Anim1
+  - Anim2
+  - Anim3
+  - Anim4
+  - Anim5
+  - Anim6
+  _cameraThirdPerson: {fileID: 7839719803242603852}
 --- !u!1 &6400262061849573445
 GameObject:
   m_ObjectHideFlags: 0
@@ -11473,6 +11520,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8694149114463475355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1078773611705488171}
+  m_Layer: 10
+  m_Name: SelfiePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1078773611705488171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8694149114463475355}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000016763806}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2499998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3311170711315038115}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &8726693848699903294
 GameObject:
   m_ObjectHideFlags: 0
