@@ -1336,6 +1336,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Achievement" t="Include">
+            <e p="ZombieAchievement.cs" t="Include" />
+          </e>
           <e p="Attribute" t="Include">
             <e p="ReadOnlyAttribute.cs" t="Include" />
             <e p="ReadOnlyPropertyDrawer.cs" t="Include" />
@@ -1512,6 +1515,7 @@
             <e p="StateMachine.cs" t="Include" />
           </e>
           <e p="Steam" t="Include">
+            <e p="SteamAchivement.cs" t="Include" />
             <e p="SteamIntegration.cs" t="Include" />
           </e>
           <e p="UI" t="Include">

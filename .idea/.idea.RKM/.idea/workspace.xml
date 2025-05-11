@@ -21,16 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/MORGENSHTERN.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/MORGENSHTERN.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Passport/source/Close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Passport/source/Close.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Passport/source/Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Passport/source/Open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Passport/Passport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Passport/Passport.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +156,7 @@
       <workItem from="1746696226920" duration="4853000" />
       <workItem from="1746782452526" duration="10488000" />
       <workItem from="1746888765217" duration="2026000" />
+      <workItem from="1746955301477" duration="1962000" />
     </task>
     <servers />
   </component>
