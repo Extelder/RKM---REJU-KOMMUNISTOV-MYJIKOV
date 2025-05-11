@@ -10,6 +10,7 @@ public class CameraThirdPersonEmote : MonoBehaviour
     [SerializeField] private string[] _animNames;
     [SerializeField] private CameraThirdPerson _cameraThirdPerson;
     private CompositeDisposable _disposable = new CompositeDisposable();
+
     public enum CustomKeys
     {
         Anim1 = KeyCode.Alpha1,
@@ -20,7 +21,7 @@ public class CameraThirdPersonEmote : MonoBehaviour
         Anim6 = KeyCode.Alpha6
     }
 
-    private CustomKeys[] _keys = new []
+    private CustomKeys[] _keys = new[]
     {
         CustomKeys.Anim1,
         CustomKeys.Anim2,
@@ -44,7 +45,11 @@ public class CameraThirdPersonEmote : MonoBehaviour
             {
                 if (Input.GetKeyDown((KeyCode) _keys[i]))
                 {
-                    Debug.Log(_animNames[i]);
+                    if (_keys[i] == CustomKeys.Anim5)
+                    {
+                        SteamAchivement.Instance.UnlockSuperman();
+                    }
+                        Debug.Log(_animNames[i]);
                     _animator.SetTrigger(_animNames[i]);
                     _animator.SetBool("IsAnimating", true);
                 }

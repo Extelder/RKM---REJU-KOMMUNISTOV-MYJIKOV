@@ -11,10 +11,15 @@ public class ArasakaCutScene : MonoBehaviour
 
     [SerializeField] private GameObject _cutScene;
     [SerializeField] private PlayerCharacter _playerCharacter;
+    [SerializeField] private GameObject _timeCanvas;
+    [SerializeField] private GameObject _yesNoCanvas;
+    [SerializeField] private GameObject _guideCanvas;
 
     private float _lookSpeed;
 
     [SerializeField] private Animator _animator;
+
+    private bool _isGuide;
 
     private void Start()
     {
@@ -33,11 +38,29 @@ public class ArasakaCutScene : MonoBehaviour
 
     public void EndGuide()
     {
+        End();
+        _isGuide = true;
+    }
+
+    public void End()
+    {
         _animator.SetTrigger("End");
+    }
+    
+    public void UnlockAchieve()
+    {
+        SteamAchivement.Instance.UnlockCorp();
     }
 
     public void CutSceneEnd()
     {
+        if (_isGuide)
+        {
+            _timeCanvas.SetActive(true);
+            _guideCanvas.SetActive(true);
+            _yesNoCanvas.SetActive(false);
+        }
+
         _guideCuteScene.SetActive(false);
         _cuteScene.SetActive(false);
         _playerCharacter.EnablePlayer();

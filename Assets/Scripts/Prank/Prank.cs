@@ -33,6 +33,7 @@ public class Prank : MonoBehaviour
 
     private IEnumerator Pranking()
     {
+        SteamAchivement.Instance.UnlockPiss();
         yield return new WaitForSeconds(5);
 
         _mainCamera.SetActive(true);

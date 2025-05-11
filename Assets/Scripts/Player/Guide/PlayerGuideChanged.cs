@@ -15,6 +15,7 @@ public class PlayerGuideChanged : MonoBehaviour
 
     [SerializeField] private KeyCode _moveKode;
     [SerializeField] private KeyCode _watchKode;
+    [SerializeField] private KeyCode _thirdPersonKode;
 
 
     private int i = 0;
@@ -54,6 +55,12 @@ public class PlayerGuideChanged : MonoBehaviour
         _currentKeyCode = _moveKode;
         yield return new WaitForSeconds(0.3f);
         _hintText.text = _hints[i];
+        yield return new WaitForSeconds(0.3f);
+        yield return new WaitUntil(() => _pressed == true);
+        yield return new WaitForSeconds(0.3f);
+        _currentKeyCode = _thirdPersonKode;
+        _hintText.text = _hints[_hints.Length - 1];
+
         yield return new WaitForSeconds(0.3f);
         yield return new WaitUntil(() => _pressed == true);
         yield return new WaitForSeconds(0.3f);

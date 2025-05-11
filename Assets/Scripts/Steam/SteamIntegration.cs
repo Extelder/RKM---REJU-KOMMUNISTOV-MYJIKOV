@@ -43,22 +43,14 @@ public class SteamIntegration : MonoBehaviour
         ach.Clear();
     }
 
-    [Button]
-    private void UnlockPiss()
-    {
-        UnlockAchievement("PISSAV");
-    }
-
-    [Button]
-    private void ClearPiss()
-    {
-        ClearAchivement("PISSAV");
-    }
-
-
     private void Update()
     {
         Steamworks.SteamClient.RunCallbacks();
+    }
+
+    private void OnDisable()
+    {
+        Steamworks.SteamClient.Shutdown();
     }
 
     private void OnApplicationQuit()

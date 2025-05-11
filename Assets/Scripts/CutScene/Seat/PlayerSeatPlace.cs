@@ -14,6 +14,7 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
     [SerializeField] private GameObject _cutSceneCamera;
     [SerializeField] private Animator _cutSceneAnimator;
     [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _achieveTime;
 
     private Tween _moveTween;
     private Tween _rotateTween;
@@ -23,8 +24,10 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
 
     private Transform camera;
     private Vector3 cameraDefaultPosition;
-    
+
     public bool CanUseThirdPerson { get; private set; }
+
+    private Coroutine _waitingCoroutine;
 
     private void Awake()
     {
@@ -65,8 +68,8 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
 
         StartCoroutine(WaitingFOrMove());
     }
-    
-    
+
+
     public void EnableSeat()
     {
         _cutSceneCamera.SetActive(false);
@@ -76,6 +79,7 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
         _rotateTween?.Kill();
         GameCursor.Instance.Hide();
 
+        _waitingCoroutine = StartCoroutine(WaitingForAchieve());
 
         Observable.EveryUpdate().Subscribe(_ =>
         {
@@ -83,10 +87,18 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
             {
                 _seatPlace.SetActive(false);
                 _cutSceneCamera.SetActive(true);
+                if (_waitingCoroutine != null)
+                    StopCoroutine(_waitingCoroutine);
                 _cutSceneAnimator.SetTrigger("StandUp");
                 _disposable.Clear();
             }
         }).AddTo(_disposable);
+    }
+
+    private IEnumerator WaitingForAchieve()
+    {
+        yield return new WaitForSeconds(_achieveTime);
+        SteamAchivement.Instance.UnlockFuh();
     }
 
     private IEnumerator WaitingFOrMove()

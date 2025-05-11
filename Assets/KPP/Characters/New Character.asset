@@ -17,10 +17,8 @@ MonoBehaviour:
   Casta: 1
   Sex: 3
   _inoagent: 0
-  BirthdayDate: 20.10.1997
+  BirthdayDate: 29.5.2001
   _pakosti:
-  - Name: "\u041A\u0443\u0440\u0438\u043B \u0432 \u0448\u043A\u043E\u043B\u0435"
-    Color: {r: 1, g: 0, b: 0, a: 1}
   - Name: "\u0420\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u0435
       \u041B\u0413\u0411\u0422"
     Color: {r: 1, g: 0, b: 0.87803173, a: 1}
