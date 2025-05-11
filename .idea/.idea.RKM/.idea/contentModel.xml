@@ -895,6 +895,17 @@
               </e>
             </e>
           </e>
+          <e p="Facepunch.Steamworks" t="Include">
+            <e p="Facepunch.Steamworks.Posix.xml" t="Include" />
+            <e p="Facepunch.Steamworks.Win32.xml" t="Include" />
+            <e p="Facepunch.Steamworks.Win64.xml" t="Include" />
+            <e p="redistributable_bin" t="Include">
+              <e p="linux32" t="Include" />
+              <e p="linux64" t="Include" />
+              <e p="osx" t="Include" />
+              <e p="win64" t="Include" />
+            </e>
+          </e>
           <e p="UniRx" t="Include">
             <e p="Examples" t="Include">
               <e p="Sample01_ObservableWWW.cs" t="Include" />
@@ -1499,6 +1510,9 @@
           <e p="StateMachine" t="Include">
             <e p="State.cs" t="Include" />
             <e p="StateMachine.cs" t="Include" />
+          </e>
+          <e p="Steam" t="Include">
+            <e p="SteamIntegration.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Disclaimer" t="Include">
