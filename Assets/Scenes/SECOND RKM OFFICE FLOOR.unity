@@ -7536,6 +7536,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.17409687, y: 0.1, z: 0.2663155}
   m_Center: {x: 0.03704865, y: 4.1112666e-10, z: 0.083157696}
+--- !u!1 &315610560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3574412583775814110, guid: 0022f5849181d5541b9d4737133bfa44,
+    type: 3}
+  m_PrefabInstance: {fileID: 569951334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &317306257
 GameObject:
   m_ObjectHideFlags: 0
@@ -7753,12 +7759,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2072062709}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
@@ -7773,22 +7779,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.853685
+      value: 2.8536847
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35.67
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.68
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.77
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
         type: 3}
@@ -7829,6 +7835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Buckshot
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -13215,6 +13226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4849926163881581316, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
+      propertyPath: _interactText
+      value: 
+      objectReference: {fileID: 315610560}
+    - target: {fileID: 4849926163881581316, guid: 0022f5849181d5541b9d4737133bfa44,
+        type: 3}
       propertyPath: <Range>k__BackingField
       value: 3.5
       objectReference: {fileID: 0}
@@ -13508,6 +13524,7 @@ MonoBehaviour:
   _cutSceneAnimator: {fileID: 585124690}
   _moveSpeed: 0.7
   _achieveTime: 0
+  _escText: {fileID: 0}
 --- !u!95 &585124690
 Animator:
   serializedVersion: 5
@@ -16262,6 +16279,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -6679048010460921364, guid: b5c5eadfed1534b4cbec48027aae7fcd,
     type: 3}
   m_PrefabInstance: {fileID: 1130968512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &720817208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
+    type: 3}
+  m_PrefabInstance: {fileID: 341867998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &720817209 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4a9c6a6638de43b4e85c8c1f9020b04d,
+    type: 3}
+  m_PrefabInstance: {fileID: 341867998}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &724597674 stripped
 Transform:
@@ -48871,6 +48900,52 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &2072062708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2072062709}
+  - component: {fileID: 2072062710}
+  m_Layer: 0
+  m_Name: Buckshot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2072062709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072062708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -35.67, y: 12.68, z: -17.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 720817209}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072062710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072062708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e269ed97f399a4c4e82d5e1ae7a673af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buckShot: {fileID: 720817208}
 --- !u!1 &2072900652
 GameObject:
   m_ObjectHideFlags: 0
