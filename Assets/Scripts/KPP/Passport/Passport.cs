@@ -15,14 +15,15 @@ public class Passport : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _casta;
     [SerializeField] private GameObject _inoagentImage;
 
-    private void Start()
+    private void OnEnable()
     {
         Bootstrap();
     }
 
     private void Bootstrap()
     {
-        _character.Generate();
+        _character = PlayerDragAndDrop.Instance.Character.Character;
+
         _name.text = _character.Name;
         _birthday.text = _character.BirthdayDate;
         _sex.text = _character.Sex.ToString();
@@ -33,9 +34,11 @@ public class Passport : MonoBehaviour
                 _pakosti[i].text = String.Empty;
                 _pakosti[i].color = Color.white;
             }
+
             _pakosti[i].text = _character.Pakosti[i].Name;
             _pakosti[i].color = _character.Pakosti[i].Color;
         }
+
         _casta.text = _character.Casta.ToString();
         if (_character.Inoagent)
         {

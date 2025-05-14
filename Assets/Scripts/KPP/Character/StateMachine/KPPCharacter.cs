@@ -14,6 +14,11 @@ public class KPPCharacter : MonoBehaviour
 
     public event Action Dead;
 
+    public void SetCharacter(Character character)
+    {
+        Character = character;
+    }
+
     private void Start()
     {
         if (PlayerDragAndDrop.Instance != null)
