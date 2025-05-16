@@ -21,15 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/Characters/New Character.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PassportMain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PassportMain.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArasaka 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArasaka 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevetor.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevetor.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jarahov/man-cartoon-fitness@Running 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jarahov/man-cartoon-fitness@Running 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Character/source/office.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Character/source/office.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Day/DayData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Day/DayData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
@@ -46,31 +46,31 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Watches/PlayerWatches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerWatchesTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Text/MegaBeatifulPopUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/PhysicalDestroyObject/PhysicalDestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jarahov/CaughtJarahovState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/ShowCursorOnEnableGameobject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerTime.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/SetActiveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayVideoOnTriggerEnterExit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovDestroyTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera/Emotions/CameraThirdPersonEmote.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DailyEvents/SecondDayEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/CutSceneCursorOff.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cursor/GameCursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/ArasakaCutScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Settings/Settings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Arasaka/ArasakaCutScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Animator/CharacterAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs" />
@@ -83,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorBoolTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayVideoOnTriggerEnterExit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/Elevator/ChangeSceneButton.cs" />
@@ -103,6 +102,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CatchJarahov/PlayerCatchJarahov.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/RunJarahovState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/CaughtJarahovState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/Trigger/JarahovAnimatorTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/ObjectDestroyTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Text/BeatifulPopUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovDestroyTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Text/MegaBeatifulPopUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/CharacterSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Day/DayData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/FirtsDayEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/PhysicalDestroyObject/PhysicalDestroyObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/SetActiveObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SecondDayEvent.cs" />
       </list>
     </option>
   </component>
@@ -164,6 +183,9 @@
       <workItem from="1746782452526" duration="10488000" />
       <workItem from="1746888765217" duration="2026000" />
       <workItem from="1746955301477" duration="6438000" />
+      <workItem from="1747222218730" duration="10339000" />
+      <workItem from="1747309213025" duration="6505000" />
+      <workItem from="1747393480260" duration="14351000" />
     </task>
     <servers />
   </component>
@@ -185,9 +207,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1746785732501">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1747411363359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1746785732501" />
+    <state x="794" y="236" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1747411363359" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1747225916856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1747225916856" />
   </component>
 </project>

@@ -24,6 +24,7 @@
           <e p="Jarahov" t="Include" />
           <e p="Player" t="Include">
             <e p="Drag&amp;Drop" t="Include" />
+            <e p="DROP JARAHOV" t="Include" />
             <e p="Judge" t="Include" />
             <e p="Watches" t="Include">
               <e p="Time" t="Include" />
@@ -51,11 +52,16 @@
         </e>
         <e p="Materials" t="Include" />
         <e p="Models" t="Include">
+          <e p="Bed" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Bell" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
           <e p="BreakToFire" t="Include" />
+          <e p="Buckshot" t="Include" />
           <e p="Carpet" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -132,6 +138,12 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="Piss" t="Include" />
+          <e p="Plane" t="Include">
+            <e p="source" t="Include">
+              <e p="Textures" t="Include" />
+            </e>
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Radio" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -142,6 +154,9 @@
           <e p="Shotgun" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
+          </e>
+          <e p="SkyScraper" t="Include">
+            <e p="source" t="Include" />
           </e>
           <e p="Stool" t="Include">
             <e p="source" t="Include" />
@@ -1250,6 +1265,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Achievement" t="Include">
+            <e p="BuckShot.cs" t="Include" />
             <e p="LukeAchievement.cs" t="Include" />
             <e p="ZombieAchievement.cs" t="Include" />
           </e>
@@ -1275,15 +1291,37 @@
               <e p="PlayerSeatPlace.cs" t="Include" />
             </e>
           </e>
+          <e p="DailyEvents" t="Include">
+            <e p="FirtsDayEvent.cs" t="Include" />
+            <e p="SecondDayEvent.cs" t="Include" />
+          </e>
+          <e p="Day" t="Include">
+            <e p="Day.cs" t="Include" />
+            <e p="DayData.cs" t="Include" />
+          </e>
           <e p="Door" t="Include">
             <e p="InteractDoor.cs" t="Include" />
           </e>
           <e p="Environment" t="Include">
+            <e p="Bed" t="Include">
+              <e p="Bed.cs" t="Include" />
+            </e>
             <e p="ChangeSceneDoor.cs" t="Include" />
             <e p="Elevator" t="Include">
               <e p="ChangeSceneButton.cs" t="Include" />
               <e p="OpenCloseElevatorTrigger.cs" t="Include" />
             </e>
+            <e p="PhysicalDestroyObject" t="Include">
+              <e p="PhysicalDestroyObject.cs" t="Include" />
+            </e>
+            <e p="SetActiveObject.cs" t="Include" />
+          </e>
+          <e p="Jarahov" t="Include">
+            <e p="CaughtJarahovState.cs" t="Include" />
+            <e p="JarahovDestroyTrigger.cs" t="Include" />
+            <e p="JarahovInteractable.cs" t="Include" />
+            <e p="JarahovStateMachine.cs" t="Include" />
+            <e p="RunJarahovState.cs" t="Include" />
           </e>
           <e p="KPP" t="Include">
             <e p="Bell.cs" t="Include" />
@@ -1397,6 +1435,9 @@
             <e p="Sounds" t="Include">
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
+            <e p="SpawnPoint" t="Include">
+              <e p="PlayerSpawnPoint.cs" t="Include" />
+            </e>
             <e p="Time" t="Include">
               <e p="PlayerTime.cs" t="Include" />
               <e p="PlayerWatchesTime.cs" t="Include" />
@@ -1441,6 +1482,9 @@
                 <e p="Watch.cs" t="Include" />
               </e>
             </e>
+            <e p="Text" t="Include">
+              <e p="MegaBeatifulPopUp.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Sounds" t="Include">
@@ -1450,7 +1494,9 @@
             <e p="Elevator" t="Include" />
             <e p="Jarahov" t="Include" />
           </e>
+          <e p="KeyType" t="Include" />
           <e p="KPP" t="Include">
+            <e p="Day" t="Include" />
             <e p="GlassBreak" t="Include" />
             <e p="Paper" t="Include" />
             <e p="Pistol" t="Include" />
@@ -1526,7 +1572,9 @@
             <e p="Swooshes" t="Include" />
           </e>
         </e>
-        <e p="Sprite" t="Include" />
+        <e p="Sprite" t="Include">
+          <e p="Materials" t="Include" />
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
           <e p="Examples &amp; Extras" t="Include">

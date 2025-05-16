@@ -12,7 +12,12 @@ public class AnimatorTrigger : MonoBehaviour
     {
         if (other.TryGetComponent<PlayerCharacter>(out PlayerCharacter _playerCharacter))
         {
-            _animator.SetTrigger(_triggerName);
+            AnimatorSetTrigger();
         }
+    }
+
+    public void AnimatorSetTrigger()
+    {
+        _animator.SetTrigger(_triggerName);
     }
 }
