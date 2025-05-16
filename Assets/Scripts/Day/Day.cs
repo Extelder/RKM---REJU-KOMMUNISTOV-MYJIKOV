@@ -61,6 +61,7 @@ public class Day : MonoBehaviour
 
     public void End()
     {
+        PlayerPrefs.SetInt("DayEnded", 1);
         _timeEndAudio.Play();
         _timeEndLight.SetActive(true);
     }
