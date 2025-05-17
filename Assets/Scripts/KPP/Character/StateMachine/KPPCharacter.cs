@@ -38,12 +38,15 @@ public class KPPCharacter : MonoBehaviour
 
     public void OnShoot()
     {
+        Day.Instance.AddNewspaperCharacter(Character);
+
         Dead?.Invoke();
         _kppCharacterStateMachine.Dead();
     }
 
     public void OnBan()
     {
+        Day.Instance.AddNewspaperCharacter(Character);
         Dead?.Invoke();
         _kppCharacterStateMachine.FlyToLuke();
     }

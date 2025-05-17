@@ -7,7 +7,7 @@ using UnityEngine;
 [Serializable]
 public struct CompleteDay
 {
-    [field: SerializeField] public DayData DayData{ get; private set; }
+    [field: SerializeField] public DayData DayData { get; private set; }
     [field: SerializeField] public DayEventable Eventable { get; private set; }
 }
 
@@ -28,9 +28,18 @@ public class Day : MonoBehaviour
 
     private int _currentHour;
 
+    public static Day Instance { get; private set; }
+
     private void Awake()
     {
-        Begin();
+        if (!Instance)
+        {
+            Instance = this;
+            Begin();
+            return;
+        }
+
+        Debug.Break();
     }
 
     private void OnEnable()
@@ -54,6 +63,12 @@ public class Day : MonoBehaviour
 
     public void Begin()
     {
+        PlayerPrefs.SetString("Character1", "");
+        PlayerPrefs.SetString("Character2", "");
+        PlayerPrefs.SetString("Character3", "");
+        PlayerPrefs.SetString("Character4", "");
+
+
         _completeDay[_currentNumber].Eventable.DayStartedEvent();
         _currentHour = _startHour;
         _seatTimeText.text = $"{_currentHour} 00";
@@ -66,11 +81,36 @@ public class Day : MonoBehaviour
         PlayerPrefs.SetString("Spawnpoint", "Lift");
     }
 
+    public void AddNewspaperCharacter(Character character)
+    {
+        if (PlayerPrefs.GetString("Character1", "") == "")
+        {
+            PlayerPrefs.SetString("Character1", character.Name);
+            return;
+        }
+
+        if (PlayerPrefs.GetString("Character2", "") == "")
+        {
+            PlayerPrefs.SetString("Character2", character.Name);
+            return;
+        }
+
+        if (PlayerPrefs.GetString("Character3", "") == "")
+        {
+            PlayerPrefs.SetString("Character3", character.Name);
+            return;
+        }
+
+        if (PlayerPrefs.GetString("Character4", "") == "")
+        {
+            PlayerPrefs.SetString("Character4", character.Name);
+            return;
+        }
+    }
+
     public void End()
     {
-
         PlayerPrefs.SetInt("DayEnded", 1);
-
         _completeDay[_currentNumber].Eventable.DayEndedEvent();
 
         _timeEndAudio.Play();

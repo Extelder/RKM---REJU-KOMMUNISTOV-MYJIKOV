@@ -12968,6 +12968,7 @@ MonoBehaviour:
   _timeText: {fileID: 327634908}
   _timeEndAudio: {fileID: 29653577}
   _timeEndLight: {fileID: 1652967471}
+  _newspaperData: {fileID: 11400000, guid: ceba567a0caa93748b25c8405386602c, type: 2}
   _characterSpawner: {fileID: 2013523552}
   _completeDay:
   - <DayData>k__BackingField: {fileID: 11400000, guid: 735c8a0a2e8d6f141a65bfb515dd2b47,
