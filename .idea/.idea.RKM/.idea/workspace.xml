@@ -23,15 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevetor.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevetor.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jarahov/man-cartoon-fitness@Running 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jarahov/man-cartoon-fitness@Running 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Character/source/office.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Character/source/office.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Plane/source/Plane.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Plane/source/Plane.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Plane/source/Plane.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Plane/source/Plane.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Day/DayData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Day/DayData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +37,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/PlayerCursor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/PlayParticles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Watches/PlayerWatches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerWatchesTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animations/RandomlyPlayAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Text/MegaBeatifulPopUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/PhysicalDestroyObject/PhysicalDestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jarahov/CaughtJarahovState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/MoveToPoints/ObjectPointsMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../123DayMaraphon/Assets/Scripts/System/Overlay/ShowCursorOnEnableGameobject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Sounds/PlayerStepSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,10 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/Watch/CharacterCheckWatch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayStopSound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Drag&amp;Drop/DragAndDropObject.cs" />
@@ -116,12 +109,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Text/MegaBeatifulPopUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/CharacterSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Day/DayData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/FirtsDayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/PhysicalDestroyObject/PhysicalDestroyObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/SetActiveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/PlayParticles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SecondDayEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animations/RandomlyPlayAnimations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/MoveToPoints/ObjectPointsMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/ThirdDayEvent.cs" />
       </list>
     </option>
   </component>
@@ -185,7 +182,8 @@
       <workItem from="1746955301477" duration="6438000" />
       <workItem from="1747222218730" duration="10339000" />
       <workItem from="1747309213025" duration="6505000" />
-      <workItem from="1747393480260" duration="14351000" />
+      <workItem from="1747393480260" duration="14951000" />
+      <workItem from="1747472291107" duration="10176000" />
     </task>
     <servers />
   </component>
@@ -207,10 +205,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1747411363359">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1747482578082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="236" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1747411363359" />
+    <state x="794" y="236" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1747482578082" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1747225916856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -87,6 +87,10 @@
           <e p="Frame" t="Include">
             <e p="source" t="Include" />
           </e>
+          <e p="Godzila" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="GRECHNIK" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -96,6 +100,10 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="Judges" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="KingKong" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -1269,6 +1277,9 @@
             <e p="LukeAchievement.cs" t="Include" />
             <e p="ZombieAchievement.cs" t="Include" />
           </e>
+          <e p="Animations" t="Include">
+            <e p="RandomlyPlayAnimations.cs" t="Include" />
+          </e>
           <e p="Attribute" t="Include">
             <e p="ReadOnlyAttribute.cs" t="Include" />
             <e p="ReadOnlyPropertyDrawer.cs" t="Include" />
@@ -1294,6 +1305,7 @@
           <e p="DailyEvents" t="Include">
             <e p="FirtsDayEvent.cs" t="Include" />
             <e p="SecondDayEvent.cs" t="Include" />
+            <e p="ThirdDayEvent.cs" t="Include" />
           </e>
           <e p="Day" t="Include">
             <e p="Day.cs" t="Include" />
@@ -1311,9 +1323,13 @@
               <e p="ChangeSceneButton.cs" t="Include" />
               <e p="OpenCloseElevatorTrigger.cs" t="Include" />
             </e>
+            <e p="MoveToPoints" t="Include">
+              <e p="ObjectPointsMovement.cs" t="Include" />
+            </e>
             <e p="PhysicalDestroyObject" t="Include">
               <e p="PhysicalDestroyObject.cs" t="Include" />
             </e>
+            <e p="PlayParticles.cs" t="Include" />
             <e p="SetActiveObject.cs" t="Include" />
           </e>
           <e p="Jarahov" t="Include">
@@ -1493,6 +1509,7 @@
             <e p="Dog" t="Include" />
             <e p="Elevator" t="Include" />
             <e p="Jarahov" t="Include" />
+            <e p="Plane" t="Include" />
           </e>
           <e p="KeyType" t="Include" />
           <e p="KPP" t="Include">
