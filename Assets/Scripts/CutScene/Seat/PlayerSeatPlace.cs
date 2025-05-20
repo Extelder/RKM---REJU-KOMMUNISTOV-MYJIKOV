@@ -101,7 +101,7 @@ public class PlayerSeatPlace : MonoBehaviour, Iinteractable
     private IEnumerator WaitingForAchieve()
     {
         yield return new WaitForSeconds(_achieveTime);
-        SteamAchivement.Instance.UnlockFuh();
+        SteamAchivement.Instance?.UnlockFuh();
     }
 
     private IEnumerator WaitingFOrMove()

@@ -23,6 +23,7 @@
           <e p="Elevator" t="Include" />
           <e p="Jarahov" t="Include" />
           <e p="Player" t="Include">
+            <e p="Cannon" t="Include" />
             <e p="Drag&amp;Drop" t="Include" />
             <e p="DROP JARAHOV" t="Include" />
             <e p="Judge" t="Include" />
@@ -62,6 +63,23 @@
           </e>
           <e p="BreakToFire" t="Include" />
           <e p="Buckshot" t="Include" />
+          <e p="bulletin board" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Cannon" t="Include">
+            <e p="source" t="Include">
+              <e p="Simple Cannon" t="Include">
+                <e p="images used to create" t="Include" />
+                <e p="Materials" t="Include" />
+                <e p="model" t="Include">
+                  <e p="FBX" t="Include" />
+                  <e p="obj" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Carpet" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -84,6 +102,10 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="FBI" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Frame" t="Include">
             <e p="source" t="Include" />
           </e>
@@ -92,6 +114,10 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="GRECHNIK" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Helicopter" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -105,6 +131,12 @@
           </e>
           <e p="KingKong" t="Include">
             <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Kraken" t="Include">
+            <e p="source" t="Include">
+              <e p="Textures" t="Include" />
+            </e>
             <e p="Textures" t="Include" />
           </e>
           <e p="MainCharacter" t="Include">
@@ -146,6 +178,12 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="Piss" t="Include" />
+          <e p="Pistol" t="Include">
+            <e p="source" t="Include">
+              <e p="Textures" t="Include" />
+            </e>
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Plane" t="Include">
             <e p="source" t="Include">
               <e p="Textures" t="Include" />
@@ -167,6 +205,10 @@
             <e p="source" t="Include" />
           </e>
           <e p="Stool" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="SuperJet" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -1304,6 +1346,8 @@
           </e>
           <e p="DailyEvents" t="Include">
             <e p="FirtsDayEvent.cs" t="Include" />
+            <e p="FithDayEvent.cs" t="Include" />
+            <e p="FourthDayEvent.cs" t="Include" />
             <e p="SecondDayEvent.cs" t="Include" />
             <e p="ThirdDayEvent.cs" t="Include" />
           </e>
@@ -1317,8 +1361,10 @@
           <e p="Environment" t="Include">
             <e p="Bed" t="Include">
               <e p="Bed.cs" t="Include" />
+              <e p="BedCutscene.cs" t="Include" />
             </e>
             <e p="ChangeSceneDoor.cs" t="Include" />
+            <e p="DestroyObject.cs" t="Include" />
             <e p="Elevator" t="Include">
               <e p="ChangeSceneButton.cs" t="Include" />
               <e p="OpenCloseElevatorTrigger.cs" t="Include" />
@@ -1331,6 +1377,17 @@
             </e>
             <e p="PlayParticles.cs" t="Include" />
             <e p="SetActiveObject.cs" t="Include" />
+          </e>
+          <e p="FBI" t="Include">
+            <e p="FBIMove.cs" t="Include" />
+          </e>
+          <e p="Health" t="Include">
+            <e p="Health.cs" t="Include" />
+            <e p="KrakenHealth.cs" t="Include" />
+          </e>
+          <e p="HitBox" t="Include">
+            <e p="HitBox.cs" t="Include" />
+            <e p="KrakenHitBox.cs" t="Include" />
           </e>
           <e p="Jarahov" t="Include">
             <e p="CaughtJarahovState.cs" t="Include" />
@@ -1386,6 +1443,7 @@
             <e p="NewsContainer.cs" t="Include" />
             <e p="Newspaper.cs" t="Include" />
           </e>
+          <e p="NewspaperData.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Camera" t="Include">
               <e p="CameraMovement.cs" t="Include" />
@@ -1394,6 +1452,10 @@
               <e p="Emotions" t="Include">
                 <e p="CameraThirdPersonEmote.cs" t="Include" />
               </e>
+            </e>
+            <e p="Cannon" t="Include">
+              <e p="CannonMovement.cs" t="Include" />
+              <e p="CannonShoot.cs" t="Include" />
             </e>
             <e p="Character" t="Include">
               <e p="Animator" t="Include">
@@ -1440,6 +1502,9 @@
               <e p="PlayerJudgeAnimator.cs" t="Include" />
             </e>
             <e p="PlayerCharacter.cs" t="Include" />
+            <e p="PopUp" t="Include">
+              <e p="PlayerPopUp.cs" t="Include" />
+            </e>
             <e p="Radio" t="Include">
               <e p="RadioMusicSwitcher.cs" t="Include" />
               <e p="RadioMusicSwitcherObject.cs" t="Include" />
@@ -1473,6 +1538,7 @@
           <e p="Raycaster" t="Include">
             <e p="RaycastBehaviour.cs" t="Include" />
           </e>
+          <e p="SaveLoadSystem.cs" t="Include" />
           <e p="Settings" t="Include">
             <e p="Settings.cs" t="Include" />
             <e p="SettingsPanelChoose.cs" t="Include" />
@@ -1480,6 +1546,7 @@
           <e p="Sounds" t="Include">
             <e p="PlayStopSound.cs" t="Include" />
             <e p="PlayStopSoundOnTriggerEnterExit.cs" t="Include" />
+            <e p="SoundSilenceVolume.cs" t="Include" />
           </e>
           <e p="StateMachine" t="Include">
             <e p="State.cs" t="Include" />
@@ -1509,6 +1576,7 @@
             <e p="Dog" t="Include" />
             <e p="Elevator" t="Include" />
             <e p="Jarahov" t="Include" />
+            <e p="Kraken" t="Include" />
             <e p="Plane" t="Include" />
           </e>
           <e p="KeyType" t="Include" />
