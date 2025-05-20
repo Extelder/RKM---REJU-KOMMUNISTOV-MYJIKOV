@@ -8,7 +8,7 @@ public class MegaBeatifulPopUp : MonoBehaviour
     [SerializeField] private AudioSource _source;
     [SerializeField] private AudioClip[] _audioClips;
     public IEnumerator EbanutiString(string popUp, TextMeshProUGUI text, float cooldown)
-    {
+    { 
         text.gameObject.SetActive(true);
         for (int i = 0; i < popUp.Length; i++)
         {
