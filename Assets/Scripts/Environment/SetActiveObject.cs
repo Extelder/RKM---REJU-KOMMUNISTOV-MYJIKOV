@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class SetActiveObject : MonoBehaviour
 {
-    [SerializeField] private GameObject _gameObject;
+    [SerializeField] private GameObject[] _gameObject;
     
     public void SetActiveTrue()
     {
-        _gameObject.SetActive(true);
+        for (int i = 0; i < _gameObject.Length; i++)
+        {
+            _gameObject[i].SetActive(true);
+        }
     }
 
     public void SetActiveFalse()
     {
-        _gameObject.SetActive(false);
+        for (int i = 0; i < _gameObject.Length; i++)
+        {
+            _gameObject[i].SetActive(false);
+        }
     }
 }
