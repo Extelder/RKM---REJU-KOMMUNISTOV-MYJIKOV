@@ -30,6 +30,17 @@ public enum Sex
     Рапич = 6
 }
 
+public enum PakostiType
+{
+    ПропагандаНаркотиков,
+    Тату,
+    ЛГБТ,
+    АНТИВОЕННЫЕДЕЙСТВИЯ,
+    КАЗИНО,
+    ТУПОСТЬ,
+    ИБОНЕХУЙ
+}
+
 [CreateAssetMenu(menuName = "KPP/Character")]
 public class Character : ScriptableObject
 {
@@ -62,7 +73,7 @@ public class Character : ScriptableObject
 
         BirthdayDate = $"{randomDay}.{randomMonth}.{randomYear}";
 
-        Pakosti = new Pakost[Random.Range(1, 3)];
+        Pakosti = new Pakost[Random.Range(1, Pakosti.Length)];
 
         for (int i = 0; i < Pakosti.Length; i++)
         {
@@ -82,6 +93,7 @@ public class Character : ScriptableObject
 [Serializable]
 public class Pakost
 {
+    public PakostiType PakostiType;           
     public string Name;
     public Color Color;
 }
