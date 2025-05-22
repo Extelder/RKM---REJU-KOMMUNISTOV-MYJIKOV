@@ -37,11 +37,15 @@ public class Day : MonoBehaviour
         if (!Instance)
         {
             Instance = this;
-            Begin();
             return;
         }
 
         Debug.Break();
+    }
+
+    private void Start()
+    {
+        Begin();
     }
 
     private void OnEnable()

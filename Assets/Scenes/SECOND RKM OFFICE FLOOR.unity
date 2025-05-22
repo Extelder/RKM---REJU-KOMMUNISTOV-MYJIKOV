@@ -15801,10 +15801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!114 &315499167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43576,7 +43574,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.472
+      value: 0.239
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
@@ -43586,27 +43584,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.238
+      value: 2.051
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.43045902
+      value: 0.08324667
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.430459
+      value: -0.08324663
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.56098574
+      value: -0.70218945
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.56098574
+      value: -0.70218945
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
@@ -43621,7 +43619,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -15
+      value: -166.478
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d4852822c44c97d46bd2c21b4955cb20,
         type: 3}
@@ -80790,10 +80788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5824fe0460f65e64d9552d02f5708e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enterCursor: {fileID: 6778831284786772486, guid: d767f1475228e94429f36aaffa493e61,
-    type: 3}
-  _defaultCursor: {fileID: 6778831284786772486, guid: 637dd719a7e9e50458ef702766d72fcc,
-    type: 3}
+  _enterCursor: {fileID: 2800000, guid: f3c598c24db024f4494b21daf295c06f, type: 3}
+  _defaultCursor: {fileID: 2800000, guid: d5a339ce19c427e4c8e628e03a6f2c74, type: 3}
 --- !u!1 &2013523550
 GameObject:
   m_ObjectHideFlags: 0
