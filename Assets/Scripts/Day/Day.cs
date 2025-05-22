@@ -20,13 +20,15 @@ public class Day : MonoBehaviour
 
     [SerializeField] private CharacterSpawner _characterSpawner;
 
-    [SerializeField] private CompleteDay[] _completeDay;
+    [field: SerializeField] public CompleteDay[] CompleteDay { get; private set; }
     [SerializeField] private int _startHour;
     [SerializeField] private int _hourStep = 1;
 
-    private int _currentNumber;
+    public int CurrentNumber { get; private set; }
 
     private int _currentHour;
+
+    public event Action Begined;
 
     public static Day Instance { get; private set; }
 
@@ -69,16 +71,17 @@ public class Day : MonoBehaviour
         PlayerPrefs.SetString("Character4", "");
 
 
-        _completeDay[_currentNumber].Eventable.DayStartedEvent();
         _currentHour = _startHour;
         _seatTimeText.text = $"{_currentHour} 00";
         _timeText.text = $"{_currentHour} 00";
 
-        _currentNumber = PlayerPrefs.GetInt("CurrentDay", 0);
+        CurrentNumber = PlayerPrefs.GetInt("CurrentDay", 0);
 
-        _characterSpawner.Bootstrap(_completeDay[_currentNumber].DayData.Characters);
+        _characterSpawner.Bootstrap(CompleteDay[CurrentNumber].DayData.Characters);
+        CompleteDay[CurrentNumber].Eventable.DayStartedEvent();
 
         PlayerPrefs.SetString("Spawnpoint", "Lift");
+        Begined?.Invoke();
     }
 
     public void AddNewspaperCharacter(Character character)
@@ -111,7 +114,7 @@ public class Day : MonoBehaviour
     public void End()
     {
         PlayerPrefs.SetInt("DayEnded", 1);
-        _completeDay[_currentNumber].Eventable.DayEndedEvent();
+        CompleteDay[CurrentNumber].Eventable.DayEndedEvent();
 
         _timeEndAudio.Play();
         _timeEndLight.SetActive(true);
