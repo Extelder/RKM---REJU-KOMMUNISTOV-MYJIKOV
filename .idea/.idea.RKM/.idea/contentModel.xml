@@ -19,6 +19,7 @@
             </e>
             <e p="Sit" t="Include" />
             <e p="SitSofa" t="Include" />
+            <e p="Titres" t="Include" />
           </e>
           <e p="Elevator" t="Include" />
           <e p="Jarahov" t="Include" />
@@ -31,6 +32,9 @@
               <e p="Time" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="chelovek" t="Include">
+          <e p="Animations" t="Include" />
         </e>
         <e p="Dark UI" t="Include">
           <e p="Free" t="Include" />
@@ -64,6 +68,10 @@
           <e p="BreakToFire" t="Include" />
           <e p="Buckshot" t="Include" />
           <e p="bulletin board" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Cage" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -149,10 +157,18 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="Money" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Monitor" t="Include">
             <e p="source" t="Include">
               <e p="read.txt" t="Include" />
             </e>
+          </e>
+          <e p="Moon" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
           </e>
           <e p="Mouse" t="Include">
             <e p="Mouse" t="Include">
@@ -190,6 +206,10 @@
             </e>
             <e p="Textures" t="Include" />
           </e>
+          <e p="PlasticBag" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Radio" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -209,6 +229,10 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="SuperJet" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Throne" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -766,6 +790,22 @@
             <e p="Prefabs" t="Include" />
             <e p="Script.cs" t="Include" />
           </e>
+          <e p="Thirdparty" t="Include">
+            <e p="Ciathyza" t="Include">
+              <e p="Gridbox Prototype Materials" t="Include">
+                <e p="Demo" t="Include">
+                  <e p="Prototype Materials Demo" t="Include" />
+                </e>
+                <e p="Materials" t="Include">
+                  <e p="HDRP" t="Include" />
+                  <e p="Standard" t="Include" />
+                  <e p="URP" t="Include" />
+                </e>
+                <e p="Template" t="Include" />
+                <e p="Textures" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Versatile Studio Assets" t="Include">
             <e p="Demo City By Versatile Studio" t="Include">
               <e p="Materials" t="Include" />
@@ -1211,6 +1251,12 @@
         </e>
         <e p="Render" t="Include" />
         <e p="Resources" t="Include" />
+        <e p="Scalable Grid Prototype Materials" t="Include">
+          <e p="Demo scene" t="Include" />
+          <e p="Materials" t="Include" />
+          <e p="ShaderGraphs" t="Include" />
+          <e p="Textures" t="Include" />
+        </e>
         <e p="Scenes" t="Include">
           <e p="CityArasaka" t="Include" />
           <e p="CityArasaka_Profiles" t="Include" />
@@ -1339,6 +1385,9 @@
             <e p="Arasaka" t="Include">
               <e p="ArasakaCutScene.cs" t="Include" />
             </e>
+            <e p="PopUp" t="Include">
+              <e p="CutScenePopUp.cs" t="Include" />
+            </e>
             <e p="Seat" t="Include">
               <e p="DragAndDropSeat.cs" t="Include" />
               <e p="PlayerSeatPlace.cs" t="Include" />
@@ -1354,6 +1403,7 @@
           <e p="Day" t="Include">
             <e p="Day.cs" t="Include" />
             <e p="DayData.cs" t="Include" />
+            <e p="SwitchDay.cs" t="Include" />
           </e>
           <e p="Door" t="Include">
             <e p="InteractDoor.cs" t="Include" />
@@ -1369,6 +1419,7 @@
               <e p="ChangeSceneButton.cs" t="Include" />
               <e p="OpenCloseElevatorTrigger.cs" t="Include" />
             </e>
+            <e p="MoveObjectTween.cs" t="Include" />
             <e p="MoveToPoints" t="Include">
               <e p="ObjectPointsMovement.cs" t="Include" />
             </e>
@@ -1377,9 +1428,6 @@
             </e>
             <e p="PlayParticles.cs" t="Include" />
             <e p="SetActiveObject.cs" t="Include" />
-          </e>
-          <e p="FBI" t="Include">
-            <e p="FBIMove.cs" t="Include" />
           </e>
           <e p="Health" t="Include">
             <e p="Health.cs" t="Include" />

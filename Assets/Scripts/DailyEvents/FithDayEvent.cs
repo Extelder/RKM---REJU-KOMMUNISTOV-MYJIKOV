@@ -1,19 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml;
 using UnityEngine;
 
 public class FithDayEvent : DayEventable
 {
     [SerializeField] private GameObject _fbi;
-    [SerializeField] private FBIMove _fbiMove;
+    [SerializeField] private DragAndDropSeat _dragAndDropSeat;
     
     public override void DayStartedEvent()
     {
-        _fbi.SetActive(true);
-        _fbiMove.MoveToDestination();   
     }
 
     public override void DayEndedEvent()
     {
+        _dragAndDropSeat.CanStandUp = false;
+        _fbi.SetActive(true);
     }
 }

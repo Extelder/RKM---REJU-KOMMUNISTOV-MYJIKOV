@@ -13,6 +13,8 @@ public class DragAndDropSeat : MonoBehaviour, Iinteractable
     [SerializeField] private GameObject _cutSceneCamera;
     [SerializeField] private Animator _cutSceneAnimator;
     [SerializeField] private float _moveSpeed;
+    
+    public bool CanStandUp { get; set; }
 
     private Tween _moveTween;
     private Tween _rotateTween;
@@ -64,7 +66,7 @@ public class DragAndDropSeat : MonoBehaviour, Iinteractable
 
         Observable.EveryUpdate().Subscribe(_ =>
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape) && CanStandUp)
             {
                 _dragAndDropTable.SetActive(false);
                 _cutSceneCamera.SetActive(true);
