@@ -21,18 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/FBI/source/614230021-alex-dancing-twerk@Pistol Walk (1).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/FBI/source/614230021-alex-dancing-twerk@Pistol Walk (1).controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/FBI/source/FBI.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/FBI/source/FBI.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/FBI/source/FBIBag.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/FBI/source/FBIBag.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/FBI/source/FBIMove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/FBI/source/FBIMove.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DailyEvents/FithDayEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DailyEvents/FithDayEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FBI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FBI/FBIMove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FBI/FBIMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jarahov/JarahovMove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jarahov/JarahovMove.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DogTexture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DogTexture.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Piss/Pistol Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Piss/Pistol Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Plugins/EvolveGames/RealisticFPSController/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPersonMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPerson.cs" />
@@ -136,6 +130,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/MoveObjectTween.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Day/SwitchDay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/SetActiveTrigger.cs" />
       </list>
     </option>
   </component>
@@ -207,6 +202,7 @@
       <workItem from="1747737201459" duration="11257000" />
       <workItem from="1747764725241" duration="3207000" />
       <workItem from="1747845314290" duration="5660000" />
+      <workItem from="1748016034975" duration="927000" />
     </task>
     <servers />
   </component>

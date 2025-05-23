@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fbc2751b7294cbd41a3241696666b5ea
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Ponomar
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2f84ec7b70e82ae44bf38aaabb31a053, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
