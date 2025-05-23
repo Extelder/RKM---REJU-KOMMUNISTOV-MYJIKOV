@@ -28,6 +28,7 @@ public class DragAndDropSeat : MonoBehaviour, Iinteractable
     private void Awake()
     {
         _collider = GetComponent<Collider>();
+        CanStandUp = true;
     }
 
     public void Interact()
@@ -52,6 +53,7 @@ public class DragAndDropSeat : MonoBehaviour, Iinteractable
         {
             _cutSceneCamera.SetActive(true);
             _cutSceneAnimator.SetTrigger("Seat");
+            CanStandUp = true;
         });
     }
 

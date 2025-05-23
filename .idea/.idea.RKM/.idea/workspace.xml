@@ -22,12 +22,12 @@
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jarahov/JarahovMove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jarahov/JarahovMove.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DogTexture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DogTexture.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Office/source/woodFloor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Piss/Pistol Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Piss/Pistol Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Cage/source/ManInCage.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Cage/source/ManInCage.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +47,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerWatchesTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animations/RandomlyPlayAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Time/PlayerTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DailyEvents/SeventhDay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Cannon/CannonShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Seat/SeatCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Video/PlayVideo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/MoveObjectTween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News/NewsContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/ShakeObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Text/MegaBeatifulPopUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/PhysicalDestroyObject/PhysicalDestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jarahov/CaughtJarahovState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,19 +75,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Camera/Emotions/CameraThirdPersonEmote.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Cannon/CannonMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DailyEvents/SixthDayEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcherObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPanelChoose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DailyEvents/SecondDayEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/SoundSilenceVolume.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SpawnPoint/PlayerSpawnAtBed.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPersonMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/CameraThirdPerson.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Camera/Emotions/CameraThirdPersonEmote.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Passport/Passport.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovStateMachine.cs" />
@@ -129,8 +129,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FBI/FBIEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/MoveObjectTween.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Day/SwitchDay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/SetActiveTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SpawnPoint/PlayerSpawnAtBed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/DragAndDropSeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Video/PlayVideo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SixthDayEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ShakeObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SeventhDay.cs" />
       </list>
     </option>
   </component>
@@ -202,7 +207,7 @@
       <workItem from="1747737201459" duration="11257000" />
       <workItem from="1747764725241" duration="3207000" />
       <workItem from="1747845314290" duration="5660000" />
-      <workItem from="1748016034975" duration="927000" />
+      <workItem from="1748016034975" duration="8317000" />
     </task>
     <servers />
   </component>
@@ -224,10 +229,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1747767881453">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1748029032844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="236" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1747767881453" />
+    <state x="794" y="236" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1748029032844" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1747738562434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

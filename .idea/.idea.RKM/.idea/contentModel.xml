@@ -32,6 +32,7 @@
               <e p="Time" t="Include" />
             </e>
           </e>
+          <e p="Tv" t="Include" />
         </e>
         <e p="chelovek" t="Include">
           <e p="Animations" t="Include" />
@@ -74,6 +75,10 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="BreakToFire" t="Include" />
+          <e p="BrrBrrPatapim" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
           <e p="Buckshot" t="Include" />
           <e p="bulletin board" t="Include">
             <e p="source" t="Include" />
@@ -241,6 +246,14 @@
             <e p="Textures" t="Include" />
           </e>
           <e p="Throne" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="TralaleloTralala" t="Include">
+            <e p="source" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="TungTungSahur" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
@@ -1406,6 +1419,8 @@
             <e p="FithDayEvent.cs" t="Include" />
             <e p="FourthDayEvent.cs" t="Include" />
             <e p="SecondDayEvent.cs" t="Include" />
+            <e p="SeventhDay.cs" t="Include" />
+            <e p="SixthDayEvent.cs" t="Include" />
             <e p="ThirdDayEvent.cs" t="Include" />
           </e>
           <e p="Day" t="Include">
@@ -1437,6 +1452,7 @@
             </e>
             <e p="PlayParticles.cs" t="Include" />
             <e p="SetActiveObject.cs" t="Include" />
+            <e p="ShakeObject.cs" t="Include" />
           </e>
           <e p="Health" t="Include">
             <e p="Health.cs" t="Include" />
@@ -1558,6 +1574,10 @@
               <e p="PlayerJudge.cs" t="Include" />
               <e p="PlayerJudgeAnimator.cs" t="Include" />
             </e>
+            <e p="Money" t="Include">
+              <e p="MoneyText.cs" t="Include" />
+              <e p="PlayerMoney.cs" t="Include" />
+            </e>
             <e p="PlayerCharacter.cs" t="Include" />
             <e p="PopUp" t="Include">
               <e p="PlayerPopUp.cs" t="Include" />
@@ -1574,6 +1594,7 @@
               <e p="PlayerStepSound.cs" t="Include" />
             </e>
             <e p="SpawnPoint" t="Include">
+              <e p="PlayerSpawnAtBed.cs" t="Include" />
               <e p="PlayerSpawnPoint.cs" t="Include" />
             </e>
             <e p="Time" t="Include">
@@ -1626,6 +1647,9 @@
             <e p="Text" t="Include">
               <e p="MegaBeatifulPopUp.cs" t="Include" />
             </e>
+          </e>
+          <e p="Video" t="Include">
+            <e p="PlayVideo.cs" t="Include" />
           </e>
         </e>
         <e p="Sounds" t="Include">
