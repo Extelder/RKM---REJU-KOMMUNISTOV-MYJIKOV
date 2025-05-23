@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc43b56954dd1d142900749df34dab7e, type: 3}
+  m_Name: Kriper
+  m_EditorClassIdentifier: 
+  CharacterGenerator: {fileID: 0}
+  Name: "\u0417\u043E\u043C\u0431\u04382004"
+  Casta: 9
+  Sex: 2
+  Inoagent: 1
+  BirthdayDate: 27.07.2018
+  Pakosti:
+  - PakostiType: 5
+    Name: "\u041B\u0435\u0441\u0442\u043F\u043B\u0435\u0439"
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - PakostiType: 6
+    Name: "\u0412\u044B\u0438\u0433\u0440\u0430\u043B 50 \u043A \u0432 \u0441\u043B\u043E\u0432\u0430\u0445"
+    Color: {r: 0.04401779, g: 0, b: 1, a: 1}
+  News:
+    Title: "\u041E\u043D \u0440\u044B\u0431\u0430"
+    Data: 00.00
+    Text: "\u041F\u0440\u0438\u0435\u0445\u0430\u043B \u0432 \u041E\u043C\u0441\u043A"
+    TitleColor: {r: 0, g: 0.15104707, b: 0.990566, a: 1}
+    TextColor: {r: 1, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}

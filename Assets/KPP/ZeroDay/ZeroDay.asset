@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4bb0e3aa377bcf41a0fe2c5ebfed073, type: 3}
-  m_Name: FourthDay
+  m_Name: ZeroDay
   m_EditorClassIdentifier: 
-  Pakosty: 1
+  Pakosty: 0
   Characters:
   - {fileID: 11400000, guid: 06752ca1dc8806d4ba2ca1b9746d4a8f, type: 2}
-  - {fileID: 11400000, guid: f2e449c42dcb3a74ab9e49fe805c0763, type: 2}
-  - {fileID: 11400000, guid: a8c32c087f076d1448611d4655f835c9, type: 2}
+  - {fileID: 11400000, guid: df360da2b86130147a45abbac2514b68, type: 2}
+  - {fileID: 11400000, guid: d8ac1de2d45b3834991a79c9bd55bd53, type: 2}
+  - {fileID: 11400000, guid: ff86189e79e047c4dacd5766b2bd7409, type: 2}
+  - {fileID: 11400000, guid: 90c96e46e450ced46a575ba98e8366d4, type: 2}

@@ -19,10 +19,10 @@ MonoBehaviour:
   Inoagent: 1
   BirthdayDate: 17.02.1998
   Pakosti:
-  - Id: 4
+  - PakostiType: 0
     Name: "\u0422\u0430\u0442\u0443 \u0441 \u043A\u043E\u0442\u0438\u043A\u0430\u043C\u0438"
     Color: {r: 0, g: 0, b: 0, a: 1}
-  - Id: 3
+  - PakostiType: 5
     Name: "\u041F\u0435\u0441\u043D\u044F \u043F\u0440\u043E \u0433\u043E\u0432\u043D\u043E"
     Color: {r: 1, g: 0, b: 0, a: 1}
   News:

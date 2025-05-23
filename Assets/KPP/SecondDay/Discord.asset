@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc43b56954dd1d142900749df34dab7e, type: 3}
+  m_Name: Discord
+  m_EditorClassIdentifier: 
+  CharacterGenerator: {fileID: 0}
+  Name: "\u0414\u0438\u0441 \u041A\u043E\u0440\u0434\u0430"
+  Casta: 7
+  Sex: 4
+  Inoagent: 1
+  BirthdayDate: 13.05.2015
+  Pakosti:
+  - PakostiType: 3
+    Name: "\u0422\u044B \u043D\u0435 \u0412\u041A"
+    Color: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+  - PakostiType: 5
+    Name: "\u0422\u044B \u043D\u0435 \u0412\u041A"
+    Color: {r: 0, g: 0.09776497, b: 1, a: 1}
+  - PakostiType: 0
+    Name: "\u0422\u044B \u043D\u0435 \u0412\u041A"
+    Color: {r: 1, g: 0, b: 0.020209312, a: 1}
+  - PakostiType: 5
+    Name: "\u0422\u044B \u043D\u0435 \u0412\u041A"
+    Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  - PakostiType: 6
+    Name: "\u0422\u044B \u043D\u0435 \u0412\u041A"
+    Color: {r: 0, g: 0.060104847, b: 1, a: 1}
+  - PakostiType: 1
+    Name: "\u0422\u044B \u043D\u0435 \u0412\u041A"
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  News:
+    Title: "\u0412\u0441\u0435 \u0432 \u0442\u0438\u043C\u0441\u043F\u0438\u043A"
+    Data: 00.00
+    Text: "\u0414\u0430\u0436\u0435 \u0441\u043A\u0430\u0437\u0430\u0442\u044C \u043D\u0435\u0447\u0435\u0433\u043E,
+      \u0432 skype \u043C\u0431?"
+    TitleColor: {r: 0.3372549, g: 0.38431376, b: 0.96470594, a: 1}
+    TextColor: {r: 0.3372549, g: 0.38431373, b: 0.9647059, a: 1}
+    Image: {fileID: 0}

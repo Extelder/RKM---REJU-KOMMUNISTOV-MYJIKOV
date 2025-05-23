@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc43b56954dd1d142900749df34dab7e, type: 3}
+  m_Name: Mafanya
+  m_EditorClassIdentifier: 
+  CharacterGenerator: {fileID: 0}
+  Name: "\u041C\u0430\u0444\u0430\u043D\u044F"
+  Casta: 2
+  Sex: 5
+  Inoagent: 0
+  BirthdayDate: 25.04.1997
+  Pakosti:
+  - PakostiType: 1
+    Name: "\u041A\u0440\u0430\u0441\u0438\u0432\u044B\u0439"
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 1
+    Name: "\u042F \u0431\u044B \u0442\u0440\u0430\u0445\u043D\u0443\u043B"
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 1
+    Name: "\u0421\u043E\u0441\u0438 \u0443 \u0442\u0435\u0431\u044F \u0442\u0430\u0442\u0443"
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  News:
+    Title: "\u0424\u0443\u0445 \u043A\u0440\u0438\u043D\u0436\u0430 \u0445\u043E\u0442\u044C
+      \u043C\u0435\u043D\u044C\u0448\u0435"
+    Data: 00.00
+    Text: "\u041C\u0430\u0444\u0443 \u0442\u043E\u0436\u0435 \u0445\u0443\u0439\u043D\u0443\u043B\u0438,
+      \u043E\u043F\u044F\u0442\u044C \u0437\u0430 \u0442\u0430\u0442\u0443?"
+    TitleColor: {r: 0, g: 0.6509434, b: 0.30600783, a: 1}
+    TextColor: {r: 0.8509927, g: 0, b: 1, a: 1}
+    Image: {fileID: 0}

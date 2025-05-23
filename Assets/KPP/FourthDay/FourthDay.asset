@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4bb0e3aa377bcf41a0fe2c5ebfed073, type: 3}
-  m_Name: ThirdDay
+  m_Name: FourthDay
   m_EditorClassIdentifier: 
-  Pakosty: 3
+  Pakosty: 1
   Characters:
-  - {fileID: 11400000, guid: 06752ca1dc8806d4ba2ca1b9746d4a8f, type: 2}
-  - {fileID: 11400000, guid: f2e449c42dcb3a74ab9e49fe805c0763, type: 2}
-  - {fileID: 11400000, guid: a8c32c087f076d1448611d4655f835c9, type: 2}
+  - {fileID: 11400000, guid: d61154ada21065f4ab2d0f6088de1540, type: 2}
+  - {fileID: 11400000, guid: 43f307b262ebf8d4d9314cf8b0a81307, type: 2}
+  - {fileID: 11400000, guid: 43eb9116c7fe62c4790c8533fe9e7014, type: 2}
+  - {fileID: 11400000, guid: 1095a00d2d5c78e4896e8dbb6e6dce46, type: 2}

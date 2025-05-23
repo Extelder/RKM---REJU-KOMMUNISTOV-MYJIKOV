@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4bb0e3aa377bcf41a0fe2c5ebfed073, type: 3}
-  m_Name: ZeroDay
+  m_Name: SixthDay
   m_EditorClassIdentifier: 
+  Pakosty: 6
   Characters:
-  - {fileID: 11400000, guid: 06752ca1dc8806d4ba2ca1b9746d4a8f, type: 2}
-  - {fileID: 11400000, guid: f2e449c42dcb3a74ab9e49fe805c0763, type: 2}
-  - {fileID: 11400000, guid: a8c32c087f076d1448611d4655f835c9, type: 2}
+  - {fileID: 11400000, guid: 43e7618a6ec4f0b46848f943e83ac68e, type: 2}

@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4bb0e3aa377bcf41a0fe2c5ebfed073, type: 3}
-  m_Name: FirstDay
+  m_Name: SecondDay
   m_EditorClassIdentifier: 
-  Pakosty: 4
+  Pakosty: 3
   Characters:
-  - {fileID: 11400000, guid: 06752ca1dc8806d4ba2ca1b9746d4a8f, type: 2}
-  - {fileID: 11400000, guid: f2e449c42dcb3a74ab9e49fe805c0763, type: 2}
-  - {fileID: 11400000, guid: a8c32c087f076d1448611d4655f835c9, type: 2}
+  - {fileID: 11400000, guid: c08c0997ff7116b44b736a4750c520a2, type: 2}
+  - {fileID: 11400000, guid: 43ed519f7f60a19479514118956cfe27, type: 2}
+  - {fileID: 11400000, guid: 2bfc6011e7ad9664daf8ee48d865c124, type: 2}
+  - {fileID: 11400000, guid: 15c319f958d072c4589212d77aa765bf, type: 2}
