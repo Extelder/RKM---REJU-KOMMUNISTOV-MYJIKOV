@@ -15,6 +15,8 @@ public class CharacterSpawner : MonoBehaviour
 
     private int _currentCharacterIndex = -1;
 
+    public KPPCharacter CurrentKPPCharacter { get; private set; }
+
     public event Action CharactersEnd;
     public event Action CharacterChanged;
 
@@ -39,8 +41,9 @@ public class CharacterSpawner : MonoBehaviour
         _currentCharacter =
             Instantiate(_characterPrefab, _characterSpawnPoint.position, Quaternion.identity, transform);
 
-        CharacterChanged?.Invoke();
         _currentCharacterIndex++;
-        _currentCharacter.GetComponentInChildren<KPPCharacter>().SetCharacter(_characters[_currentCharacterIndex]);
+        CurrentKPPCharacter = _currentCharacter.GetComponentInChildren<KPPCharacter>();
+        CurrentKPPCharacter.SetCharacter(_characters[_currentCharacterIndex]);
+        CharacterChanged?.Invoke();
     }
 }

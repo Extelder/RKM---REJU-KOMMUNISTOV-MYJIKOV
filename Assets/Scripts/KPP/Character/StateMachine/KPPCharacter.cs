@@ -13,6 +13,7 @@ public class KPPCharacter : MonoBehaviour
     [field: SerializeField] public Character Character { get; private set; }
 
     public event Action Dead;
+    public event Action Pass;
 
     public void SetCharacter(Character character)
     {
@@ -54,5 +55,6 @@ public class KPPCharacter : MonoBehaviour
     public void OnPass()
     {
         _kppCharacterStateMachine.GoHome();
+        Pass?.Invoke();
     }
 }
