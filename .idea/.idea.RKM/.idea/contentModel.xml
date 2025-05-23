@@ -51,6 +51,14 @@
         </e>
         <e p="Font" t="Include">
           <e p="OFL.txt" t="Include" />
+          <e p="Playfair_Display" t="Include">
+            <e p="OFL.txt" t="Include" />
+            <e p="readme.txt" t="Include" />
+            <e p="static" t="Include" />
+          </e>
+          <e p="Ponomar" t="Include">
+            <e p="OFL.txt" t="Include" />
+          </e>
         </e>
         <e p="KPP" t="Include">
           <e p="Characters" t="Include" />
@@ -1403,6 +1411,7 @@
           <e p="Day" t="Include">
             <e p="Day.cs" t="Include" />
             <e p="DayData.cs" t="Include" />
+            <e p="Pakosti.cs" t="Include" />
             <e p="SwitchDay.cs" t="Include" />
           </e>
           <e p="Door" t="Include">
@@ -1575,6 +1584,7 @@
               <e p="AnimatorBoolTrigger.cs" t="Include" />
               <e p="AnimatorTrigger.cs" t="Include" />
               <e p="PlayVideoOnTriggerEnterExit.cs" t="Include" />
+              <e p="SetActiveTrigger.cs" t="Include" />
             </e>
             <e p="Watches" t="Include">
               <e p="PlayerWatches.cs" t="Include" />
