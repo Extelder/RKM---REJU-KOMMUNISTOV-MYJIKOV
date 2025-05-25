@@ -29,9 +29,8 @@ MonoBehaviour:
     Color: {r: 0.53839636, g: 0, b: 1, a: 1}
   News:
     Title: "\u041F\u043E\u043B\u043A\u043E\u0432\u043D\u0438\u043A \u0432 \u043E\u0442\u0441\u0442\u0430\u0432\u043A\u0435"
-    Data: 00.00
     Text: "\u0411\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u0431\u0435\u0442\u0432\u0437\u0440\u044B\u0432
-      :)"
+      :) \u0410\u0424\u041A \u0410\u0424\u041A \u0410\u0424\u041A"
     TitleColor: {r: 0.9339623, g: 0.4572375, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}

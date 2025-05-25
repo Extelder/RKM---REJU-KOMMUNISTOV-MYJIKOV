@@ -5,6 +5,7 @@ using UnityEngine;
 public class ThirdDayEvent : DayEventable
 {
     [SerializeField] private GameObject _allDay;
+    [SerializeField] private AudioSource _sound;
     public override void DayStartedEvent()
     {
         
@@ -13,5 +14,6 @@ public class ThirdDayEvent : DayEventable
     public override void DayEndedEvent()
     {
         _allDay.SetActive(true);
+        _sound.Play();
     }
 }
