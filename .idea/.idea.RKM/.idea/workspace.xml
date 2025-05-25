@@ -20,8 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FifthDay/BabyMelo.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FifthDay/BabyMelo.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FifthDay/PAPICH.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FifthDay/PAPICH.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FirstDay/AZAZA.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FirstDay/AZAZA.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FirstDay/YOUTUBE.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FirstDay/YOUTUBE.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FourthDay/Kizaru.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FourthDay/Kizaru.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FourthDay/KloakaMol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FourthDay/KloakaMol.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FourthDay/Lebedev.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FourthDay/Lebedev.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/FourthDay/Mafanya.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/FourthDay/Mafanya.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/SecondDay/Nekoglai.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/SecondDay/Nekoglai.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/SixthDay/YOU.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/SixthDay/YOU.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ThirdDay/Buster.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ThirdDay/Buster.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ThirdDay/TikTok.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ThirdDay/TikTok.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ThirdDay/WhatsUp.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ThirdDay/WhatsUp.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Arut.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Arut.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Kussia.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Kussia.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ZeroDay/MORGENSHTERN.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ZeroDay/MORGENSHTERN.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ZeroDay/MORIARTY.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ZeroDay/MORIARTY.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Zolo.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Zolo.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Bell/source/Ring.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bell/source/Ring.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Cage/source/ManInCage.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Cage/source/ManInCage.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/FBI/source/FBIMove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/FBI/source/FBIMove.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RKM OFFICE.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DailyEvents/ThirdDayEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DailyEvents/ThirdDayEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Interact/PlayerInteract.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CatchJarahov/PlayerCatchJarahov.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/JarahovAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jarahov/RunJarahovState.cs" />
@@ -99,11 +129,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/PhysicalDestroyObject/PhysicalDestroyObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/AnimatorTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/PlayParticles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SecondDayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/RandomlyPlayAnimations.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/MoveToPoints/ObjectPointsMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/ThirdDayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animations/PlayAnimationAfterPlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/SetActiveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutScene/Seat/PlayerSeatPlace.cs" />
@@ -130,6 +158,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SixthDayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ShakeObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/SeventhDay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/News/Newspaper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/ThirdDayEvent.cs" />
       </list>
     </option>
   </component>
@@ -202,6 +236,7 @@
       <workItem from="1747764725241" duration="3207000" />
       <workItem from="1747845314290" duration="5660000" />
       <workItem from="1748016034975" duration="8917000" />
+      <workItem from="1748076975008" duration="3345000" />
     </task>
     <servers />
   </component>

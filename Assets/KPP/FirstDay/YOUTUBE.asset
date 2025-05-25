@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: YOUTUBE
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
-  Name: "\u0422\u044B \u0422\u0443\u043F"
+  Name: "\u0422\u044B \u0422\u044C\u044E\u0431"
   Casta: 8
   Sex: 4
   Inoagent: 1
@@ -40,7 +40,6 @@ MonoBehaviour:
   News:
     Title: "\u042D\u0442\u043E \u0438 \u0442\u0430\u043A \u043F\u043E\u043D\u044F\u0442\u043D\u043E
       \u0431\u044B\u043B\u043E"
-    Data: 00.00
     Text: "\u0412\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043F\u043E\u043B\u0435\u0437\u043B\u0430
       \u0440\u0435\u043A\u043B\u0430\u043C\u0430 \u0443\u043A\u0442\u0443\u0431\u0430"
     TitleColor: {r: 1, g: 0, b: 0, a: 1}

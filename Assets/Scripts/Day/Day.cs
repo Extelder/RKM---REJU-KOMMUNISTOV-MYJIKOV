@@ -17,6 +17,7 @@ public class Day : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _timeText;
     [SerializeField] private AudioSource _timeEndAudio;
     [SerializeField] private GameObject _timeEndLight;
+    [SerializeField] private GameObject _buckShot;
 
     [SerializeField] private CharacterSpawner _characterSpawner;
 
@@ -29,7 +30,6 @@ public class Day : MonoBehaviour
     private int _currentHour;
 
     public event Action Begined;
-
     public static Day Instance { get; private set; }
 
     private void Awake()
@@ -117,6 +117,7 @@ public class Day : MonoBehaviour
 
     public void End()
     {
+        _buckShot.SetActive(false);
         PlayerPrefs.SetInt("DayEnded", 1);
         CompleteDay[CurrentNumber].Eventable.DayEndedEvent();
 

@@ -63,6 +63,13 @@
         </e>
         <e p="KPP" t="Include">
           <e p="Characters" t="Include" />
+          <e p="FifthDay" t="Include" />
+          <e p="FirstDay" t="Include" />
+          <e p="FourthDay" t="Include" />
+          <e p="SecondDay" t="Include" />
+          <e p="SixthDay" t="Include" />
+          <e p="ThirdDay" t="Include" />
+          <e p="ZeroDay" t="Include" />
         </e>
         <e p="Materials" t="Include" />
         <e p="Models" t="Include">

@@ -102,7 +102,6 @@ public class Pakost
 public class News
 {
     public string Title;
-    public string Data = "00.00";
     public string Text;
     public Color TitleColor;
     public Color TextColor;
