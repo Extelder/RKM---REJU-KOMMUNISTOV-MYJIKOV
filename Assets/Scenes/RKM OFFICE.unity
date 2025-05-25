@@ -2161,12 +2161,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 265392747}
+    m_TransformParent: {fileID: 1383283136}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
@@ -2191,17 +2191,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
@@ -2632,6 +2632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: man-cartoon-fitness@Running
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c99bd5d65c6265744b9f13536c9e4268,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: c99bd5d65c6265744b9f13536c9e4268,
         type: 3}
@@ -10685,14 +10690,13 @@ GameObject:
   - component: {fileID: 265392747}
   - component: {fileID: 265392748}
   - component: {fileID: 265392749}
-  - component: {fileID: 265392750}
   m_Layer: 0
   m_Name: Jarahov
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &265392747
 Transform:
   m_ObjectHideFlags: 0
@@ -10705,7 +10709,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 54466882}
+  - {fileID: 1383283136}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -10745,20 +10749,6 @@ MonoBehaviour:
   _audioSource: {fileID: 810811966}
   _defaultClip: {fileID: 8300000, guid: a68d37b6cc655914988968e3049f0bfb, type: 3}
   _secondClip: {fileID: 8300000, guid: 10f78b8e5b7d29244aa67195e2299376, type: 3}
---- !u!114 &265392750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265392746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32620d9ea99a2724490f6d63fea919e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameObject:
-  - {fileID: 265392746}
 --- !u!1001 &266324999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11122,7 +11112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277827635}
   m_LocalRotation: {x: 0.67690444, y: -0.00000024214924, z: 0.00000003875043, w: 0.736071}
-  m_LocalPosition: {x: -0.0223, y: 0.0166, z: 0.0303}
+  m_LocalPosition: {x: -0.0223, y: 0.01669, z: 0.0315}
   m_LocalScale: {x: 0.004, y: 0.001, z: 0.0023}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -58935,6 +58925,38 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0029678987, y: 0.030000005, z: 0.052094728}
   m_Center: {x: 0.000019057712, y: 0.0000000013969839, z: 0.0010754942}
+--- !u!1 &1383283135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383283136}
+  m_Layer: 0
+  m_Name: JarGFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1383283136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383283135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 54466882}
+  m_Father: {fileID: 265392747}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1384188557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3013317397218381484, guid: b5c5eadfed1534b4cbec48027aae7fcd,
@@ -84204,6 +84226,7 @@ GameObject:
   - component: {fileID: 1998143956}
   - component: {fileID: 1998143958}
   - component: {fileID: 1998143957}
+  - component: {fileID: 1998143959}
   m_Layer: 0
   m_Name: DogTrigger
   m_TagString: Untagged
@@ -84260,6 +84283,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 15.914733, y: 4, z: 8.29097}
   m_Center: {x: 0.16483259, y: 1.5, z: 0.35451508}
+--- !u!114 &1998143959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998143955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfafea3e65e78b149a616733bde665e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _videoPlayers: {fileID: 140221865}
 --- !u!1 &2002435567
 GameObject:
   m_ObjectHideFlags: 0

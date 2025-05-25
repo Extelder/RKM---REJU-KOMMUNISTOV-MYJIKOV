@@ -20,9 +20,15 @@ MonoBehaviour:
   Inoagent: 0
   BirthdayDate: 27.02.1997
   Pakosti:
-  - PakostiType: 2
+  - PakostiType: 5
     Name: "\u041D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u0430\u044F \u0432\u0430\u043B\u044B\u043D\u0430
       \u0431\u0440\u0430\u0442\u0430\u043D"
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: "\u0416\u0438\u0440\u043D\u044B\u0439"
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: "52 \u0433\u043E\u043B\u043E\u0432\u043D\u043E\u0433\u043E \u043C\u043E\u0437\u0433\u0430"
     Color: {r: 0, g: 0, b: 0, a: 1}
   News:
     Title: "\u0416\u0438\u0440\u043D\u043E\u0433\u043E \u0443\u0435\u0431\u0430\u043B\u0438

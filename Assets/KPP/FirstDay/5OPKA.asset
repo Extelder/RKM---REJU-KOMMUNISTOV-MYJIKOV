@@ -23,9 +23,9 @@ MonoBehaviour:
   - PakostiType: 5
     Name: 42
     Color: {r: 0, g: 0, b: 0, a: 1}
-  - PakostiType: 4
-    Name: "\u0421\u043E\u0431\u0430\u0447\u043A\u0438"
-    Color: {r: 1, g: 0, b: 0.7684326, a: 1}
+  - PakostiType: 5
+    Name: 42
+    Color: {r: 0, g: 0, b: 0, a: 1}
   News:
     Title: SLAY QUEEN
     Data: 00.00
