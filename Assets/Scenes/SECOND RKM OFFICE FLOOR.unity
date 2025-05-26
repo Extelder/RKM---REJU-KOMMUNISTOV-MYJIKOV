@@ -24539,6 +24539,7 @@ GameObject:
   - component: {fileID: 445946717}
   - component: {fileID: 445946718}
   - component: {fileID: 445946719}
+  - component: {fileID: 445946720}
   m_Layer: 0
   m_Name: DAY
   m_TagString: Untagged
@@ -24633,7 +24634,7 @@ MonoBehaviour:
   <CompleteDay>k__BackingField:
   - <DayData>k__BackingField: {fileID: 11400000, guid: 735c8a0a2e8d6f141a65bfb515dd2b47,
       type: 2}
-    <Eventable>k__BackingField: {fileID: 445946713}
+    <Eventable>k__BackingField: {fileID: 445946719}
   - <DayData>k__BackingField: {fileID: 11400000, guid: e31427855eeec1046a30fc64ed66feed,
       type: 2}
     <Eventable>k__BackingField: {fileID: 445946714}
@@ -24651,7 +24652,7 @@ MonoBehaviour:
     <Eventable>k__BackingField: {fileID: 445946718}
   - <DayData>k__BackingField: {fileID: 11400000, guid: 0e7e4290cee7aeb4d8b356d98f4fceb9,
       type: 2}
-    <Eventable>k__BackingField: {fileID: 445946719}
+    <Eventable>k__BackingField: {fileID: 445946720}
   _startHour: 10
   _hourStep: 1
 --- !u!114 &445946713
@@ -24760,6 +24761,20 @@ MonoBehaviour:
   _brainRot: {fileID: 2069358972}
   _brainRotSound: {fileID: 214626027}
   _allert: {fileID: 29653577}
+--- !u!114 &445946720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445946710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5236665290f59e499fcea0a004ef933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _passButton: {fileID: 1478496557}
+  _banButton: {fileID: 2029633757}
 --- !u!1 &446222712
 GameObject:
   m_ObjectHideFlags: 0
@@ -29440,7 +29455,7 @@ PrefabInstance:
     - target: {fileID: 4818731285782817306, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.986609
+      value: 20.762823
       objectReference: {fileID: 0}
     - target: {fileID: 4818731285782817306, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
@@ -29450,7 +29465,7 @@ PrefabInstance:
     - target: {fileID: 4818731285782817306, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.593428
+      value: -10.378368
       objectReference: {fileID: 0}
     - target: {fileID: 4818731285782817306, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}

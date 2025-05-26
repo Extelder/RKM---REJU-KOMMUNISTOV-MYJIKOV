@@ -8,9 +8,13 @@ public class SeventhDay : DayEventable
     [SerializeField] private GameObject _brainRot;
     [SerializeField] private AudioSource _brainRotSound;
     [SerializeField] private AudioSource _allert;
+
     public override void DayStartedEvent()
     {
-        
+    }
+
+    public override void DayEndedEvent()
+    {
         _brainRot.SetActive(true);
         _brainRotSound.Play();
         _allert.Stop();
@@ -18,9 +22,5 @@ public class SeventhDay : DayEventable
         {
             _shakeObject[i].Shake();
         }
-    }
-
-    public override void DayEndedEvent()
-    {
     }
 }

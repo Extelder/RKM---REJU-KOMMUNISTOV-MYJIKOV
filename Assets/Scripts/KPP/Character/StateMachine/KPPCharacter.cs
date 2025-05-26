@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class KPPCharacter : MonoBehaviour
 {
     [SerializeField] private PlayerDragAndDrop _playerDragAndDrop;
     [SerializeField] private KPPCharacterStateMachine _kppCharacterStateMachine;
     [SerializeField] private LookAtConstraint _lookAtConstraint;
+    [SerializeField] private Image _avatarImage;
 
     [field: SerializeField] public Character Character { get; private set; }
 
@@ -18,6 +21,7 @@ public class KPPCharacter : MonoBehaviour
     public void SetCharacter(Character character)
     {
         Character = character;
+        _avatarImage.sprite = character.Avatar;
     }
 
     private void Start()
@@ -42,6 +46,13 @@ public class KPPCharacter : MonoBehaviour
         Day.Instance.AddNewspaperCharacter(Character);
 
         Dead?.Invoke();
+
+        if (Day.Instance.CurrentNumber == 6)
+        {
+            SceneManager.LoadScene("Titruy");
+            return;
+        }
+
         _kppCharacterStateMachine.Dead();
     }
 

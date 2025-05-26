@@ -54,6 +54,7 @@ public class Character : ScriptableObject
     public Pakost[] Pakosti;
     public News News;
     public bool HasNews => News.Text != "";
+    public Sprite Avatar;
 
     [Button]
     public void Generate()
