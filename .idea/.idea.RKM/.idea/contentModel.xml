@@ -268,6 +268,9 @@
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
           </e>
+          <e p="TV 1" t="Include">
+            <e p="source" t="Include" />
+          </e>
           <e p="Watch" t="Include">
             <e p="source" t="Include" />
             <e p="Textures" t="Include" />
@@ -1426,6 +1429,7 @@
             <e p="FithDayEvent.cs" t="Include" />
             <e p="FourthDayEvent.cs" t="Include" />
             <e p="SecondDayEvent.cs" t="Include" />
+            <e p="SelfDeathDailyEvent.cs" t="Include" />
             <e p="SeventhDay.cs" t="Include" />
             <e p="SixthDayEvent.cs" t="Include" />
             <e p="ThirdDayEvent.cs" t="Include" />
@@ -1748,6 +1752,7 @@
           </e>
         </e>
         <e p="Sprite" t="Include">
+          <e p="Avatars" t="Include" />
           <e p="Materials" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

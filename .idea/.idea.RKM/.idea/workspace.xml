@@ -22,8 +22,6 @@
     <list default="true" id="36e4f385-b94f-4fce-99cb-5b8048125aec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RKM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tv/TV.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tv/TV.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Kussia.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KPP/ZeroDay/Kussia.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SECOND RKM OFFICE FLOOR.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,9 +128,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KPP/Character/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioMusicSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Radio/RadioStopMusicObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DailyEvents/ThirdDayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayerGuideTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Day/Day.cs" />
       </list>
     </option>
   </component>
@@ -207,6 +205,7 @@
       <workItem from="1748016034975" duration="8917000" />
       <workItem from="1748076975008" duration="3345000" />
       <workItem from="1748175679175" duration="903000" />
+      <workItem from="1748262959050" duration="228000" />
     </task>
     <servers />
   </component>
