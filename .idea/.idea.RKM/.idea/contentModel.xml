@@ -1611,6 +1611,7 @@
             <e p="Trigger" t="Include">
               <e p="AnimatorBoolTrigger.cs" t="Include" />
               <e p="AnimatorTrigger.cs" t="Include" />
+              <e p="PlayerGuideTrigger.cs" t="Include" />
               <e p="PlayVideoOnTriggerEnterExit.cs" t="Include" />
               <e p="SetActiveTrigger.cs" t="Include" />
             </e>
