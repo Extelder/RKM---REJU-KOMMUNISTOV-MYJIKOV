@@ -51,4 +51,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0.03731489, b: 1, a: 1}
     TextColor: {r: 0.91039276, g: 1, b: 0, a: 1}
     Image: {fileID: 0}
-  Avatar: {fileID: 0}
+  Avatar: {fileID: 21300000, guid: 90144b4d62a8367489d093be050db2db, type: 3}
