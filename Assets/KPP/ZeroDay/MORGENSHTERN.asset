@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: MORGENSHTERN
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 11400000, guid: 6a6b51e6ab6d32b4bba507ef1074d18b, type: 2}
+  NameEng: Morning star
+  CastaEng: 4
+  SexEng: 1
+  NewsEng:
+    Title: The morning star has faded
+    Text: Alisherka was banned for using joy, a public revolt was raised! SUCK THIS
+    TitleColor: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: Tattoo with cats
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: Song about shit
+    Color: {r: 1, g: 0, b: 0, a: 1}
   Name: "\u0423\u0442\u0440\u0435\u043D\u044F\u044F \u0417\u0432\u0435\u0437\u0434\u0430"
   Casta: 4
   Sex: 1
@@ -36,3 +52,4 @@ MonoBehaviour:
     TitleColor: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

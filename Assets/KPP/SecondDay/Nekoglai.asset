@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: Nekoglai
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Dakoglai
+  CastaEng: 6
+  SexEng: 1
+  NewsEng:
+    Title: He got the fuck out after all
+    Text: They got the poor guy drunk, now he's walking around in a skirt
+    TitleColor: {r: 0.7735849, g: 0.70794094, b: 0.040138844, a: 1}
+    TextColor: {r: 1, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: We all remember that tik tok (you can't justify yourself)
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 6
+    Name: Cola bomb
+    Color: {r: 0.9529412, g: 0, b: 0, a: 1}
   Name: "\u0414\u0430\u043A\u043E\u0433\u043B\u0430\u0439"
   Casta: 6
   Sex: 1
@@ -33,3 +49,4 @@ MonoBehaviour:
     TitleColor: {r: 0.7735849, g: 0.70794094, b: 0.040138844, a: 1}
     TextColor: {r: 1, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

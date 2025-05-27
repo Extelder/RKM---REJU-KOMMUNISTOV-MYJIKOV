@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: Anime
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: anime-chan
+  CastaEng: 8
+  SexEng: 3
+  NewsEng:
+    Title: No more Japanese cartoons
+    Text: Gojokat
+    TitleColor: {r: 0.8773585, g: 0, b: 0, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 2
+    Name: You have a girl and a girl there, I want the same
+    Color: {r: 0, g: 0.88235295, b: 1, a: 1}
   Name: "\u0410\u043D\u0438\u043C\u0435-\u0442\u044F\u043D"
   Casta: 8
   Sex: 3
@@ -27,8 +40,8 @@ MonoBehaviour:
   News:
     Title: "\u0411\u043E\u043B\u044C\u0448\u0435 \u0431\u0435\u0437 \u044F\u043F\u043E\u043D\u0441\u043A\u0438\u0445
       \u043C\u0443\u043B\u044C\u0442\u0438\u043A\u043E\u0432"
-    Data: 00.00
     Text: "\u0413\u043E\u0434\u0436\u043E\u043A\u0430\u0442"
     TitleColor: {r: 0.8773585, g: 0, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

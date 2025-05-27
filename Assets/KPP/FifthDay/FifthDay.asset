@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FifthDay
   m_EditorClassIdentifier: 
   Pakosty: 5
+  PakostyEng: 5
   Characters:
   - {fileID: 11400000, guid: 67ac2fec6e8ed3140bc682f18da2a24c, type: 2}
   - {fileID: 11400000, guid: c72aa7f42c9cc4e47835d30b649078be, type: 2}

@@ -13,9 +13,28 @@ MonoBehaviour:
   m_Name: PAPICH
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: RAPICH
+  CastaEng: 10
+  SexEng: 6
+  NewsEng:
+    Title: Easy for papisi
+    Text: Now on green, took a couple more sponsors
+    TitleColor: {r: 0, g: 0.6612811, b: 1, a: 1}
+    TextColor: {r: 0, g: 0.48419496, b: 0.9137255, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 1
+    Name: Dubai Sheikh
+    Color: {r: 0.5019608, g: 0.78431374, b: 0.9607843, a: 1}
+  - PakostiType: 3
+    Name: 14.1
+    Color: {r: 0.5019608, g: 0.78431374, b: 0.9607843, a: 1}
+  - PakostiType: 3
+    Name: Lightness of being
+    Color: {r: 0.5019608, g: 0.78431374, b: 0.9607843, a: 1}
   Name: "\u0420\u0410\u041F\u0418\u0427"
   Casta: 10
-  Sex: 1
+  Sex: 6
   Inoagent: 0
   BirthdayDate: 19.11.1990
   Pakosti:
@@ -36,3 +55,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0.6612811, b: 1, a: 1}
     TextColor: {r: 0, g: 0.48419496, b: 0.9137255, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

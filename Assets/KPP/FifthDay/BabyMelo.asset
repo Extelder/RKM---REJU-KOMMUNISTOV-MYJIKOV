@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: BabyMelo
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Rapper Boy Watermelon
+  CastaEng: 1
+  SexEng: 1
+  NewsEng:
+    Title: Baby Watermelon on the Run
+    Text: There are better ditties
+    TitleColor: {r: 0, g: 0, b: 0, a: 1}
+    TextColor: {r: 0, g: 1, b: 0.36917162, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: Not mature enough for gangsta rap
+    Color: {r: 0.6117647, g: 1, b: 0, a: 1}
+  - PakostiType: 0
+    Name: He's banging his slapstick on the head
+    Color: {r: 0.5803922, g: 0, b: 1, a: 1}
   Name: "\u041C\u0430\u043B\u044C\u0447\u0438\u043A-\u0420\u0435\u043F\u0435\u0440
     \u0410\u0440\u0431\u0443\u0437"
   Casta: 1
@@ -34,3 +50,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0, b: 0, a: 1}
     TextColor: {r: 0, g: 1, b: 0.36917162, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

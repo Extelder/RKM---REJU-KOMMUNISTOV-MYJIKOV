@@ -7,7 +7,8 @@ using UnityEngine.Animations.Rigging;
 
 public class PlayerGuideChanged : MonoBehaviour
 {
-    [SerializeField] private string[] _hints;
+    [SerializeField] private string[] _ruHints;
+    [SerializeField] private string[] _engHints;
     [SerializeField] private TextMeshProUGUI _hintText;
     [SerializeField] private CharacterCheckWatch _characterCheckWatch;
     [SerializeField] private TwoBoneIKConstraint _twoBoneIkConstraint;
@@ -17,11 +18,24 @@ public class PlayerGuideChanged : MonoBehaviour
     [SerializeField] private KeyCode _watchKode;
     [SerializeField] private KeyCode _thirdPersonKode;
 
+    private string[] _currentHints;
 
     private int i = 0;
     private bool _pressed;
 
     private KeyCode _currentKeyCode;
+
+    private void Awake()
+    {
+        if (Localization.Instance.CurrentLocalizeType.Value == LocalizeType.Eng)
+        {
+            _currentHints = _engHints;
+        }
+        else
+        {
+            _currentHints = _ruHints;
+        }
+    }
 
     private void Start()
     {
@@ -46,7 +60,7 @@ public class PlayerGuideChanged : MonoBehaviour
 
     private IEnumerator Guiding()
     {
-        _hintText.text = _hints[i];
+        _hintText.text = _currentHints[i];
         i++;
         PlayerPrefs.SetInt("GuideCompleate", 1);
 
@@ -54,12 +68,12 @@ public class PlayerGuideChanged : MonoBehaviour
         yield return new WaitUntil(() => _pressed == true);
         _currentKeyCode = _moveKode;
         yield return new WaitForSeconds(0.3f);
-        _hintText.text = _hints[i];
+        _hintText.text = _currentHints[i];
         yield return new WaitForSeconds(0.3f);
         yield return new WaitUntil(() => _pressed == true);
         yield return new WaitForSeconds(0.3f);
         _currentKeyCode = _thirdPersonKode;
-        _hintText.text = _hints[_hints.Length - 1];
+        _hintText.text = _currentHints[_currentHints.Length - 1];
 
         yield return new WaitForSeconds(0.3f);
         yield return new WaitUntil(() => _pressed == true);

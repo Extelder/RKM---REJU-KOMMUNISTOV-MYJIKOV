@@ -13,6 +13,28 @@ MonoBehaviour:
   m_Name: YOU
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: YOU
+  CastaEng: 5
+  SexEng: 5
+  NewsEng:
+    Title: You deserve it
+    Text: Now you have time to think, why did you do this???
+    TitleColor: {r: 0, g: 0, b: 0, a: 0}
+    TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: Banned everyone I didn't know
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: Abuse of power
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: I started to hate people
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: Ruined the lives of many
+    Color: {r: 0, g: 0, b: 0, a: 1}
   Name: "\u0422\u042B"
   Casta: 5
   Sex: 5

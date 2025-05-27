@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FourthDay
   m_EditorClassIdentifier: 
   Pakosty: 1
+  PakostyEng: 1
   Characters:
   - {fileID: 11400000, guid: d61154ada21065f4ab2d0f6088de1540, type: 2}
   - {fileID: 11400000, guid: 43f307b262ebf8d4d9314cf8b0a81307, type: 2}

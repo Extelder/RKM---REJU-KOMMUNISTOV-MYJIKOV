@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: Stasik
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Vasya, oh how difficult!
+  CastaEng: 3
+  SexEng: 1
+  NewsEng:
+    Title: So... stop
+    Text: You banned the wrong player
+    TitleColor: {r: 0, g: 0, b: 0, a: 0.25490198}
+    TextColor: {r: 0, g: 0, b: 0, a: 0.4117647}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: Eee... He's a good guy, actually.
+    Color: {r: 0, g: 0, b: 0, a: 1}
   Name: "\u0412\u0430\u0441\u044F \u0430\u0439 \u043A\u0430\u043A \u0441\u043B\u043E\u0436\u043D\u043E"
   Casta: 3
   Sex: 1
@@ -25,9 +38,9 @@ MonoBehaviour:
     Color: {r: 0, g: 0, b: 0, a: 1}
   News:
     Title: "\u0422\u0430\u043A... \u0441\u0442\u043E\u043F"
-    Data: 00.00
     Text: "\u041A\u043E\u0433\u043E \u0442\u043E \u0442\u044B \u043D\u0435 \u0442\u043E\u0433\u043E
       \u0437\u0430\u0431\u0430\u043D\u0438\u043B \u0438\u0433\u0440\u043E\u043A"
     TitleColor: {r: 0, g: 0, b: 0, a: 0.25490198}
     TextColor: {r: 0, g: 0, b: 0, a: 0.4117647}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

@@ -17,9 +17,42 @@ public class Passport : MonoBehaviour
 
     private void OnEnable()
     {
-        Bootstrap();
+        if (Localization.Instance.CurrentLocalizeType.Value == LocalizeType.Ru)
+            Bootstrap();
+        else
+            BootstrapEng();
     }
 
+    private void BootstrapEng()
+    {
+        _character = PlayerDragAndDrop.Instance.Character.Character;
+
+        _name.text = _character.NameEng;
+        _birthday.text = _character.BirthdayDate;
+        _sex.text = _character.SexEng.ToString();
+        for (int i = 0; i < _character.PakostiEng.Length; i++)
+        {
+            if (i > _character.PakostiEng.Length)
+            {
+                _pakosti[i].text = String.Empty;
+                _pakosti[i].color = Color.white;
+            }
+
+            _pakosti[i].text = _character.PakostiEng[i].Name;
+            _pakosti[i].color = _character.PakostiEng[i].Color;
+        }
+
+        _casta.text = _character.CastaEng.ToString();
+        if (_character.Inoagent)
+        {
+            _inoagentImage.SetActive(true);
+        }
+        else
+        {
+            _inoagentImage.SetActive(false);
+        }
+    }
+    
     private void Bootstrap()
     {
         _character = PlayerDragAndDrop.Instance.Character.Character;

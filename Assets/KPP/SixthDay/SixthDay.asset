@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: SixthDay
   m_EditorClassIdentifier: 
   Pakosty: 6
+  PakostyEng: 6
   Characters:
   - {fileID: 11400000, guid: 43e7618a6ec4f0b46848f943e83ac68e, type: 2}

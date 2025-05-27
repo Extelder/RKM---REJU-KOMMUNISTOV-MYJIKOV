@@ -13,6 +13,20 @@ MonoBehaviour:
   m_Name: WhatsUp
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: What Up
+  CastaEng: 5
+  SexEng: 4
+  NewsEng:
+    Title: Che Up does it hurt?
+    Text: Now in white and blue
+    TitleColor: {r: 0, g: 0.5479422, b: 0.93333334, a: 1}
+    TextColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 3
+    Name: Oh oh oh, it's not right to discuss such things in the chat room, there
+      is a TG
+    Color: {r: 1, g: 0, b: 0, a: 1}
   Name: "\u0427\u0442\u043E \u0410\u043F"
   Casta: 5
   Sex: 4
@@ -30,3 +44,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0.5479422, b: 0.93333334, a: 1}
     TextColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

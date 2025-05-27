@@ -78,7 +78,7 @@ public class Settings : MonoBehaviour
         bool fullScreen = Convert.ToBoolean(PlayerPrefs.GetInt("FullScreen", 1));
         Screen.SetResolution(PlayerPrefs.GetInt("Width"), PlayerPrefs.GetInt("Height"), fullScreen);
         SetResolutionReady();
-      //  BootstrapDisplay();
+        //  BootstrapDisplay();
 
         // if (PlayerPrefs.GetInt("Display") == -1)
         // {
@@ -114,6 +114,21 @@ public class Settings : MonoBehaviour
             Time.timeScale = 1;
             Closed?.Invoke();
         }
+    }
+
+    public void SetEng()
+    {
+        SetLanguage(LocalizeType.Eng);
+    }
+
+    public void SetRus()
+    {
+        SetLanguage(LocalizeType.Ru);
+    }
+
+    public void SetLanguage(LocalizeType localizeType)
+    {
+        Localization.Instance.CurrentLocalizeType.Value = localizeType;
     }
 
 

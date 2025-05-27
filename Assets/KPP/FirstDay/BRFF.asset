@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: BRFF
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: BRZZ
+  CastaEng: 2
+  SexEng: 1
+  NewsEng:
+    Title: BRZZ all
+    Text: no more Z
+    TitleColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+    TextColor: {r: 0.6275859, g: 0, b: 1, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 4
+    Name: BETKA IS NOT KAZIK FOR SURE GUYS, I WILL FUCK
+    Color: {r: 1, g: 0, b: 0, a: 1}
   Name: BRZZ
   Casta: 2
   Sex: 1
@@ -26,8 +39,8 @@ MonoBehaviour:
     Color: {r: 1, g: 0, b: 0, a: 1}
   News:
     Title: "BRZZ \u0443\u0441\u0435"
-    Data: 00.00
     Text: "\u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 Z"
     TitleColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     TextColor: {r: 0.6275859, g: 0, b: 1, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

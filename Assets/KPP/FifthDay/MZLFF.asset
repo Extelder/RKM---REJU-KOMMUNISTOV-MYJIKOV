@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: MZLFF
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: MZLZZ
+  CastaEng: 4
+  SexEng: 1
+  NewsEng:
+    Title: Kirieshki
+    Text: The wheel has turned
+    TitleColor: {r: 0.86818933, g: 1, b: 0, a: 1}
+    TextColor: {r: 0.4918945, g: 0, b: 0.9150943, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 1
+    Name: Beautiful
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 3
+    Name: Birds fly to whoredom on Saturday
+    Color: {r: 0.5803922, g: 0, b: 1, a: 1}
   Name: MZLZZ
   Casta: 4
   Sex: 1
@@ -28,8 +44,8 @@ MonoBehaviour:
     Color: {r: 0.5811901, g: 0, b: 1, a: 1}
   News:
     Title: "\u041A\u0438\u0440\u0438\u0435\u0448\u043A\u0438"
-    Data: 00.00
     Text: "\u041A\u043E\u043B\u0435\u0441\u043E \u0434\u0430\u043B\u043E \u043E\u0431\u043E\u0440\u043E\u0442"
     TitleColor: {r: 0.86818933, g: 1, b: 0, a: 1}
     TextColor: {r: 0.4918945, g: 0, b: 0.9150943, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

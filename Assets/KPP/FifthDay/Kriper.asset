@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: Kriper
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Zombie2004
+  CastaEng: 9
+  SexEng: 2
+  NewsEng:
+    Title: He is a fish
+    Text: Arrived in Omsk
+    TitleColor: {r: 0, g: 0.15104707, b: 0.990566, a: 1}
+    TextColor: {r: 1, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: Lestplay
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - PakostiType: 6
+    Name: Won 50k in words
+    Color: {r: 0.043137256, g: 0, b: 1, a: 1}
   Name: "\u0417\u043E\u043C\u0431\u04382004"
   Casta: 9
   Sex: 2
@@ -27,8 +43,8 @@ MonoBehaviour:
     Color: {r: 0.04401779, g: 0, b: 1, a: 1}
   News:
     Title: "\u041E\u043D \u0440\u044B\u0431\u0430"
-    Data: 00.00
     Text: "\u041F\u0440\u0438\u0435\u0445\u0430\u043B \u0432 \u041E\u043C\u0441\u043A"
     TitleColor: {r: 0, g: 0.15104707, b: 0.990566, a: 1}
     TextColor: {r: 1, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

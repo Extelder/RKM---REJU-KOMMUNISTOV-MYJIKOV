@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: AZAZA
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Azazling
+  CastaEng: 3
+  SexEng: 1
+  NewsEng:
+    Title: Azaza got fucked
+    Text: Now life is boring, there will be no boar
+    TitleColor: {r: 0.9607843, g: 0, b: 0.05581812, a: 1}
+    TextColor: {r: 0.3490566, g: 0, b: 0.0106918095, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 4
+    Name: Cases are not casinos guys for sure
+    Color: {r: 1, g: 0.43137255, b: 0, a: 0.99215686}
+  - PakostiType: 0
+    Name: I sat on the system for a long time
+    Color: {r: 0.5921569, g: 1, b: 0, a: 0.99215686}
   Name: "\u0410\u0437\u0430\u0437\u043B\u0438\u043D\u0433"
   Casta: 3
   Sex: 1
@@ -34,3 +50,4 @@ MonoBehaviour:
     TitleColor: {r: 0.9607843, g: 0, b: 0.05581812, a: 1}
     TextColor: {r: 0.3490566, g: 0, b: 0.0106918095, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

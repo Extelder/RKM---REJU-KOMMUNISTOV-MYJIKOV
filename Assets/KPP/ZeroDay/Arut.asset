@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: Arut
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Aratun
+  CastaEng: 9
+  SexEng: 1
+  NewsEng:
+    Title: Great Harut
+    Text: Arutiq was blocked by us after the shootout
+    TitleColor: {r: 0.5424528, g: 0.9142443, b: 1, a: 1}
+    TextColor: {r: 0, g: 0.13257027, b: 1, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: Shot in a bulletproof vest
+    Color: {r: 0, g: 0.79607844, b: 1, a: 1}
   Name: "\u0410\u0440\u0443\u0442\u044E\u043D"
   Casta: 9
   Sex: 1
@@ -24,10 +37,10 @@ MonoBehaviour:
     Color: {r: 0, g: 0.79581356, b: 1, a: 1}
   News:
     Title: "\u0412\u0435\u043B\u0438\u043A\u0438\u0439 \u0410\u0440\u0443\u0442"
-    Data: 23.09
     Text: "\u0410\u0440\u0443\u0442\u0438\u043A \u043F\u043E\u0441\u043B\u0435 \u043F\u0435\u0440\u0435\u0441\u0442\u0440\u0435\u043B\u043A\u0438
       \u0431\u044B\u043B \u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D
       \u043D\u0430\u043C\u0438"
     TitleColor: {r: 0.5424528, g: 0.9142443, b: 1, a: 1}
     TextColor: {r: 0, g: 0.13257027, b: 1, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

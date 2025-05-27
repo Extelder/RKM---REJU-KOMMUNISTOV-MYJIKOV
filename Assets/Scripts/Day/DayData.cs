@@ -4,6 +4,7 @@ using UnityEngine;
 public class DayData : ScriptableObject
 {
     public PakostiType Pakosty;
+    public PakostiTypeEng PakostyEng;
     public Character[] Characters;
 }
 

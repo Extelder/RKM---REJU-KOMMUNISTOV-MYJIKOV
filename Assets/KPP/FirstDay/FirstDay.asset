@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FirstDay
   m_EditorClassIdentifier: 
   Pakosty: 4
+  PakostyEng: 4
   Characters:
   - {fileID: 11400000, guid: 2e38a7b8b923fb047bba11879615dd4d, type: 2}
   - {fileID: 11400000, guid: 84a2ac022cad723428050faa8f885d73, type: 2}

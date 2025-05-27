@@ -14,8 +14,6 @@ public class Newspaper : MonoBehaviour
     [SerializeField] private Character[] _currentCharacters;
 
     private List<Character> _newCharacters;
-    
-    
 
 
     private void Start()
@@ -90,12 +88,23 @@ public class Newspaper : MonoBehaviour
             _newsContainer[i].Image.gameObject.SetActive(true);
             _date.gameObject.SetActive(true);
 
-            _newsContainer[i].TitleText.text = _currentCharacters[i].News.Title;
-            _newsContainer[i].MainText.text = _currentCharacters[i].News.Text;
-            _newsContainer[i].TitleText.color = _currentCharacters[i].News.TitleColor;
-            _newsContainer[i].MainText.color = _currentCharacters[i].News.TextColor;
-            _newsContainer[i].Image.sprite = _currentCharacters[i].News.Image;
-            
+            if (Localization.Instance.CurrentLocalizeType.Value == LocalizeType.Ru)
+            {
+                _newsContainer[i].TitleText.text = _currentCharacters[i].News.Title;
+                _newsContainer[i].MainText.text = _currentCharacters[i].News.Text;
+                _newsContainer[i].TitleText.color = _currentCharacters[i].News.TitleColor;
+                _newsContainer[i].MainText.color = _currentCharacters[i].News.TextColor;
+                _newsContainer[i].Image.sprite = _currentCharacters[i].News.Image;
+            }
+            else
+            {
+                _newsContainer[i].TitleText.text = _currentCharacters[i].NewsEng.Title;
+                _newsContainer[i].MainText.text = _currentCharacters[i].NewsEng.Text;
+                _newsContainer[i].TitleText.color = _currentCharacters[i].NewsEng.TitleColor;
+                _newsContainer[i].MainText.color = _currentCharacters[i].NewsEng.TextColor;
+                _newsContainer[i].Image.sprite = _currentCharacters[i].NewsEng.Image;
+            }
+
             _date.text = Day.Instance.CurrentNumber.ToString("00.04");
         }
     }

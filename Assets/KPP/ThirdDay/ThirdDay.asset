@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ThirdDay
   m_EditorClassIdentifier: 
   Pakosty: 2
+  PakostyEng: 2
   Characters:
   - {fileID: 11400000, guid: 572fabdb51687464cb6d8475eb3be29d, type: 2}
   - {fileID: 11400000, guid: e13b9507077db3a42b3a02df1b3ad61a, type: 2}

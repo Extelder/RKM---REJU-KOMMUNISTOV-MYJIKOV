@@ -73,7 +73,10 @@ public class Pakosti : MonoBehaviour
         for (int i = 0; i < _day.CurrentNumber + 1; i++)
         {
             PakostiType.Add(_day.CompleteDay[i].DayData.Pakosty);
-            _pakostiText.text += "\n" + Convert.ToString(_day.CompleteDay[i].DayData.Pakosty);
+            if (Localization.Instance.CurrentLocalizeType.Value == LocalizeType.Ru)
+                _pakostiText.text += "\n" + Convert.ToString(_day.CompleteDay[i].DayData.Pakosty);
+            else
+                _pakostiText.text += "\n" + Convert.ToString(_day.CompleteDay[i].DayData.PakostyEng);
         }
     }
 

@@ -13,6 +13,23 @@ MonoBehaviour:
   m_Name: Zolo
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Ivan SOLO
+  CastaEng: 5
+  SexEng: 4
+  NewsEng:
+    Title: Soliki
+    Text: Hello everyone my soliks, I am now on the dark side of the internet, my
+      father is a candy baron
+    TitleColor: {r: 1, g: 0.63928205, b: 0, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: '"I didn''t know it was an ad for cats, it was for cars"'
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: He just is.
+    Color: {r: 0, g: 1, b: 0.6627451, a: 1}
   Name: "\u0418\u0432\u0430\u043D \u0421\u041E\u041B\u041E"
   Casta: 5
   Sex: 4
@@ -38,3 +55,4 @@ MonoBehaviour:
     TitleColor: {r: 1, g: 0.63928205, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

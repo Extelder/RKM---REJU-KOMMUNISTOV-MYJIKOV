@@ -13,6 +13,25 @@ MonoBehaviour:
   m_Name: KloakaMol
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Mr. Big Penis FAT
+  CastaEng: 2
+  SexEng: 1
+  NewsEng:
+    Title: The 42nd fucked the fat guy
+    Text: 52 Poor guy
+    TitleColor: {r: 0.9716981, g: 0.27959237, b: 0.27959237, a: 0.74509805}
+    TextColor: {r: 0, g: 0.23082057, b: 0.23082057, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: Normal valynya bro
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: Fatty
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: 52 brains
+    Color: {r: 0, g: 0, b: 0, a: 1}
   Name: "\u041C\u0438\u0441\u0442\u0435\u0440 \u0411\u043E\u043B\u044C\u0448\u043E\u0439
     \u041F\u0435\u043D\u0438\u0441 \u0416\u0418\u0420\u041D\u042B"
   Casta: 2
@@ -37,3 +56,4 @@ MonoBehaviour:
     TitleColor: {r: 0.9716981, g: 0.27959237, b: 0.27959237, a: 0.74509805}
     TextColor: {r: 0, g: 0.23082057, b: 0.23082057, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

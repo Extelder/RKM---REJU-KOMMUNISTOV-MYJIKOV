@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: TikTok
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: "Tick \u200B\u200BTock"
+  CastaEng: 4
+  SexEng: 1
+  NewsEng:
+    Title: Oh no shorts, but stop
+    Text: There is an addon and there is a mod
+    TitleColor: {r: 1, g: 0.0047169924, b: 0.9600449, a: 1}
+    TextColor: {r: 0.4026344, g: 0.7411627, b: 0.9811321, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 2
+    Name: No longer screams like crazy :(
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - PakostiType: 5
+    Name: Lipsings... Oh yes lipsings!
+    Color: {r: 0, g: 0, b: 0, a: 1}
   Name: "\u0422\u0438\u043A \u0422\u0430\u043A"
   Casta: 4
   Sex: 1
@@ -35,3 +51,4 @@ MonoBehaviour:
     TitleColor: {r: 1, g: 0.0047169924, b: 0.9600449, a: 1}
     TextColor: {r: 0.4026344, g: 0.7411627, b: 0.9811321, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

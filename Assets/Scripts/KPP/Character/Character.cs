@@ -6,6 +6,30 @@ using UnityEngine.UI;
 using Random = UnityEngine.Random;
 using NaughtyAttributes;
 
+public enum CastaEng
+{
+    Schoolboy = 1,
+    Streamer = 2,
+    YouTuber = 3,
+    Musician = 4,
+    Unemployed = 5,
+    DrugAddict = 6,
+    Killer = 7,
+    Sex_Instructor = 8,
+    InfoGypsy = 9,
+    Adun = 10
+}
+
+public enum SexEng
+{
+    Male = 1,
+    Female = 2,
+    Hydrocephalus = 3,
+    It = 4,
+    Bucephalus = 5,
+    Rapich = 6
+}
+
 public enum Casta
 {
     Школьник = 1,
@@ -41,11 +65,30 @@ public enum PakostiType
     ИБОНЕХУЙ
 }
 
+public enum PakostiTypeEng
+{
+    DrugPropaganda,
+    Tattoo,
+    LGBT,
+    ANTIWARACTIONS,
+    CASINO,
+    STUPIDITY,
+    IDIOTHERFUCK
+}
+
 [CreateAssetMenu(menuName = "KPP/Character")]
 public class Character : ScriptableObject
 {
     public CharacterGenerator CharacterGenerator;
 
+    public string NameEng;
+    public CastaEng CastaEng;
+    public SexEng SexEng;
+    public News NewsEng;
+    public PakostEng[] PakostiEng;
+
+    [Space(70)]
+    
     public string Name;
     public Casta Casta;
     public Sex Sex;
@@ -55,6 +98,15 @@ public class Character : ScriptableObject
     public News News;
     public bool HasNews => News.Text != "";
     public Sprite Avatar;
+
+    [Button]
+    public void CompleateEng()
+    {
+        CastaEng = (CastaEng)Convert.ToInt16(Casta);
+        SexEng = (SexEng)Convert.ToInt16(Sex);
+        NewsEng.TextColor = News.TextColor;
+        NewsEng.TitleColor = News.TitleColor;
+    }
 
     [Button]
     public void Generate()
@@ -86,7 +138,6 @@ public class Character : ScriptableObject
                     Pakosti[i] = pakost;
                 }
             }
-            
         }
     }
 }
@@ -94,10 +145,20 @@ public class Character : ScriptableObject
 [Serializable]
 public class Pakost
 {
-    public PakostiType PakostiType;           
+    public PakostiType PakostiType;
     public string Name;
     public Color Color;
 }
+
+
+[Serializable]
+public class PakostEng
+{
+    public PakostiTypeEng PakostiType;
+    public string Name;
+    public Color Color;
+}
+
 
 [Serializable]
 public class News

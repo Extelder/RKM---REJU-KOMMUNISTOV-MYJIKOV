@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: Buster
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Colonel Bubster
+  CastaEng: 2
+  SexEng: 1
+  NewsEng:
+    Title: Retired Colonel
+    Text: No more betvzryv :) AFK AFK AFK
+    TitleColor: {r: 0.9339623, g: 0.4572375, b: 0, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: No longer screams like crazy :(
+    Color: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   Name: "\u041F\u043E\u043B\u043A\u043E\u0432\u043D\u0438\u043A \u0411\u0443\u0431\u0441\u0442\u0435\u0440"
   Casta: 2
   Sex: 1
@@ -30,3 +43,4 @@ MonoBehaviour:
     TitleColor: {r: 0.9339623, g: 0.4572375, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

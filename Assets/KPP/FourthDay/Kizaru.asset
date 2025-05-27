@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: Kizaru
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Dung
+  CastaEng: 4
+  SexEng: 1
+  NewsEng:
+    Title: No longer gangsta
+    Text: Kizya got beat up for a tattoo? What?
+    TitleColor: {r: 0, g: 0, b: 0, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 1
+    Name: Well, the boss has tattoos there
+    Color: {r: 0.29411766, g: 0.94509804, b: 0, a: 1}
+  - PakostiType: 5
+    Name: Double Cap sipped
+    Color: {r: 0.8392157, g: 0.94509804, b: 0, a: 1}
   Name: "\u041A\u0438\u0437\u044F\u043A\u0430"
   Casta: 4
   Sex: 1
@@ -33,3 +49,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

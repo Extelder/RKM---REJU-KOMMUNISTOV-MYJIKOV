@@ -13,6 +13,31 @@ MonoBehaviour:
   m_Name: Mafanya
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Mafanya
+  CastaEng: 2
+  SexEng: 5
+  NewsEng:
+    Title: DV is no longer a hype, it could have fucked itself up
+    Text: Did they also fuck Mafu, again for a tattoo?
+    TitleColor: {r: 0, g: 0.6509434, b: 0.30600783, a: 1}
+    TextColor: {r: 0.8509927, g: 0, b: 1, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: Beautiful
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: I would fuck
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: Suck your tattoo
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: WHAT WERE YOU DOING THERE BEFORE, BROTHER?
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: But Cracker still paid
+    Color: {r: 0, g: 0.5411765, b: 1, a: 1}
   Name: "\u041C\u0430\u0444\u0430\u043D\u044F"
   Casta: 2
   Sex: 5
@@ -44,3 +69,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0.6509434, b: 0.30600783, a: 1}
     TextColor: {r: 0.8509927, g: 0, b: 1, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

@@ -13,6 +13,25 @@ MonoBehaviour:
   m_Name: YOUTUBE
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: You Tube
+  CastaEng: 8
+  SexEng: 4
+  NewsEng:
+    Title: It was obvious anyway
+    Text: Suddenly an ad for UkTube popped up
+    TitleColor: {r: 1, g: 0, b: 0, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: You are not VK
+    Color: {r: 0.85882354, g: 0.85882354, b: 0.85882354, a: 1}
+  - PakostiType: 1
+    Name: You are not VK
+    Color: {r: 0, g: 0.09803922, b: 1, a: 1}
+  - PakostiType: 2
+    Name: You are not VK
+    Color: {r: 1, g: 0, b: 0.019607844, a: 1}
   Name: "\u0422\u044B \u0422\u044C\u044E\u0431"
   Casta: 8
   Sex: 4
@@ -45,3 +64,4 @@ MonoBehaviour:
     TitleColor: {r: 1, g: 0, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

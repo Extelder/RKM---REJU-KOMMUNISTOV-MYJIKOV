@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: MORIARTY
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Anti Sherlock
+  CastaEng: 3
+  SexEng: 5
+  NewsEng:
+    Title: Sherlock won
+    Text: Head of Notorious Drug Cortel Banned
+    TitleColor: {r: 0.26364803, g: 1, b: 0, a: 1}
+    TextColor: {r: 0, g: 0.3773585, b: 0.12269974, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 0
+    Name: '"Weed is not addictive"'
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 0
+    Name: Films and publishes videos straight from the epta lab
+    Color: {r: 0.42352942, g: 1, b: 0, a: 1}
   Name: "\u0410\u043D\u0442\u0438 \u0428\u0435\u0440\u043B\u043E\u043A"
   Casta: 3
   Sex: 5
@@ -35,3 +51,4 @@ MonoBehaviour:
     TitleColor: {r: 0.26364803, g: 1, b: 0, a: 1}
     TextColor: {r: 0, g: 0.3773585, b: 0.12269974, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

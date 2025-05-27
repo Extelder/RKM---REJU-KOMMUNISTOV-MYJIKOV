@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: Kussia
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Kussia
+  CastaEng: 2
+  SexEng: 1
+  NewsEng:
+    Title: Kussia
+    Text: They just fucked us up, pensioners became stronger
+    TitleColor: {r: 0, g: 0.03731489, b: 1, a: 1}
+    TextColor: {r: 0.91039276, g: 1, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 4
+    Name: I fed the dogs a little
+    Color: {r: 1, g: 0.23137255, b: 0, a: 1}
+  - PakostiType: 3
+    Name: Video forged by neural networks
+    Color: {r: 0.5058824, g: 1, b: 0, a: 1}
   Name: "\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u041A\u0430\u0448\u0430"
   Casta: 2
   Sex: 1
@@ -35,3 +51,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0.03731489, b: 1, a: 1}
     TextColor: {r: 0.91039276, g: 1, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

@@ -13,6 +13,22 @@ MonoBehaviour:
   m_Name: Lebedev
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 0}
+  NameEng: Dimka Utkin
+  CastaEng: 3
+  SexEng: 3
+  NewsEng:
+    Title: Where is the Swan?
+    Text: Although we don't have AP for the font
+    TitleColor: {r: 0, g: 0, b: 0, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng:
+  - PakostiType: 5
+    Name: Killed for the font
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  - PakostiType: 2
+    Name: Blue hair
+    Color: {r: 0, g: 0.19215687, b: 1, a: 1}
   Name: "\u0414\u0438\u043C\u043A\u0430 \u0423\u0442\u043A\u0438\u043D"
   Casta: 3
   Sex: 3
@@ -32,3 +48,4 @@ MonoBehaviour:
     TitleColor: {r: 0, g: 0, b: 0, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}
