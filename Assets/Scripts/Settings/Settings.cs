@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using EvolveGames;
 using TMPro;
+using UniRx;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -40,12 +41,21 @@ public class Settings : MonoBehaviour
     private int _monitorCount;
     private int _monitorIndex;
 
+    private string _ruOnText = "ВКЛ";
+    private string _ruOffText = "ВЫКЛ";
+
+
+    private string _engOnText = "On";
+    private string _engOffText = "Off";
+
     public event Action Opened;
     public event Action Closed;
 
     public bool Open { get; private set; } = false;
 
     public static Settings Instance { get; private set; }
+
+    private CompositeDisposable _disposable = new CompositeDisposable();
 
     private void Awake()
     {
@@ -61,13 +71,35 @@ public class Settings : MonoBehaviour
         Debug.Break();
     }
 
+    private void OnEnable()
+    {
+        Localization.Instance.CurrentLocalizeType.Subscribe(_ => { UpdateOnOffText(); }).AddTo(_disposable);
+    }
+
     private void OnDisable()
     {
+        _disposable.Clear();
         Time.timeScale = 1;
+    }
+
+    private void UpdateOnOffText()
+    {
+        if (Localization.Instance.CurrentLocalizeType.Value == LocalizeType.Eng)
+        {
+            _onText = _engOnText;
+            _offText = _engOffText;
+        }
+        else
+        {
+            _onText = _ruOnText;
+            _offText = _ruOffText;
+        }
     }
 
     private void Start()
     {
+        UpdateOnOffText();
+
         _monitorCount = Display.displays.Length;
 
         _sensetivitySlider.value = PlayerPrefs.GetFloat("Sensetivity", 2f);
@@ -294,7 +326,7 @@ public class Settings : MonoBehaviour
 
     public void OnOffText(TextMeshProUGUI text)
     {
-        if (text.text == _onText)
+        if (text.text == _onText || text.text == _engOnText || text.text == _ruOnText)
             text.text = _offText;
         else
             text.text = _onText;
