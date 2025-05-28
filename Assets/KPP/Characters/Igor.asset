@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: Igor
   m_EditorClassIdentifier: 
   CharacterGenerator: {fileID: 11400000, guid: 6a6b51e6ab6d32b4bba507ef1074d18b, type: 2}
+  NameEng: 
+  CastaEng: 1
+  SexEng: 3
+  NewsEng:
+    Title: 
+    Text: 
+    TitleColor: {r: 1, g: 0, b: 0, a: 1}
+    TextColor: {r: 1, g: 0, b: 0, a: 1}
+    Image: {fileID: 0}
+  PakostiEng: []
   Name: "\u0418\u0433\u043E\u0440\u044C"
   Casta: 1
   Sex: 3
@@ -27,8 +37,8 @@ MonoBehaviour:
     Color: {r: 0, g: 0, b: 0, a: 1}
   News:
     Title: dawdaw
-    Data: 23.23
     Text: dwadawd
     TitleColor: {r: 1, g: 0, b: 0, a: 1}
     TextColor: {r: 1, g: 0, b: 0, a: 1}
     Image: {fileID: 0}
+  Avatar: {fileID: 0}

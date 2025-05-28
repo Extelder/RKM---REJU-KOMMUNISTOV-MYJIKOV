@@ -51,5 +51,5 @@ MonoBehaviour:
       \u041F\u041E\u0421\u041E\u0421\u0418 \u0423\u0423\u0423\u0423"
     TitleColor: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
     TextColor: {r: 0, g: 0, b: 0, a: 1}
-    Image: {fileID: 0}
+    Image: {fileID: 21300000, guid: eefd033739650bf4cb427bab3b5880f8, type: 3}
   Avatar: {fileID: 21300000, guid: eefd033739650bf4cb427bab3b5880f8, type: 3}

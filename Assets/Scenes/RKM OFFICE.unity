@@ -22649,6 +22649,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
+        type: 3}
+      propertyPath: _PixelationFactor
+      value: 0.881
+      objectReference: {fileID: 0}
     - target: {fileID: 8561455810555514379, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: _displayDropdown

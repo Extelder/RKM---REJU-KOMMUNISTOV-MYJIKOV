@@ -62,5 +62,5 @@ MonoBehaviour:
       \u0432 skype \u043C\u0431?"
     TitleColor: {r: 0.3372549, g: 0.38431376, b: 0.96470594, a: 1}
     TextColor: {r: 0.3372549, g: 0.38431373, b: 0.9647059, a: 1}
-    Image: {fileID: 0}
+    Image: {fileID: 21300000, guid: e2de3f999ff6f814f958ef7efa9a5ceb, type: 3}
   Avatar: {fileID: 21300000, guid: e2de3f999ff6f814f958ef7efa9a5ceb, type: 3}

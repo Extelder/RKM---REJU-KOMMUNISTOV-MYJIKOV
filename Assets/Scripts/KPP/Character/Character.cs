@@ -87,9 +87,7 @@ public class Character : ScriptableObject
     public News NewsEng;
     public PakostEng[] PakostiEng;
 
-    [Space(70)]
-    
-    public string Name;
+    [Space(70)] public string Name;
     public Casta Casta;
     public Sex Sex;
     public bool Inoagent;
@@ -102,10 +100,11 @@ public class Character : ScriptableObject
     [Button]
     public void CompleateEng()
     {
-        CastaEng = (CastaEng)Convert.ToInt16(Casta);
-        SexEng = (SexEng)Convert.ToInt16(Sex);
+        CastaEng = (CastaEng) Convert.ToInt16(Casta);
+        SexEng = (SexEng) Convert.ToInt16(Sex);
         NewsEng.TextColor = News.TextColor;
         NewsEng.TitleColor = News.TitleColor;
+        News.Image = Avatar;
     }
 
     [Button]

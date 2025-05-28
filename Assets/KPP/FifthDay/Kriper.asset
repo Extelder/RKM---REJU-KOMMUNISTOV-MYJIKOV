@@ -46,5 +46,5 @@ MonoBehaviour:
     Text: "\u041F\u0440\u0438\u0435\u0445\u0430\u043B \u0432 \u041E\u043C\u0441\u043A"
     TitleColor: {r: 0, g: 0.15104707, b: 0.990566, a: 1}
     TextColor: {r: 1, g: 0, b: 0, a: 1}
-    Image: {fileID: 0}
+    Image: {fileID: 21300000, guid: 9c0aedb5be4b6704ebe53b5c99a71793, type: 3}
   Avatar: {fileID: 21300000, guid: 9c0aedb5be4b6704ebe53b5c99a71793, type: 3}

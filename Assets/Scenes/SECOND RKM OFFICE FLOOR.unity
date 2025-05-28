@@ -30132,6 +30132,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8511832982790429408, guid: 0022f5849181d5541b9d4737133bfa44,
+        type: 3}
+      propertyPath: _PixelationFactor
+      value: 0.746
+      objectReference: {fileID: 0}
     - target: {fileID: 8519970224236312077, guid: 0022f5849181d5541b9d4737133bfa44,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
