@@ -15,6 +15,8 @@ public class Passport : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _casta;
     [SerializeField] private GameObject _inoagentImage;
 
+    [SerializeField] private Image _avatar;
+
     private void OnEnable()
     {
         if (Localization.Instance.CurrentLocalizeType.Value == LocalizeType.Ru)
@@ -27,6 +29,7 @@ public class Passport : MonoBehaviour
     {
         _character = PlayerDragAndDrop.Instance.Character.Character;
 
+        _avatar.sprite = _character.Avatar;
         _name.text = _character.NameEng;
         _birthday.text = _character.BirthdayDate;
         _sex.text = _character.SexEng.ToString();
@@ -56,6 +59,7 @@ public class Passport : MonoBehaviour
     private void Bootstrap()
     {
         _character = PlayerDragAndDrop.Instance.Character.Character;
+        _avatar.sprite = _character.Avatar;
 
         _name.text = _character.Name;
         _birthday.text = _character.BirthdayDate;
